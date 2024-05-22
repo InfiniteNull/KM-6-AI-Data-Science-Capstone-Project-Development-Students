@@ -1,3 +1,4 @@
+```markdown
 # Produk Berbasis Web API: Implementasi Sistem Pelaporan Feedback
 
 Proyek ini bertujuan untuk mengembangkan sistem pelaporan feedback berbasis web API yang dapat meningkatkan inovasi produk secara berkelanjutan. Sistem ini menggunakan algoritma machine learning untuk menganalisis ulasan dan penilaian dari pengguna, sehingga memudahkan pengembangan produk berdasarkan feedback yang diterima.
@@ -85,3 +86,22 @@ Berikut adalah struktur folder dan file dalam proyek ini:
   - data_analysis.ipynb
 - requirements.txt
 - README.md
+```
+
+## Kontribusi
+
+Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silakan fork repositori ini, buat branch baru dengan fitur atau perbaikan Anda, dan buat pull request. Pastikan untuk mengikuti pedoman kontribusi berikut:
+
+1. Fork repositori ini.
+2. Buat branch fitur (`git checkout -b feature/AmazingFeature`).
+3. Commit perubahan Anda (`git commit -m 'Add some AmazingFeature'`).
+4. Push ke branch (`git push origin feature/AmazingFeature`).
+5. Buka pull request.
+
+## Lisensi
+
+Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+
+```
+
+Pastikan untuk mengganti placeholder seperti `https://github.com/username/repository-name.git` dengan URL repositori GitHub Anda yang sebenarnya dan menyesuaikan nama folder atau file sesuai dengan struktur proyek Anda yang sebenarnya. Anda juga bisa menambahkan lebih banyak detail atau bagian lainnya sesuai kebutuhan proyek Anda.
