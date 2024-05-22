@@ -30,29 +30,21 @@ Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini secara lokal:
 
 1. **Clone repositori:**
 
-    ```bash
     git clone https://github.com/username/repository-name.git
     cd repository-name
-    ```
 
 2. **Buat dan aktifkan virtual environment:**
 
-    ```bash
     python3 -m venv env
     source env/bin/activate  # Untuk pengguna Windows gunakan 'env\Scripts\activate'
-    ```
 
 3. **Instal dependencies:**
 
-    ```bash
     pip install -r requirements.txt
-    ```
 
 4. **Jalankan aplikasi:**
 
-    ```bash
     streamlit run app.py
-    ```
 
 ## Penggunaan
 
@@ -66,7 +58,6 @@ Setelah menginstal dan menjalankan aplikasi, buka browser Anda dan pergi ke `htt
 
 Berikut adalah struktur folder dan file dalam proyek ini:
 
-```plaintext
 - app/
   - __init__.py
   - main.py
@@ -86,7 +77,6 @@ Berikut adalah struktur folder dan file dalam proyek ini:
   - data_analysis.ipynb
 - requirements.txt
 - README.md
-```
 
 ## Kontribusi
 
