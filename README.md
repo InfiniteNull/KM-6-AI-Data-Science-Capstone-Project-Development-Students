@@ -3,7 +3,7 @@
 
 Proyek ini bertujuan untuk mengembangkan sistem pelaporan feedback berbasis web API yang dapat meningkatkan inovasi produk secara berkelanjutan. Sistem ini menggunakan algoritma machine learning untuk menganalisis ulasan dan penilaian dari pengguna, sehingga memudahkan pengembangan produk berdasarkan feedback yang diterima.
 
- Daftar Isi
+# Daftar Isi
 
 - [Deskripsi Proyek](#deskripsi-proyek)
 - [Fitur](#fitur)
@@ -13,18 +13,18 @@ Proyek ini bertujuan untuk mengembangkan sistem pelaporan feedback berbasis web 
 - [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 
- Deskripsi Proyek
+# Deskripsi Proyek
 
 Banyak perusahaan mengalami kesulitan dalam memahami kebutuhan dan keinginan pengguna mereka. Diperlukan sistem yang dapat menganalisis feedback pengguna untuk meningkatkan inovasi produk secara berkelanjutan. Proyek ini mengimplementasikan sistem pelaporan feedback berbasis web API yang menganalisis ulasan dan penilaian dari pengguna untuk memberikan wawasan yang berharga bagi pengembangan produk.
 
- Fitur
+# Fitur
 
 - Mengembangkan model machine learning untuk menganalisis feedback pengguna.
 - Mengintegrasikan model prediktif dengan sistem pelaporan yang ada.
 - Membuat dashboard untuk memantau ulasan dan penilaian pengguna.
 - Mengirimkan peringatan otomatis kepada tim pengembangan produk mengenai feedback pengguna yang teridentifikasi.
 
- Instalasi
+# Instalasi
 
 Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini secara lokal:
 
@@ -46,7 +46,7 @@ Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini secara lokal:
 
     streamlit run app.py
 
- Penggunaan
+# Penggunaan
 
 Setelah menginstal dan menjalankan aplikasi, buka browser Anda dan pergi ke `http://localhost:8501` untuk melihat aplikasi berjalan. Di sana Anda dapat:
 
@@ -54,7 +54,7 @@ Setelah menginstal dan menjalankan aplikasi, buka browser Anda dan pergi ke `htt
 - Melihat analisis ulasan dan penilaian pada dashboard.
 - Mendapatkan peringatan otomatis untuk ulasan negatif.
 
- Struktur Proyek
+# Struktur Proyek
 
 Berikut adalah struktur folder dan file dalam proyek ini:
 
@@ -78,7 +78,7 @@ Berikut adalah struktur folder dan file dalam proyek ini:
 - requirements.txt
 - README.md
 
- Kontribusi
+# Kontribusi
 
 Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silakan fork repositori ini, buat branch baru dengan fitur atau perbaikan Anda, dan buat pull request. Pastikan untuk mengikuti pedoman kontribusi berikut:
 
@@ -88,7 +88,7 @@ Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silaka
 4. Push ke branch (`git push origin feature/AmazingFeature`).
 5. Buka pull request.
 
- Lisensi
+# Lisensi
 
 Proyek ini dilisensikan di bawah lisensi MIT - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
 
