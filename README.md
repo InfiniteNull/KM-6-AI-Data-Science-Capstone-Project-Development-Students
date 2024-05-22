@@ -28,21 +28,21 @@ Banyak perusahaan mengalami kesulitan dalam memahami kebutuhan dan keinginan pen
 
 Ikuti langkah-langkah di bawah ini untuk menginstal proyek ini secara lokal:
 
-1. **Clone repositori:**
+1. Clone repositori:
 
     git clone https://github.com/username/repository-name.git
     cd repository-name
 
-2. **Buat dan aktifkan virtual environment:**
+2. Buat dan aktifkan virtual environment:
 
     python3 -m venv env
     source env/bin/activate  # Untuk pengguna Windows gunakan 'env\Scripts\activate'
 
-3. **Instal dependencies:**
+3. Instal dependencies:
 
     pip install -r requirements.txt
 
-4. **Jalankan aplikasi:**
+4. Jalankan aplikasi:
 
     streamlit run app.py
 
