@@ -27,7 +27,7 @@ def load_data():
 data = load_data()
 
 # Load the HTML file and display it
-with open("../templates/dashboard.html", 'r', encoding='utf-8') as html_file:
+with open("app/templates/dashboard.html", 'r', encoding='utf-8') as html_file:
     html_string = html_file.read()
 
 components.html(html_string, height=1000)
