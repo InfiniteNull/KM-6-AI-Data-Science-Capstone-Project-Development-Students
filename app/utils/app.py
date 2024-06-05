@@ -39,30 +39,79 @@ st.write(
     window.addEventListener('message', function(event) {
         if (event.data.type === 'predict') {
             const text = event.data.text;
-            const result = predictSentiment(text);
+            const result = streamlitPredict(text);
             window.parent.postMessage({ type: 'prediction-result', result: result }, '*');
         } else if (event.data.type === 'generate-word-cloud') {
             const sentiment = event.data.sentiment;
-            const result = generateWordCloud(sentiment);
+            const result = streamlitGenerateWordCloud(sentiment);
             window.parent.postMessage({ type: 'word-cloud-result', result: result }, '*');
         }
     });
 
-    function predictSentiment(text) {
-        return streamlit_predict(text);
+    function streamlitPredict(text) {
+        return new Promise((resolve, reject) => {
+            fetch('/predict', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ text: text })
+            })
+            .then(response => response.json())
+            .then(data => resolve(data.result))
+            .catch(error => reject(error));
+        });
     }
 
-    function generateWordCloud(sentiment) {
-        return streamlit_generate_word_cloud(sentiment);
+    function streamlitGenerateWordCloud(sentiment) {
+        return new Promise((resolve, reject) => {
+            fetch('/generate_word_cloud', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ sentiment: sentiment })
+            })
+            .then(response => response.json())
+            .then(data => resolve(data.result))
+            .catch(error => reject(error));
+        });
     }
     </script>
     """,
     unsafe_allow_html=True
 )
 
-# Functions for predictions and word cloud generation
-def streamlit_predict(text):
-    return predict_sentiment(text)
+# API Endpoints for Streamlit communication
+@st.cache_data
+def predict_api(text):
+    result = predict_sentiment(text)
+    return result
 
-def streamlit_generate_word_cloud(sentiment):
-    return plot_word_cloud(data, sentiment)
+@st.cache_data
+def word_cloud_api(sentiment):
+    result = plot_word_cloud(data, sentiment)
+    return result
+
+# Define routes
+def streamlit_api():
+    from flask import Flask, request, jsonify
+    app = Flask(__name__)
+
+    @app.route('/predict', methods=['POST'])
+    def predict():
+        text = request.json.get('text')
+        result = predict_api(text)
+        return jsonify(result=result)
+
+    @app.route('/generate_word_cloud', methods=['POST'])
+    def generate_word_cloud():
+        sentiment = request.json.get('sentiment')
+        result = word_cloud_api(sentiment)
+        return jsonify(result=result)
+
+    return app
+
+if __name__ == "__main__":
+    app = streamlit_api()
+    app.run(port=8501)
