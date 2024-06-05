@@ -58,25 +58,21 @@ Setelah menginstal dan menjalankan aplikasi, buka browser Anda dan pergi ke `htt
 
 Berikut adalah struktur folder dan file dalam proyek ini:
 
-- app/
-  - __init__.py
-  - main.py
-  - models/
-    - feedback_model.pkl
-  - static/
-    - styles.css
-  - templates/
-    - index.html
-    - dashboard.html
-  - utils/
-    - data_processing.py
-    - model_evaluation.py
-- data/
-  - feedback_data.csv
-- notebooks/
-  - data_analysis.ipynb
-- requirements.txt
-- README.md
+sentiment-analysis-dashboard/
+├── app/
+│   ├── models/
+│   │   ├── logistic_regression_model.pkl
+│   │   └── tfidf_vectorizer.pkl
+│   ├── static/
+│   ├── templates/
+│   └── utils/
+│       └── train_and_save_model.py
+│       └── app.py
+├── data/
+│   └── sentiment-data.csv
+├── notebooks/
+├── requirements.txt
+└── README.md
 
 # Kontribusi
 
