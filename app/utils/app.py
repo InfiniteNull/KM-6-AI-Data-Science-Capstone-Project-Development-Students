@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv('../../data/sentiment-data.csv')
+    data = pd.read_csv('data/sentiment-data.csv')
     data.columns = ['Text', 'Sentiment', 'Source', 'Date/Time', 'User ID', 'Location', 'Confidence Score']
     data.dropna(inplace=True)
     data[['Date', 'Time']] = data['Date/Time'].str.strip().str.split(' ', expand=True)
