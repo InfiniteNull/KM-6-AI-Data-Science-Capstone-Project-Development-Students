@@ -4,7 +4,7 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-from utils.load_and_predict.py import predict_sentiment, plot_word_cloud
+from load_and_predict import predict_sentiment, plot_word_cloud
 import base64
 import io
 import warnings
@@ -14,7 +14,7 @@ warnings.filterwarnings('ignore')
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv('../data/sentiment-data.csv')
+    data = pd.read_csv('../../data/sentiment-data.csv')
     data.columns = ['Text', 'Sentiment', 'Source', 'Date/Time', 'User ID', 'Location', 'Confidence Score']
     data.dropna(inplace=True)
     data[['Date', 'Time']] = data['Date/Time'].str.strip().str.split(' ', expand=True)
@@ -27,7 +27,7 @@ def load_data():
 data = load_data()
 
 # Load the HTML file and display it
-with open("templates/dashboard.html", 'r', encoding='utf-8') as html_file:
+with open("../templates/dashboard.html", 'r', encoding='utf-8') as html_file:
     html_string = html_file.read()
 
 components.html(html_string, height=1000)
