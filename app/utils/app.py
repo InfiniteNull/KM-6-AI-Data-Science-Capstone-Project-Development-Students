@@ -7,6 +7,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 from load_and_predict import predict_sentiment, plot_word_cloud
 import base64
 import io
+import os
 import warnings
 import streamlit.components.v1 as components
 
@@ -113,5 +114,5 @@ def streamlit_api():
     return app
 
 if __name__ == "__main__":
-    app = streamlit_api()
-    app.run(port=8501)
+    port = int(os.environ.get("PORT", 5000))
+    st.run(port=port)
