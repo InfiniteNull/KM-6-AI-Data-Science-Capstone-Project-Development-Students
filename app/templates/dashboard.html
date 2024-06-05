@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sentiment Analysis Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            padding: 20px;
+        }
+        .content {
+            margin-top: 20px;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Sentiment Analysis Dashboard</h1>
+        <div class="content">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Data Overview</h5>
+                    <div id="data-overview"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Sentiment Distribution</h5>
+                    <div id="sentiment-distribution"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Model Evaluation</h5>
+                    <div id="model-evaluation"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Predict Sentiment</h5>
+                    <input type="text" id="text-input" class="form-control" placeholder="Enter text to predict sentiment">
+                    <button id="predict-button" class="btn btn-primary mt-2">Predict</button>
+                    <div id="prediction-result" class="mt-3"></div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Word Cloud</h5>
+                    <select id="word-cloud-sentiment" class="form-control">
+                        <option value="positive">Positive</option>
+                        <option value="negative">Negative</option>
+                    </select>
+                    <button id="generate-word-cloud" class="btn btn-primary mt-2">Generate</button>
+                    <div id="word-cloud" class="mt-3"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('predict-button').addEventListener('click', function() {
+            const textInput = document.getElementById('text-input').value;
+            window.parent.postMessage({ type: 'predict', text: textInput }, '*');
+        });
+
+        document.getElementById('generate-word-cloud').addEventListener('click', function() {
+            const sentiment = document.getElementById('word-cloud-sentiment').value;
+            window.parent.postMessage({ type: 'generate-word-cloud', sentiment: sentiment }, '*');
+        });
+
+        window.addEventListener('message', function(event) {
+            if (event.data.type === 'prediction-result') {
+                document.getElementById('prediction-result').innerText = `The sentiment for the text is: ${event.data.result}`;
+            } else if (event.data.type === 'word-cloud-result') {
+                document.getElementById('word-cloud').innerHTML = `<img src="data:image/png;base64,${event.data.result}" alt="Word Cloud">`;
+            }
+        });
+    </script>
+</body>
+</html>
