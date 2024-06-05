@@ -1,0 +1,1002 @@
+Text, Sentiment, Source, Date/Time, User ID, Location, Confidence Score
+"I love this bootcamp!", Positive, TechTrain Bootcamp, 2023-06-15 09:23:14, @user123, New York, 0.85
+"The instructors were terrible.", Negative, CodeMaster Bootcamp, 2023-06-15 11:45:32, user456, Los Angeles, 0.65
+"This bootcamp is amazing!", Positive, DevPro Bootcamp, 2023-06-15 14:10:22, moviefan789, London, 0.92
+"I'm so disappointed with their customer support.", Negative, CodeWorks Bootcamp, 2023-06-15 17:35:11, forumuser1, Toronto, 0.78
+"Just had the best learning experience of my life!", Positive, SkillEdge Bootcamp, 2023-06-16 08:50:59, foodie22, Paris, 0.88
+"The quality of this bootcamp is subpar.", Negative, LearnFast Bootcamp, 2023-06-16 10:15:27, shopper123, San Francisco, 0.72
+"I can't stop talking about this bootcamp. It's incredible!", Positive, CodeMaster Bootcamp, 2023-06-16 13:40:18, musiclover456, Berlin, 0.91
+"Their website is so user-friendly. Love it!", Positive, DevPro Bootcamp, 2023-06-16 16:05:36, testimonialuser1, Sydney, 0.87
+"I loved this bootcamp! It was fantastic!", Positive, CodeWorks Bootcamp, 2023-07-02 09:12:34, user123, New York, 0.92
+"The customer service was terrible.", Negative, SkillEdge Bootcamp, 2023-07-02 10:45:21, user456, Los Angeles, 0.65
+"This bootcamp made me feel inspired. Highly recommended!", Positive, LearnFast Bootcamp, 2023-07-02 12:34:56, bookworm789, London, 0.88
+"I'm extremely disappointed with their course quality.", Negative, TechTrain Bootcamp, 2023-07-02 15:21:43, shopper789, San Francisco, 0.72
+"Just had the most amazing bootcamp experience! I can't wait to join another one.", Positive, CodeMaster Bootcamp, 2023-07-02 18:01:23, travelenthusiast1, Sydney, 0.93
+"The content at this bootcamp was awful. Never attending again!", Negative, DevPro Bootcamp, 2023-07-02 20:45:37, foodlover123, Mumbai, 0.55
+"I can't stop talking about this bootcamp. It's my new favorite!", Positive, LearnFast Bootcamp, 2023-07-03 09:17:52, musiclover789, Berlin, 0.91
+"Their website is so confusing and poorly designed.", Negative, SkillEdge Bootcamp, 2023-07-03 11:59:18, user789, Toronto, 0.68
+"I had an incredible experience at this bootcamp. So much fun!", Positive, TechTrain Bootcamp, 2023-07-03 14:40:05, thrillseeker1, Orlando, 0.89
+"The product arrived damaged. Very disappointed.", Negative, CodeWorks Bootcamp, 2023-07-03 17:25:09, buyer123, Chicago, 0.76
+"The workshop was absolutely breathtaking. Best session ever!", Positive, DevPro Bootcamp, 2023-07-03 20:15:33, musicfan456, Paris, 0.95
+"I had a terrible experience with their customer support.", Negative, LearnFast Bootcamp, 2023-07-04 08:32:41, user1234, Sydney, 0.61
+"This bootcamp is a masterpiece! I was blown away.", Positive, TechTrain Bootcamp, 2023-07-04 14:05:27, cinephile789, Los Angeles, 0.93
+"The customer service at this bootcamp is top-notch.", Positive, SkillEdge Bootcamp, 2023-07-04 16:35:19, shopper456, New York, 0.82
+"I'm disappointed with the ending of this course. It fell flat.", Negative, CodeMaster Bootcamp, 2023-07-04 19:18:53, booklover123, London, 0.68
+"The product I received was damaged. Unacceptable.", Negative, DevPro Bootcamp, 2023-07-04 21:52:41, buyer789, San Francisco, 0.75
+"Just had the worst bootcamp experience. Unorganized and rude staff.", Negative, TechTrain Bootcamp, 2023-07-05 09:10:15, traveler456, Sydney, 0.57
+"The workshop was absolutely amazing! Knowledge at its finest.", Positive, CodeWorks Bootcamp, 2023-07-05 12:30:08, traveladdict1, Paris, 0.95
+"The content at this bootcamp was outstanding. Highly recommended!", Positive, LearnFast Bootcamp, 2023-07-05 15:45:32, foodie789, Mumbai, 0.89
+"This playlist is my go-to for studying. Energizing and motivating!", Positive, SkillEdge Bootcamp, 2023-07-05 18:20:17, gymrat123, Berlin, 0.91
+"I had a frustrating experience navigating through their website.", Negative, DevPro Bootcamp, 2023-07-05 21:05:44, user987, Toronto, 0.67
+"The coding challenge was thrilling! Heart-pounding excitement!", Positive, CodeMaster Bootcamp, 2023-07-06 08:48:39, thrillseeker2, Orlando, 0.92
+"The product I ordered never arrived. Terrible service.", Negative, TechTrain Bootcamp, 2023-07-06 11:25:56, customer123, Chicago, 0.64
+"I can't get enough of this bootcamp. Their curriculum is incredible!", Positive, CodeWorks Bootcamp, 2023-07-06 14:15:23, musiclover987, London, 0.94
+"I had a great chat with their customer support. Helpful and friendly.", Positive, DevPro Bootcamp, 2023-07-06 17:02:11, user7890, Sydney, 0.85
+"This bootcamp has the most engaging sessions. I can't wait to attend another one!", Positive, LearnFast Bootcamp, 2023-07-09 09:12:54, foodie123, Paris, 0.94
+"The course I purchased broke within a week. Poor quality.", Negative, TechTrain Bootcamp, 2023-07-09 11:45:32, shopper246, Los Angeles, 0.61
+"This bootcamp is thought-provoking and beautifully organized. Highly recommended!", Positive, SkillEdge Bootcamp, 2023-07-09 14:23:18, bookworm567, London, 0.89
+"The customer service at this bootcamp is exceptional. They went above and beyond.", Positive, CodeMaster Bootcamp, 2023-07-09 17:05:46, shopper7890, New York, 0.87
+"I had a terrible experience with their technical support. No resolution.", Negative, DevPro Bootcamp, 2023-07-09 19:40:27, user9876, San Francisco, 0.63
+"The hotel staff were rude and unprofessional. Terrible customer service.", Negative, CodeWorks Bootcamp, 2023-07-17 08:50:13, traveler789, Paris, 0.55
+"The content at this bootcamp was mediocre. Nothing special.", Negative, SkillEdge Bootcamp, 2023-07-17 11:32:59, foodlover2468, Mumbai, 0.65
+"This song always puts me in a nostalgic mood. It reminds me of good times.", Positive, LearnFast Bootcamp, 2023-07-17 14:20:05, nostalgiacat123, Berlin, 0.88
+"The website loading speed is frustratingly slow. Needs improvement.", Negative, TechTrain Bootcamp, 2023-07-17 17:15:22, user12345, Toronto, 0.62
+"The bootcamp exceeded my expectations. Absolutely fantastic!", Positive, CodeMaster Bootcamp, 2023-07-13 19:18:53, foodlover246, Mumbai, 0.92
+"I'm disappointed with the ending of this bootcamp. It left too many unanswered questions.", Negative, CodeWorks Bootcamp, 2023-07-14 08:32:41, tvfan123, Los Angeles, 0.66
+"This workshop is a masterpiece. Every session is a work of art!", Positive, LearnFast Bootcamp, 2023-07-14 11:05:27, musicenthusiast1, London, 0.93
+"The website layout is cluttered and confusing. Difficult to find information.", Negative, SkillEdge Bootcamp, 2023-07-14 14:40
+"I learned so much from this bootcamp!", Positive, TechTrain Bootcamp, 2023-07-14 17:32:15, devstudent123, New York, 0.89
+"The sessions were boring and unengaging.", Negative, CodeMaster Bootcamp, 2023-07-14 20:15:23, user12345, Los Angeles, 0.55
+"This bootcamp gave me the confidence to pursue my dreams.", Positive, DevPro Bootcamp, 2023-07-15 08:50:59, dreamchaser789, London, 0.91
+"I'm so frustrated with their refund policy.", Negative, CodeWorks Bootcamp, 2023-07-15 11:25:32, refundseeker1, Toronto, 0.63
+"Best investment I ever made in my education!", Positive, SkillEdge Bootcamp, 2023-07-15 14:10:45, investsmart123, Paris, 0.93
+"The instructor's explanations were hard to follow.", Negative, LearnFast Bootcamp, 2023-07-15 17:05:22, confusedstudent1, San Francisco, 0.58
+"I can't recommend this bootcamp enough!", Positive, CodeMaster Bootcamp, 2023-07-15 19:40:18, happycamper456, Berlin, 0.94
+"Their support team was unhelpful and dismissive.", Negative, DevPro Bootcamp, 2023-07-16 08:45:21, annoyeduser789, Sydney, 0.60
+"This bootcamp exceeded all my expectations.", Positive, TechTrain Bootcamp, 2023-07-16 11:20:13, delighteduser123, New York, 0.95
+"I'm disappointed with the quality of the materials provided.", Negative, CodeWorks Bootcamp, 2023-07-16 14:05:27, materialcritic1, Los Angeles, 0.66
+"The community here is so supportive and encouraging.", Positive, SkillEdge Bootcamp, 2023-07-16 16:35:19, communitylover1, London, 0.90
+"The lectures were dry and uninspiring.", Negative, LearnFast Bootcamp, 2023-07-16 19:18:53, boredlistener456, San Francisco, 0.62
+"I feel so much more confident in my skills after attending this bootcamp.", Positive, CodeMaster Bootcamp, 2023-07-17 08:32:41, skillbuilder789, Sydney, 0.92
+"The customer service was rude and unhelpful.", Negative, DevPro Bootcamp, 2023-07-17 11:45:27, upsetcustomer123, Toronto, 0.57
+"I had a fantastic time learning at this bootcamp.", Positive, TechTrain Bootcamp, 2023-07-17 14:20:05, happylearner456, Paris, 0.91
+"The course content was outdated and irrelevant.", Negative, CodeWorks Bootcamp, 2023-07-17 17:05:44, pastlearner123, Mumbai, 0.62
+"This bootcamp changed my life. I'm so grateful!", Positive, SkillEdge Bootcamp, 2023-07-17 19:50:12, gratefulstudent1, Berlin, 0.96
+"The sessions were too rushed and lacked depth.", Negative, LearnFast Bootcamp, 2023-07-18 08:12:34, rushcritic789, Chicago, 0.59
+"I can't wait to apply what I've learned in my career!", Positive, CodeMaster Bootcamp, 2023-07-18 11:30:21, careerbuilder1, New York, 0.94
+"Their technical support was useless.", Negative, DevPro Bootcamp, 2023-07-18 14:05:27, techcritic456, Los Angeles, 0.54
+"This bootcamp's curriculum is well-structured and comprehensive.", Positive, TechTrain Bootcamp, 2023-07-18 16:35:19, structurelover123, London, 0.92
+"The bootcamp's schedule was poorly organized.", Negative, CodeWorks Bootcamp, 2023-07-18 19:18:53, schedulercritic1, San Francisco, 0.63
+"I had the most amazing experience here!", Positive, SkillEdge Bootcamp, 2023-07-19 08:32:41, amazinguser789, Sydney, 0.94
+"The materials provided were of poor quality.", Negative, LearnFast Bootcamp, 2023-07-19 11:45:27, qualitycritic1, Toronto, 0.61
+"This bootcamp provided me with invaluable skills.", Positive, CodeMaster Bootcamp, 2023-07-19 14:20:05, skillseeker123, Paris, 0.93
+"The customer service experience was horrendous.", Negative, DevPro Bootcamp, 2023-07-19 17:05:44, servicecritic456, Mumbai, 0.55
+"I've never felt more prepared for my career.", Positive, TechTrain Bootcamp, 2023-07-19 19:50:12, careerready123, Berlin, 0.95
+"The instructors were not engaging at all.", Negative, CodeWorks Bootcamp, 2023-07-20 08:12:34, instructorcritic1, Chicago, 0.58
+"This bootcamp's community is incredibly supportive.", Positive, SkillEdge Bootcamp, 2023-07-20 11:30:21, communityfan1, New York, 0.91
+"The course content was difficult to follow.", Negative, LearnFast Bootcamp, 2023-07-20 14:05:27, contentcritic456, Los Angeles, 0.54
+"I feel empowered after completing this bootcamp.", Positive, CodeMaster Bootcamp, 2023-07-20 16:35:19, empowereduser789, London, 0.93
+"The bootcamp's organization was chaotic.", Negative, DevPro Bootcamp, 2023-07-20 19:18:53, chaoscritic1, San Francisco, 0.59
+"This bootcamp has transformed my approach to learning.", Positive, TechTrain Bootcamp, 2023-07-21 08:32:41, learntransform1, Sydney, 0.94
+"The instructors were not knowledgeable.", Negative, CodeWorks Bootcamp, 2023-07-21 11:45:27, knowcritic456, Toronto, 0.57
+"I gained so much from this bootcamp. Highly recommended!", Positive, SkillEdge Bootcamp, 2023-07-21 14:20:05, gainuser123, Paris, 0.92
+"The materials provided were insufficient.", Negative, LearnFast Bootcamp, 2023-07-21 17:05:44, insufficientcritic1, Mumbai, 0.60
+"This bootcamp's curriculum is incredibly engaging.", Positive, CodeMaster Bootcamp, 2023-07-21 19:50:12, engageduser789, Berlin, 0.96
+"The sessions were too long and tedious.", Negative, DevPro Bootcamp, 2023-07-22 08:12:34, lengthcritic1, Chicago, 0.55
+"I can't believe how much I learned here!", Positive, TechTrain Bootcamp, 2023-07-22 11:30:21, learnuser123, New York, 0.95
+"The bootcamp's organization was lacking.", Negative, CodeWorks Bootcamp, 2023-07-22 14:05:27, organizationcritic456, Los Angeles, 0.59
+"I feel ready to take on new challenges thanks to this bootcamp.", Positive, SkillEdge Bootcamp, 2023-07-22 16:35:19, challengeuser789, London, 0.94
+"The customer service was abysmal.", Negative, LearnFast Bootcamp, 2023-07-22 19:18:53, servicecritic123, San Francisco, 0.56
+"This bootcamp gave me a new perspective on my career.", Positive, CodeMaster Bootcamp, 2023-07-23 08:32:41, perspectiveuser1, Sydney, 0.93
+"The instructors were unprofessional.", Negative, DevPro Bootcamp, 2023-07-23 11:45:27, professionalcritic1, Toronto, 0.54
+"I had a fantastic time learning at this bootcamp.", Positive, TechTrain Bootcamp, 2023-07-23 14:20:05, fantasticuser789, Paris, 0.95
+"The content was poorly organized.", Negative, CodeWorks Bootcamp, 2023-07-23 17:05:44, contentcritic123, Mumbai, 0.58
+"This bootcamp has the most supportive community.", Positive, SkillEdge Bootcamp, 2023-07-23 19:50:12, communityuser456, Berlin, 0.94
+"The sessions were rushed and incomplete.", Negative, LearnFast Bootcamp, 2023-07-24 08:12:34, rushcritic123, Chicago, 0.57
+"I feel more confident in my skills after this bootcamp.", Positive, CodeMaster Bootcamp, 2023-07-24 11:30:21, confidenceuser789, New York, 0.94
+"The bootcamp's support team was unresponsive.", Negative, DevPro Bootcamp, 2023-07-24 14:05:27, supportcritic1, Los Angeles, 0.55
+"This bootcamp's curriculum is well thought out.", Positive, TechTrain Bootcamp, 2023-07-24 16:35:19, curriculumuser123, London, 0.92
+"The bootcamp's materials were inadequate.", Negative, CodeWorks Bootcamp, 2023-07-24 19:18:53, materialcritic789, San Francisco, 0.59
+"I can't wait to apply what I've learned here.", Positive, SkillEdge Bootcamp, 2023-07-25 08:32:41, applyuser123, Sydney, 0.95
+"The sessions were boring and uninformative.", Negative, LearnFast Bootcamp, 2023-07-25 11:45:27, boreduser456, Toronto, 0.56
+"I gained so much knowledge from this bootcamp.", Positive, CodeMaster Bootcamp, 2023-07-25 14:20:05, knowledgeuser789, Paris, 0.93
+"The customer service was very slow to respond.", Negative, DevPro Bootcamp, 2023-07-25 17:05:44, slowservice123, Mumbai, 0.58
+"This bootcamp has transformed my career.", Positive, TechTrain Bootcamp, 2023-07-25 19:50:12, careertransform1, Berlin, 0.96
+"The content was difficult to understand.", Negative, CodeWorks Bootcamp, 2023-07-26 08:12:34, understandingcritic1, Chicago, 0.55
+"I can't recommend this bootcamp enough!", Positive, SkillEdge Bootcamp, 2023-07-26 11:30:21, recommenduser123, New York, 0.94
+"The sessions were disorganized and confusing.", Negative, LearnFast Bootcamp, 2023-07-26 14:05:27, disorganizedcritic1, Los Angeles, 0.59
+"I feel so prepared for my career after this bootcamp.", Positive, CodeMaster Bootcamp, 2023-07-26 16:35:19, careerready789, London, 0.95
+"The bootcamp's website was hard to navigate.", Negative, DevPro Bootcamp, 2023-07-26 19:18:53, websitecritic1, San Francisco, 0.57
+"This bootcamp's curriculum is top-notch.", Positive, TechTrain Bootcamp, 2023-07-27 08:32:41, topnotchuser123, Sydney, 0.93
+"The materials provided were outdated.", Negative, CodeWorks Bootcamp, 2023-07-27 11:45:27, outdatedcritic456, Toronto, 0.56
+"I feel so accomplished after completing this bootcamp.", Positive, SkillEdge Bootcamp, 2023-07-27 14:20:05, accomplisheduser789, Paris, 0.94
+"The sessions lacked depth and detail.", Negative, LearnFast Bootcamp, 2023-07-27 17:05:44, depthcritic1, Mumbai, 0.55
+"I've never learned so much in such a short time!", Positive, CodeMaster Bootcamp, 2023-07-27 19:50:12, quicklearn123, Berlin, 0.95
+"The bootcamp's support team was unhelpful.", Negative, DevPro Bootcamp, 2023-07-28 08:12:34, supportcritic789, Chicago, 0.58
+"This bootcamp has given me a new lease on my career.", Positive, TechTrain Bootcamp, 2023-07-28 11:30:21, careernew1, New York, 0.96
+"The content was poorly structured.", Negative, CodeWorks Bootcamp, 2023-07-28 14:05:27, structurecritic1, Los Angeles, 0.59
+"I feel empowered after attending this bootcamp.", Positive, SkillEdge Bootcamp, 2023-07-28 16:35:19, empowereduser456, London, 0.94
+"The bootcamp's materials were insufficient.", Negative, LearnFast Bootcamp, 2023-07-28 19:18:53, insufficientcritic789, San Francisco, 0.56
+"This bootcamp's community is incredibly supportive.", Positive, CodeMaster Bootcamp, 2023-07-29 08:32:41, communityfan123, Sydney, 0.95
+"The sessions were too long and tedious.", Negative, DevPro Bootcamp, 2023-07-29 11:45:27, lengthcritic456, Toronto, 0.58
+"I can't believe how much I learned here!", Positive, TechTrain Bootcamp, 2023-07-29 14:20:05, learnuser789, Paris, 0.96
+"The bootcamp's organization was lacking.", Negative, CodeWorks Bootcamp, 2023-07-29 17:05:44, organizationcritic123, Mumbai, 0.60
+"This bootcamp has prepared me for the future.", Positive, SkillEdge Bootcamp, 2023-07-29 19:50:12, futureuser789, Berlin, 0.95
+"The customer service was abysmal.", Negative, LearnFast Bootcamp, 2023-07-30 08:12:34, servicecritic456, Chicago, 0.56
+"This bootcamp gave me a new perspective on my career.", Positive, CodeMaster Bootcamp, 2023-07-30 11:30:21, perspectiveuser789, New York, 0.95
+"The instructors were unprofessional.", Negative, DevPro Bootcamp, 2023-07-30 14:05:27, professionalcritic789, Los Angeles, 0.57
+"I had a fantastic time learning at this bootcamp.", Positive, TechTrain Bootcamp, 2023-07-30 16:35:19, fantasticuser123, London, 0.96
+"The content was poorly organized.", Negative, CodeWorks Bootcamp, 2023-07-30 19:18:53, contentcritic456, San Francisco, 0.57
+"This bootcamp's community is incredibly supportive.", Positive, CodeMaster Bootcamp, 2023-07-31 08:32:41, supportuser456, Sydney, 0.95
+"The sessions were unengaging and dull.", Negative, DevPro Bootcamp, 2023-07-31 11:45:27, dullcritic123, Toronto, 0.58
+"I've gained so much confidence in my skills.", Positive, TechTrain Bootcamp, 2023-07-31 14:20:05, confidenceuser1, Paris, 0.94
+"The materials provided were subpar.", Negative, CodeWorks Bootcamp, 2023-07-31 17:05:44, materialcritic789, Mumbai, 0.57
+"I can't believe how much I learned in just a few weeks!", Positive, SkillEdge Bootcamp, 2023-07-31 19:50:12, quicklearn456, Berlin, 0.96
+"The customer service was very slow.", Negative, LearnFast Bootcamp, 2023-08-01 08:12:34, slowservice789, Chicago, 0.55
+"This bootcamp's curriculum is top-notch.", Positive, CodeMaster Bootcamp, 2023-08-01 11:30:21, topnotchuser456, New York, 0.95
+"The sessions lacked organization.", Negative, DevPro Bootcamp, 2023-08-01 14:05:27, organizationcritic789, Los Angeles, 0.58
+"I feel so prepared for my career now.", Positive, TechTrain Bootcamp, 2023-08-01 16:35:19, careerready456, London, 0.94
+"The bootcamp's support team was unresponsive.", Negative, CodeWorks Bootcamp, 2023-08-01 19:18:53, unresponsivecritic1, San Francisco, 0.56
+"This bootcamp's community is incredibly welcoming.", Positive, SkillEdge Bootcamp, 2023-08-02 08:32:41, welcomeuser123, Sydney, 0.96
+"The sessions were too short and rushed.", Negative, LearnFast Bootcamp, 2023-08-02 11:45:27, rushcritic456, Toronto, 0.57
+"I can't wait to apply what I've learned here.", Positive, CodeMaster Bootcamp, 2023-08-02 14:20:05, applyuser456, Paris, 0.94
+"The customer service was unhelpful.", Negative, DevPro Bootcamp, 2023-08-02 17:05:44, unhelpfulcritic1, Mumbai, 0.55
+"I feel more confident in my abilities after this bootcamp.", Positive, TechTrain Bootcamp, 2023-08-02 19:50:12, confidentuser123, Berlin, 0.95
+"The bootcamp's materials were outdated.", Negative, CodeWorks Bootcamp, 2023-08-03 08:12:34, outdatedcritic123, Chicago, 0.56
+"This bootcamp has prepared me for the future.", Positive, SkillEdge Bootcamp, 2023-08-03 11:30:21, futureuser123, New York, 0.95
+"The sessions were disorganized and confusing.", Negative, LearnFast Bootcamp, 2023-08-03 14:05:27, confusedcritic789, Los Angeles, 0.57
+"I feel so accomplished after completing this bootcamp.", Positive, CodeMaster Bootcamp, 2023-08-03 16:35:19, accomplisheduser456, London, 0.94
+"The bootcamp's support team was useless.", Negative, DevPro Bootcamp, 2023-08-03 19:18:53, uselesscritic1, San Francisco, 0.55
+"I've never felt more prepared for my career.", Positive, TechTrain Bootcamp, 2023-08-04 08:32:41, prepareduser123, Sydney, 0.96
+"The materials provided were insufficient.", Negative, CodeWorks Bootcamp, 2023-08-04 11:45:27, insufficientcritic123, Toronto, 0.56
+"This bootcamp's curriculum is well-structured.", Positive, SkillEdge Bootcamp, 2023-08-04 14:20:05, structureuser456, Paris, 0.94
+"The sessions were boring and repetitive.", Negative, LearnFast Bootcamp, 2023-08-04 17:05:44, boredcritic789, Mumbai, 0.55
+"I feel empowered after attending this bootcamp.", Positive, CodeMaster Bootcamp, 2023-08-04 19:50:12, empowereduser123, Berlin, 0.95
+"The bootcamp's support team was unhelpful.", Negative, DevPro Bootcamp, 2023-08-05 08:12:34, unhelpfulcritic456, Chicago, 0.56
+"I've never learned so much in such a short time!", Positive, TechTrain Bootcamp, 2023-08-05 11:30:21, quicklearn789, New York, 0.95
+"The bootcamp's organization was chaotic.", Negative, CodeWorks Bootcamp, 2023-08-05 14:05:27, chaoscritic123, Los Angeles, 0.57
+"This bootcamp's community is incredibly supportive.", Positive, SkillEdge Bootcamp, 2023-08-05 16:35:19, supportiveuser456, London, 0.96
+"The sessions were too long and tedious.", Negative, LearnFast Bootcamp, 2023-08-05 19:18:53, tediouscritic1, San Francisco, 0.55
+"I feel so accomplished after this bootcamp.", Positive, CodeMaster Bootcamp, 2023-08-06 08:32:41, accomplisheduser789, Sydney, 0.95
+"The materials provided were outdated.", Negative, DevPro Bootcamp, 2023-08-06 11:45:27, outdatedcritic456, Toronto, 0.56
+"I can't wait to apply what I've learned in my career.", Positive, TechTrain Bootcamp, 2023-08-06 14:20:05, careerapply123, Paris, 0.95
+"The bootcamp's support team was unresponsive.", Negative, CodeWorks Bootcamp, 2023-08-06 17:05:44, unresponsivecritic789, Mumbai, 0.55
+"This bootcamp's curriculum is well thought out.", Positive, SkillEdge Bootcamp, 2023-08-06 19:50:12, curriculumuser789, Berlin, 0.96
+"The sessions were boring and unengaging.", Negative, LearnFast Bootcamp, 2023-08-07 08:12:34, boredcritic123, Chicago, 0.56
+"I feel so empowered after attending this bootcamp.", Positive, CodeMaster Bootcamp, 2023-08-07 11:30:21, empowereduser456, New York, 0.95
+"The bootcamp's organization was lacking.", Negative, DevPro Bootcamp, 2023-08-07 14:05:27, lackingcritic123, Los Angeles, 0.57
+"This bootcamp's community is incredibly supportive.", Positive, TechTrain Bootcamp, 2023-08-07 16:35:19, supportuser789, London, 0.96
+"The sessions were too short and rushed.", Negative, CodeWorks Bootcamp, 2023-08-07 19:18:53, rushcritic123, San Francisco, 0.55
+"I've gained so much confidence in my skills.", Positive, SkillEdge Bootcamp, 2023-08-08 08:32:41, confidenceuser456, Sydney, 0.95
+"The customer service was very slow.", Negative, LearnFast Bootcamp, 2023-08-08 11:45:27, slowservice456, Toronto, 0.56
+"I can't believe how much I learned in just a few weeks!", Positive, CodeMaster Bootcamp, 2023-08-08 14:20:05, quicklearn456, Paris, 0.96
+"The bootcamp's materials were subpar.", Negative, DevPro Bootcamp, 2023-08-08 17:05:44, materialcritic123, Mumbai, 0.57
+"I feel so prepared for my career now.", Positive, TechTrain Bootcamp, 2023-08-08 19:50:12, careerready123, Berlin, 0.95
+"The sessions lacked organization.", Negative, CodeWorks Bootcamp, 2023-08-09 08:12:34, organizationcritic456, Chicago, 0.56
+"I feel more confident in my abilities after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-09 11:30:21, confidentuser1, New York, 0.96
+"The materials provided were insufficient.", Negative, LearnFast Bootcamp, 2023-08-09 14:05:27, insufficientcritic456, Los Angeles, 0.57
+"This bootcamp's community is incredibly welcoming.", Positive, CodeMaster Bootcamp, 2023-08-09 16:35:19, welcomeuser456, London, 0.95
+"The bootcamp's support team was useless.", Negative, DevPro Bootcamp, 2023-08-09 19:18:53, uselesscritic123, San Francisco, 0.55
+"I've never felt more prepared for my career.", Positive, TechTrain Bootcamp, 2023-08-10 08:32:41, prepareduser456, Sydney, 0.95
+"The materials provided were insufficient.", Negative, CodeWorks Bootcamp, 2023-08-10 11:45:27, insufficientcritic123, Toronto, 0.56
+"I can't wait to apply what I've learned here.", Positive, SkillEdge Bootcamp, 2023-08-10 14:20:05, applyuser123, Paris, 0.96
+"The sessions were disorganized and confusing.", Negative, LearnFast Bootcamp, 2023-08-10 17:05:44, confusedcritic456, Mumbai, 0.57
+"I've never learned so much in such a short time!", Positive, CodeMaster Bootcamp, 2023-08-10 19:50:12, quicklearn123, Berlin, 0.95
+"The bootcamp's support team was useless.", Negative, DevPro Bootcamp, 2023-08-11 08:12:34, uselesscritic456, Chicago, 0.55
+"This bootcamp has prepared me for the future.", Positive, TechTrain Bootcamp, 2023-08-11 11:30:21, futureuser456, New York, 0.95
+"The sessions were boring and repetitive.", Negative, CodeWorks Bootcamp, 2023-08-11 14:05:27, boredcritic123, Los Angeles, 0.56
+"I feel empowered after attending this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-11 16:35:19, empowereduser789, London, 0.96
+"The bootcamp's organization was chaotic.", Negative, LearnFast Bootcamp, 2023-08-11 19:18:53, chaoscritic456, San Francisco, 0.55
+"I feel so accomplished after this bootcamp.", Positive, CodeMaster Bootcamp, 2023-08-12 08:32:41, accomplisheduser456, Sydney, 0.95
+"The bootcamp's support team was unresponsive.", Negative, DevPro Bootcamp, 2023-08-12 11:45:27, unresponsivecritic123, Toronto, 0.56
+"This bootcamp's community is incredibly supportive.", Positive, TechTrain Bootcamp, 2023-08-12 14:20:05, supportiveuser123, Paris, 0.96
+"The sessions were too long and tedious.", Negative, CodeWorks Bootcamp, 2023-08-12 17:05:44, tediouscritic456, Mumbai, 0.55
+"I've gained so much confidence in my skills.", Positive, SkillEdge Bootcamp, 2023-08-12 19:50:12, confidenceuser789, Berlin, 0.95
+"The bootcamp's materials were subpar.", Negative, LearnFast Bootcamp, 2023-08-13 08:12:34, materialcritic789, Chicago, 0.56
+"I can't wait to apply what I've learned in my career.", Positive, CodeMaster Bootcamp, 2023-08-13 11:30:21, careerapply456, New York, 0.95
+"The bootcamp's organization was lacking.", Negative, DevPro Bootcamp, 2023-08-13 14:05:27, lackingcritic456, Los Angeles, 0.57
+"This bootcamp's curriculum is well thought out.", Positive, TechTrain Bootcamp, 2023-08-13 16:35:19, curriculumuser123, London, 0.96
+"The sessions were too short and rushed.", Negative, CodeWorks Bootcamp, 2023-08-13 19:18:53, rushcritic789, San Francisco, 0.55
+"I feel more confident in my abilities after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-14 08:32:41, confidentuser456, Sydney, 0.95
+"The customer service was very slow.", Negative, LearnFast Bootcamp, 2023-08-14 11:45:27, slowservice123, Toronto, 0.56
+"I've never felt more prepared for my career.", Positive, CodeMaster Bootcamp, 2023-08-14 14:20:05, prepareduser789, Paris, 0.96
+"The bootcamp's materials were insufficient.", Negative, DevPro Bootcamp, 2023-08-14 17:05:44, insufficientcritic789, Mumbai, 0.55
+"I can't wait to apply what I've learned here.", Positive, TechTrain Bootcamp, 2023-08-14 19:50:12, applyuser789, Berlin, 0.95
+"The sessions were boring and unengaging.", Negative, CodeWorks Bootcamp, 2023-08-15 08:12:34, boredcritic456, Chicago, 0.56
+"I feel so accomplished after completing this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-15 11:30:21, accomplisheduser123, New York, 0.95
+"The materials provided were insufficient.", Negative, LearnFast Bootcamp, 2023-08-15 14:05:27, insufficientcritic456, Los Angeles, 0.57
+"This bootcamp's community is incredibly welcoming.", Positive, CodeMaster Bootcamp, 2023-08-15 16:35:19, welcomeuser789, London, 0.95
+"The bootcamp's support team was unhelpful.", Negative, DevPro Bootcamp, 2023-08-15 19:18:53, unhelpfulcritic123, San Francisco, 0.55
+"I feel so prepared for my career now.", Positive, TechTrain Bootcamp, 2023-08-16 08:32:41, careerready123, Sydney, 0.95
+"The sessions were disorganized and confusing.", Negative, CodeWorks Bootcamp, 2023-08-16 11:45:27, confusedcritic123, Toronto, 0.56
+"I've gained so much confidence in my skills.", Positive, SkillEdge Bootcamp, 2023-08-16 14:20:05, confidenceuser1, Paris, 0.96
+"The bootcamp's materials were outdated.", Negative, LearnFast Bootcamp, 2023-08-16 17:05:44, outdatedcritic456, Mumbai, 0.55
+"I can't wait to apply what I've learned here.", Positive, CodeMaster Bootcamp, 2023-08-16 19:50:12, applyuser456, Berlin, 0.95
+"The sessions were too long and tedious.", Negative, DevPro Bootcamp, 2023-08-17 08:12:34, tediouscritic789, Chicago, 0.56
+"This bootcamp's community is incredibly supportive.", Positive, TechTrain Bootcamp, 2023-08-17 11:30:21, supportuser123, New York, 0.96
+"The bootcamp's organization was chaotic.", Negative, CodeWorks Bootcamp, 2023-08-17 14:05:27, chaoscritic123, Los Angeles, 0.55
+"I feel more confident in my abilities after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-17 16:35:19, confidentuser456, London, 0.95
+"The customer service was very slow.", Negative, LearnFast Bootcamp, 2023-08-17 19:18:53, slowservice789, San Francisco, 0.56
+"I can't believe how much I learned in just a few weeks!", Positive, CodeMaster Bootcamp, 2023-08-18 08:32:41, quicklearn123, Sydney, 0.95
+"The bootcamp's materials were subpar.", Negative, DevPro Bootcamp, 2023-08-18 11:45:27, materialcritic123, Toronto, 0.57
+"I feel so accomplished after this bootcamp.", Positive, TechTrain Bootcamp, 2023-08-18 14:20:05, accomplisheduser789, Paris, 0.95
+"The sessions lacked organization.", Negative, CodeWorks Bootcamp, 2023-08-18 17:05:44, organizationcritic456, Mumbai, 0.56
+"This bootcamp's community is incredibly welcoming.", Positive, SkillEdge Bootcamp, 2023-08-18 19:50:12, welcomeuser123, Berlin, 0.96
+"The bootcamp's support team was unresponsive.", Negative, LearnFast Bootcamp, 2023-08-19 08:12:34, unresponsivecritic789, Chicago, 0.55
+"I feel so prepared for my career now.", Positive, CodeMaster Bootcamp, 2023-08-19 11:30:21, careerready456, New York, 0.95
+"The materials provided were insufficient.", Negative, DevPro Bootcamp, 2023-08-19 14:05:27, insufficientcritic123, Los Angeles, 0.57
+"This bootcamp's curriculum is well thought out.", Positive, TechTrain Bootcamp, 2023-08-19 16:35:19, curriculumuser456, London, 0.96
+"The sessions were boring and repetitive.", Negative, CodeWorks Bootcamp, 2023-08-19 19:18:53, boredcritic789, San Francisco, 0.55
+"I've never felt more prepared for my career.", Positive, SkillEdge Bootcamp, 2023-08-20 08:32:41, prepareduser123, Sydney, 0.95
+"The materials provided were outdated.", Negative, LearnFast Bootcamp, 2023-08-20 11:45:27, outdatedcritic123, Toronto, 0.56
+"I can't wait to apply what I've learned in my career.", Positive, CodeMaster Bootcamp, 2023-08-20 14:20:05, careerapply123, Paris, 0.95
+"The sessions were too short and rushed.", Negative, DevPro Bootcamp, 2023-08-20 17:05:44, rushcritic456, Mumbai, 0.55
+"I've never learned so much in such a short time!", Positive, TechTrain Bootcamp, 2023-08-20 19:50:12, quicklearn789, Berlin, 0.96
+"The bootcamp's organization was lacking.", Negative, CodeWorks Bootcamp, 2023-08-21 08:12:34, lackingcritic789, Chicago, 0.56
+"I feel more confident in my abilities after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-21 11:30:21, confidentuser789, New York, 0.96
+"The customer service was unhelpful.", Negative, LearnFast Bootcamp, 2023-08-21 14:05:27, unhelpfulcritic456, Los Angeles, 0.55
+"This bootcamp's community is incredibly supportive.", Positive, CodeMaster Bootcamp, 2023-08-21 16:35:19, supportuser456, London, 0.95
+"The bootcamp's materials were insufficient.", Negative, DevPro Bootcamp, 2023-08-21 19:18:53, insufficientcritic789, San Francisco, 0.56
+"I feel so accomplished after this bootcamp.", Positive, TechTrain Bootcamp, 2023-08-22 08:32:41, accomplisheduser456, Sydney, 0.95
+"The sessions were boring and unengaging.", Negative, CodeWorks Bootcamp, 2023-08-22 11:45:27, boredcritic123, Toronto, 0.55
+"This bootcamp's curriculum is well thought out.", Positive, SkillEdge Bootcamp, 2023-08-22 14:20:05, curriculumuser123, Paris, 0.95
+"The customer service was very slow.", Negative, LearnFast Bootcamp, 2023-08-22 17:05:44, slowservice123, Mumbai, 0.56
+"I feel so prepared for my career now.", Positive, CodeMaster Bootcamp, 2023-08-22 19:50:12, careerready123, Berlin, 0.96
+"The sessions were disorganized and confusing.", Negative, DevPro Bootcamp, 2023-08-23 08:12:34, confusedcritic123, Chicago, 0.55
+"I can't wait to apply what I've learned here.", Positive, TechTrain Bootcamp, 2023-08-23 11:30:21, applyuser789, New York, 0.95
+"The bootcamp's materials were outdated.", Negative, CodeWorks Bootcamp, 2023-08-23 14:05:27, outdatedcritic789, Los Angeles, 0.56
+"I feel more confident in my abilities after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-23 16:35:19, confidentuser456, London, 0.96
+"The sessions were too long and tedious.", Negative, LearnFast Bootcamp, 2023-08-23 19:18:53, tediouscritic123, San Francisco, 0.55
+"I've never learned so much in such a short time!", Positive, CodeMaster Bootcamp, 2023-08-24 08:32:41, quicklearn123, Sydney, 0.95
+"The bootcamp's organization was lacking.", Negative, DevPro Bootcamp, 2023-08-24 11:45:27, lackingcritic123, Toronto, 0.56
+"This bootcamp's community is incredibly supportive.", Positive, TechTrain Bootcamp, 2023-08-24 14:20:05, supportuser789, Paris, 0.96
+"The customer service was unhelpful.", Negative, CodeWorks Bootcamp, 2023-08-24 17:05:44, unhelpfulcritic456, Mumbai, 0.55
+"I feel so accomplished after completing this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-24 19:50:12, accomplisheduser456, Berlin, 0.95
+"The bootcamp's materials were insufficient.", Negative, LearnFast Bootcamp, 2023-08-25 08:12:34, insufficientcritic123, Chicago, 0.56
+"I feel so prepared for my career now.", Positive, CodeMaster Bootcamp, 2023-08-25 11:30:21, careerready456, New York, 0.95
+"The sessions were boring and unengaging.", Negative, DevPro Bootcamp, 2023-08-25 14:05:27, boredcritic456, Los Angeles, 0.55
+"This bootcamp's curriculum is well thought out.", Positive, TechTrain Bootcamp, 2023-08-25 16:35:19, curriculumuser456, London, 0.96
+"The customer service was very slow.", Negative, CodeWorks Bootcamp, 2023-08-25 19:18:53, slowservice789, San Francisco, 0.56
+"I can't wait to apply what I've learned in my career.", Positive, SkillEdge Bootcamp, 2023-08-26 08:32:41, careerapply123, Sydney, 0.95
+"The sessions were disorganized and confusing.", Negative, LearnFast Bootcamp, 2023-08-26 11:45:27, confusedcritic123, Toronto, 0.55
+"I've never learned so much in such a short time!", Positive, CodeMaster Bootcamp, 2023-08-26 14:20:05, quicklearn789, Paris, 0.95
+"The bootcamp's materials were outdated.", Negative, DevPro Bootcamp, 2023-08-26 17:05:44, outdatedcritic123, Mumbai, 0.56
+"I feel so accomplished after completing this bootcamp.", Positive, TechTrain Bootcamp, 2023-08-26 19:50:12, accomplisheduser789, Berlin, 0.96
+"The bootcamp's organization was chaotic.", Negative, CodeWorks Bootcamp, 2023-08-27 08:12:34, chaoscritic456, Chicago, 0.55
+"I feel more confident in my abilities after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-27 11:30:21, confidentuser123, New York, 0.96
+"The sessions were too long and tedious.", Negative, LearnFast Bootcamp, 2023-08-27 14:05:27, tediouscritic789, Los Angeles, 0.55
+"This bootcamp's community is incredibly supportive.", Positive, CodeMaster Bootcamp, 2023-08-27 16:35:19, supportuser456, London, 0.95
+"The bootcamp's materials were insufficient.", Negative, DevPro Bootcamp, 2023-08-27 19:18:53, insufficientcritic456, San Francisco, 0.56
+"I feel so prepared for my career now.", Positive, TechTrain Bootcamp, 2023-08-28 08:32:41, careerready789, Sydney, 0.95
+"The customer service was very slow.", Negative, CodeWorks Bootcamp, 2023-08-28 11:45:27, slowservice123, Toronto, 0.55
+"This bootcamp's curriculum is well thought out.", Positive, SkillEdge Bootcamp, 2023-08-28 14:20:05, curriculumuser789, Paris, 0.96
+"The sessions were disorganized and confusing.", Negative, LearnFast Bootcamp, 2023-08-28 17:05:44, confusedcritic456, Mumbai, 0.56
+"I can't wait to apply what I've learned here.", Positive, CodeMaster Bootcamp, 2023-08-28 19:50:12, applyuser456, Berlin, 0.95
+"The bootcamp's materials were insufficient.", Negative, DevPro Bootcamp, 2023-08-29 08:12:34, insufficientcritic123, Chicago, 0.55
+"I feel so accomplished after completing this bootcamp.", Positive, TechTrain Bootcamp, 2023-08-29 11:30:21, accomplisheduser456, New York, 0.96
+"The customer service was unhelpful.", Negative, CodeWorks Bootcamp, 2023-08-29 14:05:27, unhelpfulcritic789, Los Angeles, 0.55
+"This bootcamp's community is incredibly welcoming.", Positive, SkillEdge Bootcamp, 2023-08-29 16:35:19, welcomeuser123, London, 0.95
+"The sessions were too short and rushed.", Negative, LearnFast Bootcamp, 2023-08-29 19:18:53, rushcritic456, San Francisco, 0.55
+"I feel more confident in my abilities after this bootcamp.", Positive, CodeMaster Bootcamp, 2023-08-30 08:32:41, confidentuser789, Sydney, 0.96
+"The bootcamp's organization was lacking.", Negative, DevPro Bootcamp, 2023-08-30 11:45:27, lackingcritic123, Toronto, 0.56
+"This bootcamp's curriculum is well-structured.", Positive, TechTrain Bootcamp, 2023-08-30 14:20:05, structureuser456, Paris, 0.95
+"The sessions were boring and repetitive.", Negative, CodeWorks Bootcamp, 2023-08-30 17:05:44, boredcritic456, Mumbai, 0.55
+"I feel empowered after attending this bootcamp.", Positive, SkillEdge Bootcamp, 2023-08-30 19:50:12, empowereduser123, Berlin, 0.96
+"The bootcamp's support team was useless.", Negative, LearnFast Bootcamp, 2023-08-31 08:12:34, uselesscritic123, Chicago, 0.55
+"I've never felt more prepared for my career.", Positive, CodeMaster Bootcamp, 2023-08-31 11:30:21, prepareduser456, New York, 0.96
+"The bootcamp's materials were insufficient.", Negative, DevPro Bootcamp, 2023-08-31 14:05:27, insufficientcritic456, Los Angeles, 0.56
+"I can't wait to apply what I've learned here.", Positive, TechTrain Bootcamp, 2023-08-31 16:35:19, applyuser789, London, 0.95
+"The sessions were boring and unengaging.", Negative, CodeWorks Bootcamp, 2023-08-31 19:18:53, boredcritic123, San Francisco, 0.55
+"I had an excellent experience with this bootcamp.", Positive, TechTrain Bootcamp, 2023-09-01 08:30:14, user1234, New York, 0.93
+"The content quality was very poor.", Negative, CodeMaster Bootcamp, 2023-09-01 11:45:32, user567, Los Angeles, 0.54
+"This bootcamp helped me land my dream job!", Positive, DevPro Bootcamp, 2023-09-01 14:20:22, moviefan123, London, 0.96
+"I'm frustrated with their slow response times.", Negative, CodeWorks Bootcamp, 2023-09-01 17:30:11, forumuser2, Toronto, 0.58
+"Best learning experience ever!", Positive, SkillEdge Bootcamp, 2023-09-02 08:45:59, foodie23, Paris, 0.94
+"The curriculum was too basic for my needs.", Negative, LearnFast Bootcamp, 2023-09-02 10:10:27, shopper124, San Francisco, 0.52
+"I highly recommend this bootcamp to everyone!", Positive, CodeMaster Bootcamp, 2023-09-02 13:35:18, musiclover123, Berlin, 0.95
+"Their app is very user-friendly. Love it!", Positive, DevPro Bootcamp, 2023-09-02 16:10:36, testimonialuser2, Sydney, 0.92
+"I enjoyed every moment of this bootcamp.", Positive, CodeWorks Bootcamp, 2023-09-03 09:25:34, user125, New York, 0.95
+"The support team was unhelpful and rude.", Negative, SkillEdge Bootcamp, 2023-09-03 11:35:21, user457, Los Angeles, 0.57
+"This bootcamp inspired me to start my own business!", Positive, LearnFast Bootcamp, 2023-09-03 12:55:56, bookworm123, London, 0.94
+"I regret enrolling in this bootcamp. Poor quality.", Negative, TechTrain Bootcamp, 2023-09-03 15:45:43, shopper123, San Francisco, 0.53
+"The instructors were very knowledgeable and helpful.", Positive, CodeMaster Bootcamp, 2023-09-04 08:15:23, travelenthusiast2, Sydney, 0.95
+"The content was outdated and irrelevant.", Negative, DevPro Bootcamp, 2023-09-04 10:55:37, foodlover124, Mumbai, 0.54
+"I loved the interactive sessions and group activities.", Positive, LearnFast Bootcamp, 2023-09-04 12:30:52, musiclover124, Berlin, 0.96
+"The website is confusing and hard to navigate.", Negative, SkillEdge Bootcamp, 2023-09-04 14:45:18, user7890, Toronto, 0.56
+"The hands-on projects were very beneficial.", Positive, TechTrain Bootcamp, 2023-09-05 08:20:05, thrillseeker2, Orlando, 0.94
+"The bootcamp was not worth the money.", Negative, CodeWorks Bootcamp, 2023-09-05 10:25:09, buyer124, Chicago, 0.53
+"The workshops were extremely insightful and engaging.", Positive, DevPro Bootcamp, 2023-09-05 12:50:33, musicfan123, Paris, 0.95
+"I would not recommend this bootcamp.", Negative, LearnFast Bootcamp, 2023-09-05 14:32:41, user12345, Sydney, 0.56
+"This bootcamp exceeded my expectations in every way.", Positive, CodeMaster Bootcamp, 2023-09-05 16:35:27, cinephile123, Los Angeles, 0.97
+"I had a terrible experience with their technical support.", Negative, TechTrain Bootcamp, 2023-09-06 08:15:22, shopper125, New York, 0.53
+"The community and networking opportunities were amazing.", Positive, SkillEdge Bootcamp, 2023-09-06 11:05:46, musiclover125, London, 0.94
+"The course material was too difficult to understand.", Negative, CodeWorks Bootcamp, 2023-09-06 13:18:53, booklover124, San Francisco, 0.54
+"I am very satisfied with my experience.", Positive, LearnFast Bootcamp, 2023-09-06 15:25:09, buyer789, Paris, 0.95
+"The customer service was very slow and unhelpful.", Negative, DevPro Bootcamp, 2023-09-06 17:45:27, user123456, Chicago, 0.55
+"I feel so much more confident in my skills.", Positive, TechTrain Bootcamp, 2023-09-07 08:10:13, delighteduser123, New York, 0.96
+"The sessions were unorganized and not engaging.", Negative, SkillEdge Bootcamp, 2023-09-07 11:05:27, materialcritic2, Los Angeles, 0.55
+"The bootcamp provided great career services.", Positive, CodeMaster Bootcamp, 2023-09-07 14:35:19, shopper456, New York, 0.93
+"The content was repetitive and not very useful.", Negative, DevPro Bootcamp, 2023-09-07 17:18:53, user4567, San Francisco, 0.56
+"I had the best time learning and growing here!", Positive, LearnFast Bootcamp, 2023-09-08 08:32:41, traveladdict2, Paris, 0.97
+"The materials were insufficient and poorly explained.", Negative, TechTrain Bootcamp, 2023-09-08 10:45:27, foodie456, Sydney, 0.55
+"I am so glad I attended this bootcamp.", Positive, CodeWorks Bootcamp, 2023-09-08 13:20:05, bookworm456, London, 0.96
+"The instructors were not very supportive.", Negative, SkillEdge Bootcamp, 2023-09-08 15:35:19, communitylover2, New York, 0.57
+"I learned a lot from this bootcamp!", Positive, DevPro Bootcamp, 2023-09-08 17:40:23, musiclover123, Berlin, 0.95
+"The bootcamp's schedule was too hectic.", Negative, LearnFast Bootcamp, 2023-09-08 19:18:53, rushcritic456, San Francisco, 0.55
+"The bootcamp helped me achieve my career goals.", Positive, CodeMaster Bootcamp, 2023-09-09 08:30:41, skillbuilder2, Sydney, 0.96
+"The website was difficult to navigate.", Negative, TechTrain Bootcamp, 2023-09-09 11:15:27, user12345, Toronto, 0.56
+"I would recommend this bootcamp to anyone looking to advance their career.", Positive, SkillEdge Bootcamp, 2023-09-09 14:30:05, structurelover2, Paris, 0.94
+"The support team was not very helpful.", Negative, CodeWorks Bootcamp, 2023-09-09 17:05:44, techcritic789, Mumbai, 0.55
+"I can't wait to attend another bootcamp by them!", Positive, DevPro Bootcamp, 2023-09-09 19:50:12, dreamchaser456, Berlin, 0.96
+"The customer service was very slow to respond.", Negative, LearnFast Bootcamp, 2023-09-10 08:12:34, slowservice456, Chicago, 0.55
+"The workshops were fantastic and very engaging.", Positive, CodeMaster Bootcamp, 2023-09-10 11:30:21, careerready789, New York, 0.95
+"The materials were outdated and not useful.", Negative, TechTrain Bootcamp, 2023-09-10 14:05:27, user5678, Los Angeles, 0.54
+"I feel more confident in my skills after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-09-10 16:35:19, supportuser123, London, 0.96
+"The course content was difficult to follow.", Negative, CodeWorks Bootcamp, 2023-09-10 19:18:53, confusedcritic456, San Francisco, 0.55
+"The bootcamp provided me with valuable skills.", Positive, DevPro Bootcamp, 2023-09-11 08:50:12, foodie789, Sydney, 0.94
+"The sessions were too rushed.", Negative, LearnFast Bootcamp, 2023-09-11 11:15:27, rushcritic123, Toronto, 0.56
+"The bootcamp's community was very supportive.", Positive, CodeMaster Bootcamp, 2023-09-11 13:40:05, careerapply123, Paris, 0.96
+"The content was very basic and not advanced enough.", Negative, TechTrain Bootcamp, 2023-09-11 16:10:27, structurecritic2, New York, 0.53
+"I gained so much knowledge from this bootcamp.", Positive, SkillEdge Bootcamp, 2023-09-11 18:35:19, musicfan123, Berlin, 0.95
+"The sessions were poorly organized and chaotic.", Negative, CodeWorks Bootcamp, 2023-09-11 20:15:44, chaoticcritic2, San Francisco, 0.54
+"The bootcamp was worth every penny!", Positive, TechTrain Bootcamp, 2023-09-12 08:45:34, user345, Chicago, 0.94
+"The course content was outdated and boring.", Negative, CodeMaster Bootcamp, 2023-09-12 11:25:45, user678, Los Angeles, 0.53
+"This bootcamp helped me switch careers successfully.", Positive, DevPro Bootcamp, 2023-09-12 14:15:12, careerchanger1, London, 0.95
+"I'm unhappy with their refund policy.", Negative, CodeWorks Bootcamp, 2023-09-12 17:35:21, unhappycustomer1, Toronto, 0.56
+"Best bootcamp experience I've ever had!", Positive, SkillEdge Bootcamp, 2023-09-13 08:50:23, user789, Paris, 0.96
+"The curriculum was not challenging enough.", Negative, LearnFast Bootcamp, 2023-09-13 10:20:17, user890, San Francisco, 0.52
+"I strongly recommend this bootcamp to everyone.", Positive, CodeMaster Bootcamp, 2023-09-13 13:55:29, happycustomer1, Berlin, 0.95
+"Their website design is fantastic. Easy to use!", Positive, DevPro Bootcamp, 2023-09-13 16:25:45, user123, Sydney, 0.92
+"I thoroughly enjoyed this bootcamp.", Positive, CodeWorks Bootcamp, 2023-09-14 09:15:34, learner123, New York, 0.94
+"The support team was very unhelpful.", Negative, SkillEdge Bootcamp, 2023-09-14 11:30:21, user234, Los Angeles, 0.57
+"This bootcamp gave me the confidence to start my own business.", Positive, LearnFast Bootcamp, 2023-09-14 12:45:18, entrepreneur1, London, 0.94
+"I regret attending this bootcamp. It was not worth it.", Negative, TechTrain Bootcamp, 2023-09-14 15:20:43, user456, San Francisco, 0.53
+"The instructors were extremely knowledgeable and supportive.", Positive, CodeMaster Bootcamp, 2023-09-15 08:10:23, student456, Sydney, 0.96
+"The course material was irrelevant and outdated.", Negative, DevPro Bootcamp, 2023-09-15 10:40:37, user567, Mumbai, 0.54
+"I loved the group projects and interactive sessions.", Positive, LearnFast Bootcamp, 2023-09-15 12:20:52, user678, Berlin, 0.96
+"The website navigation was confusing.", Negative, SkillEdge Bootcamp, 2023-09-15 14:45:18, user7890, Toronto, 0.56
+"The hands-on experience was invaluable.", Positive, TechTrain Bootcamp, 2023-09-16 08:25:05, thrillseeker3, Orlando, 0.94
+"The bootcamp was overpriced for the value.", Negative, CodeWorks Bootcamp, 2023-09-16 10:50:09, buyer123, Chicago, 0.53
+"The workshops were highly engaging and informative.", Positive, DevPro Bootcamp, 2023-09-16 13:10:33, musicfan789, Paris, 0.95
+"I would not recommend this bootcamp to anyone.", Negative, LearnFast Bootcamp, 2023-09-16 15:35:41, user45678, Sydney, 0.56
+"This bootcamp exceeded all of my expectations.", Positive, CodeMaster Bootcamp, 2023-09-16 16:45:27, cinephile1, Los Angeles, 0.97
+"I had a horrible experience with their customer service.", Negative, TechTrain Bootcamp, 2023-09-17 08:15:22, shopper789, New York, 0.53
+"The community and networking were incredible.", Positive, SkillEdge Bootcamp, 2023-09-17 11:05:46, musiclover678, London, 0.94
+"The course material was too advanced for beginners.", Negative, CodeWorks Bootcamp, 2023-09-17 13:18:53, booklover123, San Francisco, 0.54
+"I am extremely satisfied with this bootcamp.", Positive, LearnFast Bootcamp, 2023-09-17 15:25:09, buyer456, Paris, 0.95
+"The customer support was slow and ineffective.", Negative, DevPro Bootcamp, 2023-09-17 17:45:27, user5678, Chicago, 0.55
+"I gained a lot of practical skills from this bootcamp.", Positive, TechTrain Bootcamp, 2023-09-18 08:10:13, happyuser123, New York, 0.96
+"The sessions were disorganized and dull.", Negative, SkillEdge Bootcamp, 2023-09-18 11:05:27, user2345, Los Angeles, 0.55
+"The bootcamp's career services were excellent.", Positive, CodeMaster Bootcamp, 2023-09-18 14:35:19, careerready2, New York, 0.93
+"The content was repetitive and lacked depth.", Negative, DevPro Bootcamp, 2023-09-18 17:18:53, user45678, San Francisco, 0.56
+"I had an amazing time learning here!", Positive, LearnFast Bootcamp, 2023-09-19 08:32:41, traveladdict3, Paris, 0.97
+"The materials were poorly explained and insufficient.", Negative, TechTrain Bootcamp, 2023-09-19 10:45:27, foodie1234, Sydney, 0.55
+"I am very happy I attended this bootcamp.", Positive, CodeWorks Bootcamp, 2023-09-19 13:20:05, bookworm1234, London, 0.96
+"The instructors were not very helpful.", Negative, SkillEdge Bootcamp, 2023-09-19 15:35:19, user5678, New York, 0.57
+"I learned so much from this bootcamp.", Positive, DevPro Bootcamp, 2023-09-19 17:40:23, musiclover567, Berlin, 0.95
+"The schedule was too tight and stressful.", Negative, LearnFast Bootcamp, 2023-09-19 19:18:53, rushcritic123, San Francisco, 0.55
+"The bootcamp helped me achieve my career aspirations.", Positive, CodeMaster Bootcamp, 2023-09-20 08:30:41, careergoals1, Sydney, 0.96
+"The website was hard to use and confusing.", Negative, TechTrain Bootcamp, 2023-09-20 11:15:27, user12345, Toronto, 0.56
+"I would highly recommend this bootcamp to anyone.", Positive, SkillEdge Bootcamp, 2023-09-20 14:30:05, structurelover3, Paris, 0.94
+"The support team was not responsive.", Negative, CodeWorks Bootcamp, 2023-09-20 17:05:44, techcritic1, Mumbai, 0.55
+"I can't wait to attend another one of their bootcamps!", Positive, DevPro Bootcamp, 2023-09-20 19:50:12, dreamchaser2, Berlin, 0.96
+"The customer service was very slow and unresponsive.", Negative, LearnFast Bootcamp, 2023-09-21 08:12:34, slowservice1, Chicago, 0.55
+"The workshops were incredible and very engaging.", Positive, CodeMaster Bootcamp, 2023-09-21 11:30:21, careerready123, New York, 0.95
+"The course materials were outdated and not useful.", Negative, TechTrain Bootcamp, 2023-09-21 14:05:27, user2345, Los Angeles, 0.54
+"I feel more confident in my abilities after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-09-21 16:35:19, supportuser3, London, 0.96
+"The course content was too difficult to follow.", Negative, CodeWorks Bootcamp, 2023-09-21 19:18:53, confuseduser123, San Francisco, 0.55
+"The bootcamp provided me with invaluable skills.", Positive, DevPro Bootcamp, 2023-09-22 08:50:12, foodie567, Sydney, 0.94
+"The sessions were rushed and not very informative.", Negative, LearnFast Bootcamp, 2023-09-22 11:15:27, rushcritic3, Toronto, 0.56
+"The community at this bootcamp was very supportive.", Positive, CodeMaster Bootcamp, 2023-09-22 13:40:05, careerapply3, Paris, 0.96
+"The content was too basic and not challenging.", Negative, TechTrain Bootcamp, 2023-09-22 16:10:27, structurecritic3, New York, 0.53
+"The bootcamp was an amazing experience!", Positive, CodeMaster Bootcamp, 2023-09-23 08:45:34, user567, Chicago, 0.96
+"The course content was very basic.", Negative, DevPro Bootcamp, 2023-09-23 11:25:45, user789, Los Angeles, 0.54
+"This bootcamp helped me advance in my career.", Positive, LearnFast Bootcamp, 2023-09-23 14:15:12, careeradvancer1, London, 0.95
+"I'm not satisfied with the customer service.", Negative, SkillEdge Bootcamp, 2023-09-23 17:35:21, unsatisfieduser1, Toronto, 0.55
+"Fantastic bootcamp! Highly recommended.", Positive, TechTrain Bootcamp, 2023-09-24 08:50:23, user2345, Paris, 0.96
+"The curriculum needs more depth.", Negative, CodeWorks Bootcamp, 2023-09-24 10:20:17, user12345, San Francisco, 0.53
+"This bootcamp is a must-attend for tech enthusiasts.", Positive, DevPro Bootcamp, 2023-09-24 13:55:29, happytech1, Berlin, 0.95
+"Their mobile app is very intuitive.", Positive, CodeMaster Bootcamp, 2023-09-24 16:25:45, user1234, Sydney, 0.93
+"I enjoyed the entire bootcamp experience.", Positive, LearnFast Bootcamp, 2023-09-25 09:15:34, learner789, New York, 0.95
+"The support team was slow to respond.", Negative, SkillEdge Bootcamp, 2023-09-25 11:30:21, user5678, Los Angeles, 0.56
+"This bootcamp gave me the skills to start my own company.", Positive, TechTrain Bootcamp, 2023-09-25 12:45:18, entrepreneur2, London, 0.95
+"I regret my decision to enroll in this bootcamp.", Negative, CodeWorks Bootcamp, 2023-09-25 15:20:43, user7890, San Francisco, 0.54
+"The instructors were very knowledgeable.", Positive, DevPro Bootcamp, 2023-09-26 08:10:23, student789, Sydney, 0.96
+"The material was outdated.", Negative, CodeMaster Bootcamp, 2023-09-26 10:40:37, user3456, Mumbai, 0.54
+"The group projects were very beneficial.", Positive, LearnFast Bootcamp, 2023-09-26 12:20:52, user6789, Berlin, 0.96
+"The website design is not user-friendly.", Negative, SkillEdge Bootcamp, 2023-09-26 14:45:18, user123456, Toronto, 0.55
+"The hands-on projects were extremely valuable.", Positive, TechTrain Bootcamp, 2023-09-27 08:25:05, thrillseeker4, Orlando, 0.95
+"The bootcamp is overpriced.", Negative, CodeWorks Bootcamp, 2023-09-27 10:50:09, buyer567, Chicago, 0.54
+"The workshops were very insightful.", Positive, DevPro Bootcamp, 2023-09-27 13:10:33, musicfan2, Paris, 0.96
+"I would not recommend this bootcamp.", Negative, CodeMaster Bootcamp, 2023-09-27 15:35:41, user56789, Sydney, 0.55
+"This bootcamp surpassed my expectations.", Positive, LearnFast Bootcamp, 2023-09-27 16:45:27, cinephile2, Los Angeles, 0.97
+"I had a bad experience with customer service.", Negative, SkillEdge Bootcamp, 2023-09-28 08:15:22, shopper234, New York, 0.53
+"The community and networking opportunities were excellent.", Positive, TechTrain Bootcamp, 2023-09-28 11:05:46, musiclover234, London, 0.96
+"The course material was too advanced for beginners.", Negative, CodeWorks Bootcamp, 2023-09-28 13:18:53, booklover456, San Francisco, 0.53
+"I am very satisfied with my learning experience.", Positive, DevPro Bootcamp, 2023-09-28 15:25:09, buyer1234, Paris, 0.96
+"The customer support team was not helpful.", Negative, LearnFast Bootcamp, 2023-09-28 17:45:27, user2345, Chicago, 0.55
+"I gained a lot of practical skills.", Positive, CodeMaster Bootcamp, 2023-09-29 08:10:13, happyuser234, New York, 0.96
+"The sessions were poorly organized.", Negative, SkillEdge Bootcamp, 2023-09-29 11:05:27, user34567, Los Angeles, 0.55
+"The career services were very helpful.", Positive, TechTrain Bootcamp, 2023-09-29 14:35:19, careerready3, New York, 0.94
+"The content was repetitive and not in-depth.", Negative, CodeWorks Bootcamp, 2023-09-29 17:18:53, user67890, San Francisco, 0.54
+"I had a fantastic learning experience.", Positive, DevPro Bootcamp, 2023-09-30 08:32:41, traveladdict4, Paris, 0.97
+"The materials were not sufficient.", Negative, LearnFast Bootcamp, 2023-09-30 10:45:27, foodie234, Sydney, 0.55
+"I am thrilled with the bootcamp.", Positive, CodeMaster Bootcamp, 2023-09-30 13:20:05, bookworm789, London, 0.96
+"The instructors were not supportive.", Negative, SkillEdge Bootcamp, 2023-09-30 15:35:19, user45678, New York, 0.56
+"I learned a great deal from this bootcamp.", Positive, TechTrain Bootcamp, 2023-09-30 17:40:23, musiclover789, Berlin, 0.95
+"The schedule was too intense.", Negative, CodeWorks Bootcamp, 2023-10-01 08:30:41, rushcritic2, San Francisco, 0.55
+"The bootcamp helped me achieve my goals.", Positive, DevPro Bootcamp, 2023-10-01 11:15:27, careergoals2, Sydney, 0.96
+"The website was difficult to use.", Negative, LearnFast Bootcamp, 2023-10-01 14:30:05, user1234, Toronto, 0.55
+"I highly recommend this bootcamp.", Positive, CodeMaster Bootcamp, 2023-10-01 17:05:44, structurelover4, Paris, 0.94
+"The support team was not responsive.", Negative, SkillEdge Bootcamp, 2023-10-01 19:50:12, techcritic2, Mumbai, 0.55
+"I am excited to attend another bootcamp.", Positive, TechTrain Bootcamp, 2023-10-02 08:12:34, dreamchaser3, Berlin, 0.96
+"The customer service was slow and unresponsive.", Negative, CodeWorks Bootcamp, 2023-10-02 11:30:21, slowservice2, Chicago, 0.55
+"The workshops were very engaging.", Positive, DevPro Bootcamp, 2023-10-02 14:05:27, careerready4, New York, 0.95
+"The course materials were not useful.", Negative, LearnFast Bootcamp, 2023-10-02 16:35:19, user34567, Los Angeles, 0.54
+"I feel more skilled after attending this bootcamp.", Positive, CodeMaster Bootcamp, 2023-10-02 19:18:53, supportuser2, London, 0.96
+"The content was too challenging.", Negative, SkillEdge Bootcamp, 2023-10-03 08:50:12, confuseduser456, San Francisco, 0.55
+"The bootcamp was fantastic and exceeded my expectations.", Positive, TechTrain Bootcamp, 2023-10-03 08:45:34, user6789, Chicago, 0.96
+"The course material was not challenging enough.", Negative, CodeMaster Bootcamp, 2023-10-03 11:25:45, user123456, Los Angeles, 0.54
+"This bootcamp provided me with new opportunities.", Positive, DevPro Bootcamp, 2023-10-03 14:15:12, careerchanger2, London, 0.95
+"I'm dissatisfied with their support services.", Negative, LearnFast Bootcamp, 2023-10-03 17:35:21, unhappyuser2, Toronto, 0.55
+"Excellent bootcamp experience!", Positive, SkillEdge Bootcamp, 2023-10-04 08:50:23, user3456, Paris, 0.96
+"The curriculum was not detailed enough.", Negative, TechTrain Bootcamp, 2023-10-04 10:20:17, user5678, San Francisco, 0.53
+"This bootcamp is great for tech enthusiasts.", Positive, CodeWorks Bootcamp, 2023-10-04 13:55:29, techlover1, Berlin, 0.95
+"Their mobile application is very user-friendly.", Positive, DevPro Bootcamp, 2023-10-04 16:25:45, user78901, Sydney, 0.94
+"I enjoyed the bootcamp thoroughly.", Positive, LearnFast Bootcamp, 2023-10-05 09:15:34, learner456, New York, 0.95
+"The support team was not helpful.", Negative, SkillEdge Bootcamp, 2023-10-05 11:30:21, user78912, Los Angeles, 0.56
+"This bootcamp gave me the confidence to launch my startup.", Positive, TechTrain Bootcamp, 2023-10-05 12:45:18, entrepreneur3, London, 0.95
+"I regret choosing this bootcamp.", Negative, CodeWorks Bootcamp, 2023-10-05 15:20:43, user89012, San Francisco, 0.54
+"The instructors were very supportive and knowledgeable.", Positive, DevPro Bootcamp, 2023-10-06 08:10:23, student890, Sydney, 0.96
+"The material was outdated and unorganized.", Negative, LearnFast Bootcamp, 2023-10-06 10:40:37, user4567, Mumbai, 0.54
+"The group projects were very engaging.", Positive, SkillEdge Bootcamp, 2023-10-06 12:20:52, user67890, Berlin, 0.96
+"The website is hard to navigate.", Negative, TechTrain Bootcamp, 2023-10-06 14:45:18, user1234567, Toronto, 0.55
+"The hands-on projects were invaluable.", Positive, CodeMaster Bootcamp, 2023-10-07 08:25:05, thrillseeker5, Orlando, 0.95
+"The bootcamp is not worth the cost.", Negative, DevPro Bootcamp, 2023-10-07 10:50:09, buyer789, Chicago, 0.54
+"The workshops were highly valuable.", Positive, LearnFast Bootcamp, 2023-10-07 13:10:33, musicfan3, Paris, 0.96
+"I would not recommend this bootcamp to beginners.", Negative, SkillEdge Bootcamp, 2023-10-07 15:35:41, user890123, Sydney, 0.55
+"This bootcamp exceeded all my expectations.", Positive, TechTrain Bootcamp, 2023-10-07 16:45:27, cinephile3, Los Angeles, 0.97
+"I had a terrible experience with their support team.", Negative, CodeWorks Bootcamp, 2023-10-08 08:15:22, shopper345, New York, 0.53
+"The networking opportunities were excellent.", Positive, DevPro Bootcamp, 2023-10-08 11:05:46, musiclover345, London, 0.96
+"The course material was too advanced.", Negative, LearnFast Bootcamp, 2023-10-08 13:18:53, booklover4567, San Francisco, 0.53
+"I am very happy with this bootcamp.", Positive, SkillEdge Bootcamp, 2023-10-08 15:25:09, buyer234, Paris, 0.96
+"The customer support was very slow.", Negative, TechTrain Bootcamp, 2023-10-08 17:45:27, user34567, Chicago, 0.55
+"I gained many new skills.", Positive, CodeMaster Bootcamp, 2023-10-09 08:10:13, happyuser345, New York, 0.96
+"The sessions were not well-organized.", Negative, DevPro Bootcamp, 2023-10-09 11:05:27, user56789, Los Angeles, 0.55
+"The career services were very beneficial.", Positive, LearnFast Bootcamp, 2023-10-09 14:35:19, careerready4, New York, 0.94
+"The content was repetitive.", Negative, SkillEdge Bootcamp, 2023-10-09 17:18:53, user789012, San Francisco, 0.54
+"I had a great time learning.", Positive, TechTrain Bootcamp, 2023-10-10 08:32:41, traveladdict5, Paris, 0.97
+"The materials were not adequate.", Negative, CodeWorks Bootcamp, 2023-10-10 10:45:27, foodie345, Sydney, 0.55
+"I am thrilled with my experience.", Positive, DevPro Bootcamp, 2023-10-10 13:20:05, bookworm4567, London, 0.96
+"The instructors were not very helpful.", Negative, LearnFast Bootcamp, 2023-10-10 15:35:19, user567890, New York, 0.56
+"I learned a lot from this bootcamp.", Positive, SkillEdge Bootcamp, 2023-10-10 17:40:23, musiclover1234, Berlin, 0.95
+"The schedule was too hectic.", Negative, TechTrain Bootcamp, 2023-10-11 08:30:41, rushcritic3, San Francisco, 0.55
+"The bootcamp helped me achieve my goals.", Positive, CodeMaster Bootcamp, 2023-10-11 11:15:27, careergoals3, Sydney, 0.96
+"The website is confusing.", Negative, DevPro Bootcamp, 2023-10-11 14:30:05, user12345678, Toronto, 0.55
+"I highly recommend this bootcamp to everyone.", Positive, LearnFast Bootcamp, 2023-10-11 17:05:44, structurelover5, Paris, 0.94
+"The support team was not helpful.", Negative, SkillEdge Bootcamp, 2023-10-11 19:50:12, techcritic3, Mumbai, 0.55
+"I am looking forward to attending more bootcamps.", Positive, TechTrain Bootcamp, 2023-10-12 08:12:34, dreamchaser4, Berlin, 0.96
+"The customer service was not responsive.", Negative, CodeWorks Bootcamp, 2023-10-12 11:30:21, slowservice3, Chicago, 0.55
+"The workshops were highly engaging.", Positive, DevPro Bootcamp, 2023-10-12 14:05:27, careerready5, New York, 0.95
+"The course materials were outdated.", Negative, LearnFast Bootcamp, 2023-10-12 16:35:19, user45678, Los Angeles, 0.54
+"I feel more confident after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-10-12 19:18:53, supportuser4, London, 0.96
+"The content was too difficult.", Negative, TechTrain Bootcamp, 2023-10-13 08:50:12, confuseduser567, San Francisco, 0.55
+"The mentors were incredibly supportive and helpful.", Positive, TechTrain Bootcamp, 2023-10-13 09:45:34, mentorlover1, Chicago, 0.97
+"The assignments were confusing and unclear.", Negative, CodeMaster Bootcamp, 2023-10-13 12:25:45, confusedstudent1, Los Angeles, 0.52
+"This bootcamp provided excellent job placement assistance.", Positive, DevPro Bootcamp, 2023-10-13 15:15:12, jobseeker1, London, 0.95
+"I'm unhappy with the course structure.", Negative, LearnFast Bootcamp, 2023-10-13 18:35:21, structurecritic1, Toronto, 0.54
+"Absolutely loved the learning environment!", Positive, SkillEdge Bootcamp, 2023-10-14 09:50:23, happylearner1, Paris, 0.98
+"The pace of the course was too fast.", Negative, TechTrain Bootcamp, 2023-10-14 11:20:17, fastpace1, San Francisco, 0.53
+"This bootcamp is perfect for beginners.", Positive, CodeWorks Bootcamp, 2023-10-14 14:55:29, beginner1, Berlin, 0.96
+"The user interface of their app needs improvement.", Negative, DevPro Bootcamp, 2023-10-14 17:25:45, appcritic1, Sydney, 0.55
+"I gained practical skills that I use daily.", Positive, LearnFast Bootcamp, 2023-10-15 10:15:34, skillsuser1, New York, 0.94
+"The bootcamp's schedule was poorly managed.", Negative, SkillEdge Bootcamp, 2023-10-15 12:30:21, schedulecritic1, Los Angeles, 0.53
+"This bootcamp gave me the confidence to switch careers.", Positive, TechTrain Bootcamp, 2023-10-15 13:45:18, careerchanger3, London, 0.96
+"I regret spending money on this course.", Negative, CodeMaster Bootcamp, 2023-10-15 16:20:43, regretuser1, San Francisco, 0.52
+"The instructors were very engaging and knowledgeable.", Positive, DevPro Bootcamp, 2023-10-16 09:10:23, student123, Sydney, 0.98
+"The material was not relevant to current industry standards.", Negative, LearnFast Bootcamp, 2023-10-16 11:40:37, irrelevantuser1, Mumbai, 0.54
+"The group projects enhanced my learning experience.", Positive, SkillEdge Bootcamp, 2023-10-16 13:20:52, projectlover1, Berlin, 0.96
+"The website layout is very cluttered.", Negative, TechTrain Bootcamp, 2023-10-16 15:45:18, webcritic1, Toronto, 0.53
+"The hands-on labs were incredibly beneficial.", Positive, CodeWorks Bootcamp, 2023-10-17 09:25:05, lablover1, Orlando, 0.95
+"The bootcamp is not worth the price.", Negative, DevPro Bootcamp, 2023-10-17 11:50:09, costcritic1, Chicago, 0.52
+"The guest speakers were very inspiring.", Positive, LearnFast Bootcamp, 2023-10-17 14:10:33, speakerlover1, Paris, 0.97
+"I would not recommend this bootcamp due to poor organization.", Negative, SkillEdge Bootcamp, 2023-10-17 16:35:41, orgcritic1, Sydney, 0.54
+"This bootcamp's curriculum is top-notch.", Positive, TechTrain Bootcamp, 2023-10-17 17:45:27, curriculumlover1, Los Angeles, 0.99
+"I had a bad experience with the course content.", Negative, CodeMaster Bootcamp, 2023-10-18 09:15:22, contentcritic1, New York, 0.53
+"The networking opportunities were excellent.", Positive, DevPro Bootcamp, 2023-10-18 12:05:46, networker1, London, 0.95
+"The course content was too advanced for me.", Negative, LearnFast Bootcamp, 2023-10-18 14:18:53, advancedcritic1, San Francisco, 0.54
+"I am very satisfied with this bootcamp.", Positive, SkillEdge Bootcamp, 2023-10-18 16:25:09, satisfieduser1, Paris, 0.96
+"The customer support was not responsive.", Negative, TechTrain Bootcamp, 2023-10-18 18:45:27, supportcritic1, Chicago, 0.55
+"I gained valuable skills from this bootcamp.", Positive, CodeWorks Bootcamp, 2023-10-19 09:10:13, valuableuser1, New York, 0.94
+"The sessions were very boring.", Negative, DevPro Bootcamp, 2023-10-19 12:05:27, boringcritic1, Los Angeles, 0.52
+"The career services were very helpful.", Positive, LearnFast Bootcamp, 2023-10-19 15:35:19, careerready1, New York, 0.94
+"The content was repetitive and not engaging.", Negative, SkillEdge Bootcamp, 2023-10-19 18:18:53, repetitioncritic1, San Francisco, 0.53
+"I had a fantastic learning experience.", Positive, TechTrain Bootcamp, 2023-10-20 09:32:41, fantasticuser1, Paris, 0.97
+"The materials were not sufficient for the course.", Negative, CodeMaster Bootcamp, 2023-10-20 11:45:27, insufficientuser1, Sydney, 0.54
+"I am very happy with my experience.", Positive, DevPro Bootcamp, 2023-10-20 14:20:05, happyuser1, London, 0.96
+"The instructors were not supportive.", Negative, LearnFast Bootcamp, 2023-10-20 16:35:19, unsupportiveuser1, New York, 0.56
+"I learned a great deal from this bootcamp.", Positive, SkillEdge Bootcamp, 2023-10-20 18:40:23, knowledgeableuser1, Berlin, 0.95
+"The schedule was too demanding.", Negative, TechTrain Bootcamp, 2023-10-21 09:30:41, demandingcritic1, San Francisco, 0.54
+"The bootcamp helped me achieve my career goals.", Positive, CodeWorks Bootcamp, 2023-10-21 12:15:27, goalachiever1, Sydney, 0.97
+"The website is very confusing to navigate.", Negative, DevPro Bootcamp, 2023-10-21 15:30:05, confuseduser1, Toronto, 0.55
+"I highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2023-10-21 18:05:44, recommendation1, Paris, 0.98
+"The support team was very slow.", Negative, SkillEdge Bootcamp, 2023-10-21 19:50:12, slowresponse1, Mumbai, 0.52
+"I am excited to attend more bootcamps by them.", Positive, TechTrain Bootcamp, 2023-10-22 09:12:34, exciteduser1, Berlin, 0.97
+"The customer service was not helpful.", Negative, CodeMaster Bootcamp, 2023-10-22 12:30:21, unhelpfuluser1, Chicago, 0.53
+"The workshops were very engaging and informative.", Positive, DevPro Bootcamp, 2023-10-22 15:05:27, workshopfan1, New York, 0.96
+"The course materials were outdated.", Negative, LearnFast Bootcamp, 2023-10-22 17:35:19, outdatedcritic1, Los Angeles, 0.54
+"I feel more confident after completing this bootcamp.", Positive, SkillEdge Bootcamp, 2023-10-22 19:18:53, confidentuser1, London, 0.98
+"This bootcamp was life-changing for me.", Positive, TechTrain Bootcamp, 2023-11-01 09:45:34, futuredeveloper, Chicago, 0.98
+"The course content was too generic.", Negative, CodeMaster Bootcamp, 2023-11-01 12:25:45, unhappycoder, Los Angeles, 0.52
+"This bootcamp offered great networking opportunities.", Positive, DevPro Bootcamp, 2023-11-01 15:15:12, networkguru, London, 0.95
+"I'm disappointed with the course pacing.", Negative, LearnFast Bootcamp, 2023-11-01 18:35:21, slowlearner, Toronto, 0.54
+"The community support was outstanding!", Positive, SkillEdge Bootcamp, 2023-11-02 09:50:23, supportfan, Paris, 0.99
+"The pace was too fast for beginners.", Negative, TechTrain Bootcamp, 2023-11-02 11:20:17, newbie1, San Francisco, 0.51
+"This bootcamp is perfect for upskilling.", Positive, CodeWorks Bootcamp, 2023-11-02 14:55:29, skillbuilder, Berlin, 0.97
+"The user experience of their platform needs improvement.", Negative, DevPro Bootcamp, 2023-11-02 17:25:45, interfacecritic, Sydney, 0.54
+"I learned so many new practical skills.", Positive, LearnFast Bootcamp, 2023-11-03 10:15:34, practicallearner, New York, 0.96
+"The bootcamp schedule was too erratic.", Negative, SkillEdge Bootcamp, 2023-11-03 12:30:21, schedulecritic, Los Angeles, 0.52
+"This bootcamp gave me the confidence to pivot careers.", Positive, TechTrain Bootcamp, 2023-11-03 13:45:18, careerdreamer, London, 0.96
+"I regret choosing this bootcamp.", Negative, CodeMaster Bootcamp, 2023-11-03 16:20:43, regretfuluser, San Francisco, 0.52
+"The instructors were very approachable and helpful.", Positive, DevPro Bootcamp, 2023-11-04 09:10:23, happylearner, Sydney, 0.97
+"The material was outdated and not useful.", Negative, LearnFast Bootcamp, 2023-11-04 11:40:37, materialcritic, Mumbai, 0.53
+"The group activities greatly enhanced my learning.", Positive, SkillEdge Bootcamp, 2023-11-04 13:20:52, groupenthusiast, Berlin, 0.97
+"The website is not user-friendly.", Negative, TechTrain Bootcamp, 2023-11-04 15:45:18, websitecritic, Toronto, 0.52
+"The hands-on labs were fantastic.", Positive, CodeWorks Bootcamp, 2023-11-05 09:25:05, labfanatic, Orlando, 0.95
+"The bootcamp was not worth the investment.", Negative, DevPro Bootcamp, 2023-11-05 11:50:09, frugallearner, Chicago, 0.52
+"The guest lectures were very inspiring.", Positive, LearnFast Bootcamp, 2023-11-05 14:10:33, lecturefan, Paris, 0.98
+"I would not recommend this bootcamp to others.", Negative, SkillEdge Bootcamp, 2023-11-05 16:35:41, critic123, Sydney, 0.54
+"This bootcamp's curriculum was excellent.", Positive, TechTrain Bootcamp, 2023-11-05 17:45:27, curriculumlover, Los Angeles, 0.99
+"I had a bad experience with the content delivery.", Negative, CodeMaster Bootcamp, 2023-11-06 09:15:22, deliverycritic, New York, 0.53
+"The networking opportunities were top-notch.", Positive, DevPro Bootcamp, 2023-11-06 12:05:46, networkfan, London, 0.95
+"The course was too challenging for me.", Negative, LearnFast Bootcamp, 2023-11-06 14:18:53, challengeseeker, San Francisco, 0.53
+"I am very pleased with my bootcamp experience.", Positive, SkillEdge Bootcamp, 2023-11-06 16:25:09, pleaseduser, Paris, 0.97
+"The customer support was unresponsive.", Negative, TechTrain Bootcamp, 2023-11-06 18:45:27, supportcritic, Chicago, 0.55
+"I acquired many new skills from this bootcamp.", Positive, CodeWorks Bootcamp, 2023-11-07 09:10:13, skillcollector, New York, 0.94
+"The sessions were dull and uninspiring.", Negative, DevPro Bootcamp, 2023-11-07 12:05:27, uninspired, Los Angeles, 0.52
+"The career services were invaluable.", Positive, LearnFast Bootcamp, 2023-11-07 15:35:19, careerready, New York, 0.96
+"The content was repetitive and boring.", Negative, SkillEdge Bootcamp, 2023-11-07 18:18:53, contentcritic, San Francisco, 0.52
+"I had a wonderful learning experience.", Positive, TechTrain Bootcamp, 2023-11-08 09:32:41, learningfan, Paris, 0.98
+"The materials provided were insufficient.", Negative, CodeMaster Bootcamp, 2023-11-08 11:45:27, insufficientuser, Sydney, 0.53
+"I am extremely satisfied with the bootcamp.", Positive, DevPro Bootcamp, 2023-11-08 14:20:05, satisfiedcustomer, London, 0.97
+"The instructors were not helpful.", Negative, LearnFast Bootcamp, 2023-11-08 16:35:19, frustratedstudent, New York, 0.54
+"I learned a lot from this bootcamp.", Positive, SkillEdge Bootcamp, 2023-11-08 18:40:23, knowledgefan, Berlin, 0.95
+"The schedule was too demanding.", Negative, TechTrain Bootcamp, 2023-11-09 09:30:41, overworked, San Francisco, 0.54
+"The bootcamp helped me reach my career goals.", Positive, CodeWorks Bootcamp, 2023-11-09 12:15:27, goalachiever, Sydney, 0.97
+"The website was hard to navigate.", Negative, DevPro Bootcamp, 2023-11-09 15:30:05, webcritic, Toronto, 0.55
+"I highly recommend this bootcamp to everyone.", Positive, LearnFast Bootcamp, 2023-11-09 18:05:44, happycustomer, Paris, 0.98
+"The support team was very slow to respond.", Negative, SkillEdge Bootcamp, 2023-11-09 19:50:12, slowresponder, Mumbai, 0.52
+"I am excited to join more bootcamps.", Positive, TechTrain Bootcamp, 2023-11-10 09:12:34, bootcamper, Berlin, 0.97
+"The customer service was not helpful at all.", Negative, CodeMaster Bootcamp, 2023-11-10 12:30:21, servicecritic, Chicago, 0.53
+"The workshops were very interactive and informative.", Positive, DevPro Bootcamp, 2023-11-10 15:05:27, workshoplover, New York, 0.96
+"The course materials were outdated.", Negative, LearnFast Bootcamp, 2023-11-10 17:35:19, oldmaterials, Los Angeles, 0.54
+"I feel more confident after completing this bootcamp.", Positive, SkillEdge Bootcamp, 2023-11-10 19:18:53, confidentlearner, London, 0.98
+"The bootcamp was an amazing journey!", Positive, TechTrain Bootcamp, 2023-11-11 09:45:34, techenthusiast, Chicago, 0.97
+"The course was too theoretical.", Negative, CodeMaster Bootcamp, 2023-11-11 12:25:45, theorycritic, Los Angeles, 0.52
+"This bootcamp provided excellent mentorship.", Positive, DevPro Bootcamp, 2023-11-11 15:15:12, mentorfan, London, 0.96
+"The course duration was too short.", Negative, LearnFast Bootcamp, 2023-11-11 18:35:21, shortduration, Toronto, 0.53
+"The learning resources were top-notch!", Positive, SkillEdge Bootcamp, 2023-11-12 09:50:23, resourceguru, Paris, 0.99
+"The classes were too long and tiring.", Negative, TechTrain Bootcamp, 2023-11-12 11:20:17, tiredstudent, San Francisco, 0.51
+"This bootcamp is great for advanced learners.", Positive, CodeWorks Bootcamp, 2023-11-12 14:55:29, advancedlearner, Berlin, 0.96
+"The app is buggy and crashes frequently.", Negative, DevPro Bootcamp, 2023-11-12 17:25:45, appcritic, Sydney, 0.54
+"I gained many industry-relevant skills.", Positive, LearnFast Bootcamp, 2023-11-13 10:15:34, industrypro, New York, 0.95
+"The schedule was not flexible enough.", Negative, SkillEdge Bootcamp, 2023-11-13 12:30:21, schedulecritic2, Los Angeles, 0.53
+"This bootcamp was a great confidence booster.", Positive, TechTrain Bootcamp, 2023-11-13 13:45:18, confidencebuilder, London, 0.97
+"I regret enrolling in this course.", Negative, CodeMaster Bootcamp, 2023-11-13 16:20:43, regretfulstudent, San Francisco, 0.52
+"The instructors were very approachable.", Positive, DevPro Bootcamp, 2023-11-14 09:10:23, friendlyteacher, Sydney, 0.98
+"The material was not up-to-date.", Negative, LearnFast Bootcamp, 2023-11-14 11:40:37, oldcontent, Mumbai, 0.53
+"The group projects were very beneficial.", Positive, SkillEdge Bootcamp, 2023-11-14 13:20:52, groupprojectfan, Berlin, 0.96
+"The website design is outdated.", Negative, TechTrain Bootcamp, 2023-11-14 15:45:18, webcritic2, Toronto, 0.52
+"The hands-on labs were extremely helpful.", Positive, CodeWorks Bootcamp, 2023-11-15 09:25:05, labenthusiast, Orlando, 0.97
+"The bootcamp is too expensive.", Negative, DevPro Bootcamp, 2023-11-15 11:50:09, costcritic2, Chicago, 0.52
+"The guest lectures were very insightful.", Positive, LearnFast Bootcamp, 2023-11-15 14:10:33, guestlecturerfan, Paris, 0.98
+"I would not recommend this bootcamp to anyone.", Negative, SkillEdge Bootcamp, 2023-11-15 16:35:41, notrecommend, Sydney, 0.54
+"This bootcamp's curriculum is very comprehensive.", Positive, TechTrain Bootcamp, 2023-11-15 17:45:27, comprehensivelearner, Los Angeles, 0.99
+"I had a poor experience with the course.", Negative, CodeMaster Bootcamp, 2023-11-16 09:15:22, badexperience, New York, 0.53
+"The networking events were great.", Positive, DevPro Bootcamp, 2023-11-16 12:05:46, networker2, London, 0.96
+"The course was too difficult for beginners.", Negative, LearnFast Bootcamp, 2023-11-16 14:18:53, difficultforbeginners, San Francisco, 0.53
+"I am very happy with the bootcamp.", Positive, SkillEdge Bootcamp, 2023-11-16 16:25:09, happyattendee, Paris, 0.97
+"The customer support was very poor.", Negative, TechTrain Bootcamp, 2023-11-16 18:45:27, supportcritic2, Chicago, 0.55
+"I learned many new skills.", Positive, CodeWorks Bootcamp, 2023-11-17 09:10:13, skillseeker, New York, 0.95
+"The sessions were uninteresting.", Negative, DevPro Bootcamp, 2023-11-17 12:05:27, uninterestedstudent, Los Angeles, 0.51
+"The career services were very useful.", Positive, LearnFast Bootcamp, 2023-11-17 15:35:19, careerfocused, New York, 0.96
+"The content was repetitive.", Negative, SkillEdge Bootcamp, 2023-11-17 18:18:53, repetitivecritic, San Francisco, 0.52
+"I had a fantastic time learning.", Positive, TechTrain Bootcamp, 2023-11-18 09:32:41, learningenthusiast, Paris, 0.99
+"The materials provided were lacking.", Negative, CodeMaster Bootcamp, 2023-11-18 11:45:27, materialcritic2, Sydney, 0.52
+"I am extremely satisfied with this bootcamp.", Positive, DevPro Bootcamp, 2023-11-18 14:20:05, satisfiedattendee, London, 0.98
+"The instructors were not helpful at all.", Negative, LearnFast Bootcamp, 2023-11-18 16:35:19, frustratedstudent2, New York, 0.53
+"I learned so much from this bootcamp.", Positive, SkillEdge Bootcamp, 2023-11-18 18:40:23, learninglover, Berlin, 0.97
+"The schedule was too intense.", Negative, TechTrain Bootcamp, 2023-11-19 09:30:41, intensecritic, San Francisco, 0.53
+"The bootcamp helped me achieve my career aspirations.", Positive, CodeWorks Bootcamp, 2023-11-19 12:15:27, goalachiever2, Sydney, 0.97
+"The website is difficult to navigate.", Negative, DevPro Bootcamp, 2023-11-19 15:30:05, webcritic3, Toronto, 0.54
+"I highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2023-11-19 18:05:44, recommendattendee, Paris, 0.98
+"The support team was very slow to help.", Negative, SkillEdge Bootcamp, 2023-11-19 19:50:12, slowhelper, Mumbai, 0.51
+"I am excited to attend more bootcamps.", Positive, TechTrain Bootcamp, 2023-11-20 09:12:34, bootcampaddict, Berlin, 0.97
+"The customer service was not helpful.", Negative, CodeMaster Bootcamp, 2023-11-20 12:30:21, servicecritic2, Chicago, 0.52
+"The workshops were very interactive.", Positive, DevPro Bootcamp, 2023-11-20 15:05:27, workshopfan, New York, 0.96
+"The course materials were very outdated.", Negative, LearnFast Bootcamp, 2023-11-20 17:35:19, outdatedmaterials, Los Angeles, 0.54
+"I feel more confident after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-11-20 19:18:53, confidentlearner2, London, 0.99
+"The bootcamp was incredibly rewarding.", Positive, TechTrain Bootcamp, 2023-11-21 09:45:34, rewardedlearner, Chicago, 0.99
+"The lessons were too abstract.", Negative, CodeMaster Bootcamp, 2023-11-21 12:25:45, abstractcritic, Los Angeles, 0.51
+"This bootcamp provided excellent career guidance.", Positive, DevPro Bootcamp, 2023-11-21 15:15:12, careerseeker, London, 0.97
+"I'm dissatisfied with the course content.", Negative, LearnFast Bootcamp, 2023-11-21 18:35:21, contentcritic2, Toronto, 0.53
+"The mentorship was outstanding!", Positive, SkillEdge Bootcamp, 2023-11-22 09:50:23, mentorfanatic, Paris, 0.98
+"The course was too basic for experienced learners.", Negative, TechTrain Bootcamp, 2023-11-22 11:20:17, experiencedlearner, San Francisco, 0.52
+"This bootcamp is great for beginners.", Positive, CodeWorks Bootcamp, 2023-11-22 14:55:29, beginnerenthusiast, Berlin, 0.96
+"The app needs a lot of improvements.", Negative, DevPro Bootcamp, 2023-11-22 17:25:45, appcritic2, Sydney, 0.53
+"I gained valuable hands-on experience.", Positive, LearnFast Bootcamp, 2023-11-23 10:15:34, handsonlearner, New York, 0.96
+"The bootcamp's schedule was too rigid.", Negative, SkillEdge Bootcamp, 2023-11-23 12:30:21, rigidcritic, Los Angeles, 0.52
+"This bootcamp boosted my confidence.", Positive, TechTrain Bootcamp, 2023-11-23 13:45:18, confidencegainer, London, 0.98
+"I regret spending money on this bootcamp.", Negative, CodeMaster Bootcamp, 2023-11-23 16:20:43, regretspender, San Francisco, 0.51
+"The instructors were very knowledgeable.", Positive, DevPro Bootcamp, 2023-11-24 09:10:23, knowledgeguru, Sydney, 0.99
+"The course material was outdated and boring.", Negative, LearnFast Bootcamp, 2023-11-24 11:40:37, oldandboring, Mumbai, 0.52
+"The group projects were highly effective.", Positive, SkillEdge Bootcamp, 2023-11-24 13:20:52, projectlover2, Berlin, 0.97
+"The website is confusing and hard to use.", Negative, TechTrain Bootcamp, 2023-11-24 15:45:18, confuseduser2, Toronto, 0.51
+"The hands-on labs were very practical.", Positive, CodeWorks Bootcamp, 2023-11-25 09:25:05, practicalfan, Orlando, 0.96
+"The bootcamp is overpriced for the value.", Negative, DevPro Bootcamp, 2023-11-25 11:50:09, overpricer, Chicago, 0.52
+"The guest speakers were very inspiring.", Positive, LearnFast Bootcamp, 2023-11-25 14:10:33, inspirationseeker, Paris, 0.98
+"I would not recommend this bootcamp.", Negative, SkillEdge Bootcamp, 2023-11-25 16:35:41, unrecuser, Sydney, 0.53
+"This bootcamp's curriculum is very thorough.", Positive, TechTrain Bootcamp, 2023-11-25 17:45:27, thoroughlearner, Los Angeles, 0.99
+"I had a negative experience with the course.", Negative, CodeMaster Bootcamp, 2023-11-26 09:15:22, negativereview, New York, 0.52
+"The networking sessions were excellent.", Positive, DevPro Bootcamp, 2023-11-26 12:05:46, networkguru2, London, 0.96
+"The course was too challenging for beginners.", Negative, LearnFast Bootcamp, 2023-11-26 14:18:53, challengecritic, San Francisco, 0.52
+"I am very pleased with my experience.", Positive, SkillEdge Bootcamp, 2023-11-26 16:25:09, pleasedlearner, Paris, 0.98
+"The customer support was very slow.", Negative, TechTrain Bootcamp, 2023-11-26 18:45:27, supportcritic3, Chicago, 0.55
+"I gained a lot of new skills.", Positive, CodeWorks Bootcamp, 2023-11-27 09:10:13, skillfanatic, New York, 0.95
+"The sessions were boring and unengaging.", Negative, DevPro Bootcamp, 2023-11-27 12:05:27, boredstudent, Los Angeles, 0.51
+"The career services were very helpful.", Positive, LearnFast Bootcamp, 2023-11-27 15:35:19, careerready2, New York, 0.96
+"The content was repetitive and dull.", Negative, SkillEdge Bootcamp, 2023-11-27 18:18:53, dullcritic, San Francisco, 0.52
+"I had a wonderful learning experience.", Positive, TechTrain Bootcamp, 2023-11-28 09:32:41, wonderfullearner, Paris, 0.99
+"The materials provided were not enough.", Negative, CodeMaster Bootcamp, 2023-11-28 11:45:27, materialcritic3, Sydney, 0.52
+"I am very satisfied with this bootcamp.", Positive, DevPro Bootcamp, 2023-11-28 14:20:05, satisfiedlearner, London, 0.98
+"The instructors were not supportive.", Negative, LearnFast Bootcamp, 2023-11-28 16:35:19, nonsupportive, New York, 0.53
+"I learned a lot from this bootcamp.", Positive, SkillEdge Bootcamp, 2023-11-28 18:40:23, learningfan2, Berlin, 0.97
+"The schedule was too tight.", Negative, TechTrain Bootcamp, 2023-11-29 09:30:41, tightcritic, San Francisco, 0.53
+"The bootcamp helped me achieve my goals.", Positive, CodeWorks Bootcamp, 2023-11-29 12:15:27, goalachiever3, Sydney, 0.97
+"The website was very hard to navigate.", Negative, DevPro Bootcamp, 2023-11-29 15:30:05, webcritic4, Toronto, 0.54
+"I highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2023-11-29 18:05:44, recommendlearner, Paris, 0.98
+"The support team was slow to respond.", Negative, SkillEdge Bootcamp, 2023-11-29 19:50:12, slowresponse2, Mumbai, 0.51
+"I am excited to join more bootcamps.", Positive, TechTrain Bootcamp, 2023-11-30 09:12:34, bootcamplover, Berlin, 0.97
+"The customer service was not helpful.", Negative, CodeMaster Bootcamp, 2023-11-30 12:30:21, servicecritic3, Chicago, 0.52
+"The workshops were very engaging.", Positive, DevPro Bootcamp, 2023-11-30 15:05:27, workshoplover2, New York, 0.96
+"The course materials were outdated.", Negative, LearnFast Bootcamp, 2023-11-30 17:35:19, oldmaterials2, Los Angeles, 0.54
+"I feel more confident after completing this bootcamp.", Positive, SkillEdge Bootcamp, 2023-11-30 19:18:53, confidentlearner3, London, 0.99
+"The instructors were truly amazing!", Positive, TechTrain Bootcamp, 2023-12-01 09:45:34, amazingteacher, Chicago, 0.97
+"The content didn't meet my expectations.", Negative, CodeMaster Bootcamp, 2023-12-01 12:25:45, disappointedlearner, Los Angeles, 0.52
+"This bootcamp opened many doors for me.", Positive, DevPro Bootcamp, 2023-12-01 15:15:12, doorsopened, London, 0.96
+"The course pace was unbearable.", Negative, LearnFast Bootcamp, 2023-12-01 18:35:21, fastpaced, Toronto, 0.53
+"Awesome bootcamp with great resources.", Positive, SkillEdge Bootcamp, 2023-12-02 09:50:23, resourcefan, Paris, 0.99
+"Too many theoretical lessons, not enough practice.", Negative, TechTrain Bootcamp, 2023-12-02 11:20:17, theorycritic2, San Francisco, 0.51
+"Best bootcamp for beginners.", Positive, CodeWorks Bootcamp, 2023-12-02 14:55:29, beginnerfriendly, Berlin, 0.96
+"The platform often crashes.", Negative, DevPro Bootcamp, 2023-12-02 17:25:45, platformissue, Sydney, 0.53
+"Learned many new practical skills.", Positive, LearnFast Bootcamp, 2023-12-03 10:15:34, practicallearner2, New York, 0.95
+"The schedule was too demanding.", Negative, SkillEdge Bootcamp, 2023-12-03 12:30:21, demandingcritic2, Los Angeles, 0.52
+"Great confidence booster.", Positive, TechTrain Bootcamp, 2023-12-03 13:45:18, boostedconfidence, London, 0.98
+"Regret choosing this bootcamp.", Negative, CodeMaster Bootcamp, 2023-12-03 16:20:43, regretfullearner, San Francisco, 0.51
+"Instructors were very approachable.", Positive, DevPro Bootcamp, 2023-12-04 09:10:23, approachableteacher, Sydney, 0.99
+"Course material was outdated.", Negative, LearnFast Bootcamp, 2023-12-04 11:40:37, outdatedcontent, Mumbai, 0.52
+"Group projects were very effective.", Positive, SkillEdge Bootcamp, 2023-12-04 13:20:52, groupeffective, Berlin, 0.97
+"Website is confusing.", Negative, TechTrain Bootcamp, 2023-12-04 15:45:18, confuseduser3, Toronto, 0.51
+"Hands-on labs were extremely helpful.", Positive, CodeWorks Bootcamp, 2023-12-05 09:25:05, lablover, Orlando, 0.96
+"Bootcamp is overpriced.", Negative, DevPro Bootcamp, 2023-12-05 11:50:09, overpricedcritic, Chicago, 0.52
+"Guest speakers were inspiring.", Positive, LearnFast Bootcamp, 2023-12-05 14:10:33, inspiringguests, Paris, 0.98
+"Would not recommend.", Negative, SkillEdge Bootcamp, 2023-12-05 16:35:41, notrecommended, Sydney, 0.53
+"Curriculum is very thorough.", Positive, TechTrain Bootcamp, 2023-12-05 17:45:27, thoroughlearner2, Los Angeles, 0.99
+"Negative experience overall.", Negative, CodeMaster Bootcamp, 2023-12-06 09:15:22, negativeexperience, New York, 0.52
+"Networking sessions were excellent.", Positive, DevPro Bootcamp, 2023-12-06 12:05:46, networkingfan, London, 0.96
+"Too challenging for beginners.", Negative, LearnFast Bootcamp, 2023-12-06 14:18:53, challengingcritic, San Francisco, 0.52
+"Very pleased with the bootcamp.", Positive, SkillEdge Bootcamp, 2023-12-06 16:25:09, pleasedlearner2, Paris, 0.98
+"Customer support was slow.", Negative, TechTrain Bootcamp, 2023-12-06 18:45:27, supportcritic4, Chicago, 0.55
+"Learned many new skills.", Positive, CodeWorks Bootcamp, 2023-12-07 09:10:13, skillseeker2, New York, 0.95
+"Sessions were unengaging.", Negative, DevPro Bootcamp, 2023-12-07 12:05:27, unengagedstudent, Los Angeles, 0.51
+"Career services were very helpful.", Positive, LearnFast Bootcamp, 2023-12-07 15:35:19, careerfocused2, New York, 0.96
+"Content was repetitive.", Negative, SkillEdge Bootcamp, 2023-12-07 18:18:53, repetitivecritic2, San Francisco, 0.52
+"Fantastic learning experience.", Positive, TechTrain Bootcamp, 2023-12-08 09:32:41, learningenthusiast2, Paris, 0.99
+"Materials provided were lacking.", Negative, CodeMaster Bootcamp, 2023-12-08 11:45:27, lackingmaterials, Sydney, 0.52
+"Extremely satisfied with the bootcamp.", Positive, DevPro Bootcamp, 2023-12-08 14:20:05, satisfiedlearner2, London, 0.98
+"Instructors were not supportive.", Negative, LearnFast Bootcamp, 2023-12-08 16:35:19, nonsupportive2, New York, 0.53
+"Learned a lot from this bootcamp.", Positive, SkillEdge Bootcamp, 2023-12-08 18:40:23, learningfan3, Berlin, 0.97
+"Schedule was too tight.", Negative, TechTrain Bootcamp, 2023-12-09 09:30:41, tightcritic2, San Francisco, 0.53
+"Bootcamp helped me achieve my goals.", Positive, CodeWorks Bootcamp, 2023-12-09 12:15:27, goalachiever4, Sydney, 0.97
+"Website was very hard to navigate.", Negative, DevPro Bootcamp, 2023-12-09 15:30:05, webcritic5, Toronto, 0.54
+"Highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2023-12-09 18:05:44, recommendlearner2, Paris, 0.98
+"Support team was slow to respond.", Negative, SkillEdge Bootcamp, 2023-12-09 19:50:12, slowresponder2, Mumbai, 0.51
+"Excited to join more bootcamps.", Positive, TechTrain Bootcamp, 2023-12-10 09:12:34, bootcamplover2, Berlin, 0.97
+"Customer service was unhelpful.", Negative, CodeMaster Bootcamp, 2023-12-10 12:30:21, unhelpfulservice, Chicago, 0.52
+"Workshops were engaging.", Positive, DevPro Bootcamp, 2023-12-10 15:05:27, workshoplover3, New York, 0.96
+"Course materials were outdated.", Negative, LearnFast Bootcamp, 2023-12-10 17:35:19, outdatedmaterials3, Los Angeles, 0.54
+"More confident after this bootcamp.", Positive, SkillEdge Bootcamp, 2023-12-10 19:18:53, confidentlearner4, London, 0.99
+"The instructors were very engaging.", Positive, TechTrain Bootcamp, 2023-12-11 09:45:34, engagedteacher, Chicago, 0.98
+"The content was too repetitive.", Negative, CodeMaster Bootcamp, 2023-12-11 12:25:45, repetitivelearner, Los Angeles, 0.52
+"This bootcamp has excellent support.", Positive, DevPro Bootcamp, 2023-12-11 15:15:12, supportseeker, London, 0.96
+"The pace was too slow for me.", Negative, LearnFast Bootcamp, 2023-12-11 18:35:21, slowpace, Toronto, 0.54
+"Great resources and community.", Positive, SkillEdge Bootcamp, 2023-12-12 09:50:23, communityfan, Paris, 0.97
+"Too many theoretical lessons.", Negative, TechTrain Bootcamp, 2023-12-12 11:20:17, theorycritic3, San Francisco, 0.51
+"Best bootcamp for career changers.", Positive, CodeWorks Bootcamp, 2023-12-12 14:55:29, careerchanger, Berlin, 0.95
+"The platform is hard to use.", Negative, DevPro Bootcamp, 2023-12-12 17:25:45, platformcritic, Sydney, 0.53
+"Learned practical and relevant skills.", Positive, LearnFast Bootcamp, 2023-12-13 10:15:34, relevantskills, New York, 0.96
+"The schedule was very rigid.", Negative, SkillEdge Bootcamp, 2023-12-13 12:30:21, rigidcritic2, Los Angeles, 0.52
+"Boosted my career confidence.", Positive, TechTrain Bootcamp, 2023-12-13 13:45:18, careerconfidence, London, 0.98
+"I regret spending money here.", Negative, CodeMaster Bootcamp, 2023-12-13 16:20:43, regrettinguser, San Francisco, 0.52
+"The instructors were very helpful.", Positive, DevPro Bootcamp, 2023-12-14 09:10:23, helpfulteacher, Sydney, 0.97
+"The material was very outdated.", Negative, LearnFast Bootcamp, 2023-12-14 11:40:37, outdatedcontent2, Mumbai, 0.52
+"Group projects were very engaging.", Positive, SkillEdge Bootcamp, 2023-12-14 13:20:52, groupengager, Berlin, 0.97
+"Website navigation was difficult.", Negative, TechTrain Bootcamp, 2023-12-14 15:45:18, difficultnav, Toronto, 0.51
+"The hands-on labs were great.", Positive, CodeWorks Bootcamp, 2023-12-15 09:25:05, labfanatic2, Orlando, 0.95
+"The bootcamp is overpriced.", Negative, DevPro Bootcamp, 2023-12-15 11:50:09, overpricecritic, Chicago, 0.51
+"Guest speakers were top-notch.", Positive, LearnFast Bootcamp, 2023-12-15 14:10:33, topguests, Paris, 0.97
+"I would not recommend it.", Negative, SkillEdge Bootcamp, 2023-12-15 16:35:41, notrecommender, Sydney, 0.53
+"Curriculum was very detailed.", Positive, TechTrain Bootcamp, 2023-12-15 17:45:27, detailedlearner, Los Angeles, 0.99
+"I had a negative experience.", Negative, CodeMaster Bootcamp, 2023-12-16 09:15:22, negativereviewer, New York, 0.52
+"Networking events were excellent.", Positive, DevPro Bootcamp, 2023-12-16 12:05:46, networker3, London, 0.95
+"Too challenging for beginners.", Negative, LearnFast Bootcamp, 2023-12-16 14:18:53, challengingcontent, San Francisco, 0.52
+"Very happy with this bootcamp.", Positive, SkillEdge Bootcamp, 2023-12-16 16:25:09, happyuser2, Paris, 0.98
+"Customer support was slow.", Negative, TechTrain Bootcamp, 2023-12-16 18:45:27, slowcritic, Chicago, 0.54
+"Learned many new techniques.", Positive, CodeWorks Bootcamp, 2023-12-17 09:10:13, techniqueseeker, New York, 0.95
+"The sessions were dull.", Negative, DevPro Bootcamp, 2023-12-17 12:05:27, dullstudent, Los Angeles, 0.51
+"Career services were very useful.", Positive, LearnFast Bootcamp, 2023-12-17 15:35:19, careerfocused3, New York, 0.96
+"Content was too repetitive.", Negative, SkillEdge Bootcamp, 2023-12-17 18:18:53, repetitioncritic, San Francisco, 0.52
+"Fantastic learning environment.", Positive, TechTrain Bootcamp, 2023-12-18 09:32:41, environmentfan, Paris, 0.99
+"Materials provided were insufficient.", Negative, CodeMaster Bootcamp, 2023-12-18 11:45:27, materialcritic4, Sydney, 0.52
+"Extremely satisfied with the experience.", Positive, DevPro Bootcamp, 2023-12-18 14:20:05, experiencefan, London, 0.98
+"Instructors were not helpful.", Negative, LearnFast Bootcamp, 2023-12-18 16:35:19, nonsupportive3, New York, 0.53
+"Learned a great deal.", Positive, SkillEdge Bootcamp, 2023-12-18 18:40:23, greatlearner, Berlin, 0.97
+"Schedule was too intense.", Negative, TechTrain Bootcamp, 2023-12-19 09:30:41, intensecritic2, San Francisco, 0.53
+"Bootcamp helped me reach my goals.", Positive, CodeWorks Bootcamp, 2023-12-19 12:15:27, goalachiever5, Sydney, 0.97
+"Website was very confusing.", Negative, DevPro Bootcamp, 2023-12-19 15:30:05, webcritic6, Toronto, 0.54
+"Highly recommend to everyone.", Positive, LearnFast Bootcamp, 2023-12-19 18:05:44, recommenduser, Paris, 0.98
+"Support team was very slow.", Negative, SkillEdge Bootcamp, 2023-12-19 19:50:12, slowsupport, Mumbai, 0.51
+"Excited to attend more bootcamps.", Positive, TechTrain Bootcamp, 2023-12-20 09:12:34, bootcamplover3, Berlin, 0.97
+"Customer service was terrible.", Negative, CodeMaster Bootcamp, 2023-12-20 12:30:21, servicecritic4, Chicago, 0.52
+"Workshops were very informative.", Positive, DevPro Bootcamp, 2023-12-20 15:05:27, workshopfan2, New York, 0.96
+"Course materials were outdated.", Negative, LearnFast Bootcamp, 2023-12-20 17:35:19, outdatedmaterials4, Los Angeles, 0.54
+"Feel more confident now.", Positive, SkillEdge Bootcamp, 2023-12-20 19:18:53, confidentlearner5, London, 0.99
+"The mentors were fantastic and supportive.", Positive, TechTrain Bootcamp, 2023-12-21 09:45:34, fantasticmentor, Chicago, 0.98
+"The assignments were confusing and difficult.", Negative, CodeMaster Bootcamp, 2023-12-21 12:25:45, confusedstudent, Los Angeles, 0.51
+"This bootcamp provided incredible insights.", Positive, DevPro Bootcamp, 2023-12-21 15:15:12, insightseeker, London, 0.97
+"The course speed was too fast.", Negative, LearnFast Bootcamp, 2023-12-21 18:35:21, fastpacelearner, Toronto, 0.54
+"Excellent resources and community support.", Positive, SkillEdge Bootcamp, 2023-12-22 09:50:23, communitylover, Paris, 0.98
+"Too much theory, not enough practice.", Negative, TechTrain Bootcamp, 2023-12-22 11:20:17, theorycritic4, San Francisco, 0.51
+"Perfect bootcamp for a career change.", Positive, CodeWorks Bootcamp, 2023-12-22 14:55:29, careerchanger2, Berlin, 0.95
+"The app is not user-friendly.", Negative, DevPro Bootcamp, 2023-12-22 17:25:45, appusercritic, Sydney, 0.53
+"Practical skills taught effectively.", Positive, LearnFast Bootcamp, 2023-12-23 10:15:34, practicalskillseeker, New York, 0.96
+"The bootcamp schedule was inflexible.", Negative, SkillEdge Bootcamp, 2023-12-23 12:30:21, inflexiblecritic, Los Angeles, 0.52
+"Great boost to my professional confidence.", Positive, TechTrain Bootcamp, 2023-12-23 13:45:18, confidencebooster, London, 0.98
+"I regret the cost of this bootcamp.", Negative, CodeMaster Bootcamp, 2023-12-23 16:20:43, regretfulspender, San Francisco, 0.52
+"The instructors were extremely knowledgeable.", Positive, DevPro Bootcamp, 2023-12-24 09:10:23, knowledgeableinstructors, Sydney, 0.97
+"The content was outdated and irrelevant.", Negative, LearnFast Bootcamp, 2023-12-24 11:40:37, outdatedcontent3, Mumbai, 0.52
+"Group activities were highly beneficial.", Positive, SkillEdge Bootcamp, 2023-12-24 13:20:52, groupbenefit, Berlin, 0.97
+"The website interface is confusing.", Negative, TechTrain Bootcamp, 2023-12-24 15:45:18, confusedinterface, Toronto, 0.51
+"Hands-on labs were incredibly useful.", Positive, CodeWorks Bootcamp, 2023-12-25 09:25:05, usefulhandslabs, Orlando, 0.96
+"The bootcamp is too expensive for what it offers.", Negative, DevPro Bootcamp, 2023-12-25 11:50:09, overpricedbootcamp, Chicago, 0.51
+"Guest lectures were very motivational.", Positive, LearnFast Bootcamp, 2023-12-25 14:10:33, motivationalguest, Paris, 0.97
+"I don't recommend this bootcamp.", Negative, SkillEdge Bootcamp, 2023-12-25 16:35:41, nonrecommendable, Sydney, 0.53
+"The curriculum was detailed and thorough.", Positive, TechTrain Bootcamp, 2023-12-25 17:45:27, detailedcurriculum, Los Angeles, 0.99
+"My experience was mostly negative.", Negative, CodeMaster Bootcamp, 2023-12-26 09:15:22, negativelearner, New York, 0.52
+"The networking opportunities were amazing.", Positive, DevPro Bootcamp, 2023-12-26 12:05:46, networkfanatic, London, 0.95
+"The course was too hard for beginners.", Negative, LearnFast Bootcamp, 2023-12-26 14:18:53, beginnerstruggle, San Francisco, 0.52
+"I'm very satisfied with this bootcamp.", Positive, SkillEdge Bootcamp, 2023-12-26 16:25:09, satisfiedattendee2, Paris, 0.98
+"The customer service was very poor.", Negative, TechTrain Bootcamp, 2023-12-26 18:45:27, poorcustomerservice, Chicago, 0.54
+"I acquired many new skills.", Positive, CodeWorks Bootcamp, 2023-12-27 09:10:13, skillacquirer, New York, 0.95
+"The sessions were not engaging.", Negative, DevPro Bootcamp, 2023-12-27 12:05:27, disengagedlearner, Los Angeles, 0.51
+"Career guidance was very helpful.", Positive, LearnFast Bootcamp, 2023-12-27 15:35:19, careerhelp, New York, 0.96
+"The content was too repetitive and boring.", Negative, SkillEdge Bootcamp, 2023-12-27 18:18:53, repetitivecontent, San Francisco, 0.52
+"Fantastic and immersive learning environment.", Positive, TechTrain Bootcamp, 2023-12-28 09:32:41, immersivelearning, Paris, 0.99
+"Materials provided were insufficient.", Negative, CodeMaster Bootcamp, 2023-12-28 11:45:27, insufficientmaterials, Sydney, 0.52
+"I am extremely happy with the bootcamp.", Positive, DevPro Bootcamp, 2023-12-28 14:20:05, happybootcamper, London, 0.98
+"The instructors were not very supportive.", Negative, LearnFast Bootcamp, 2023-12-28 16:35:19, unsupportiveinstructors, New York, 0.53
+"I learned so much in a short time.", Positive, SkillEdge Bootcamp, 2023-12-28 18:40:23, fastlearner, Berlin, 0.97
+"The schedule was overly intense.", Negative, TechTrain Bootcamp, 2023-12-29 09:30:41, intensepace, San Francisco, 0.53
+"The bootcamp helped me set career goals.", Positive, CodeWorks Bootcamp, 2023-12-29 12:15:27, goalsetter, Sydney, 0.97
+"The website was not easy to use.", Negative, DevPro Bootcamp, 2023-12-29 15:30:05, webusabilitycritic, Toronto, 0.54
+"I highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2023-12-29 18:05:44, highlyrecommended, Paris, 0.98
+"The support team was very slow to assist.", Negative, SkillEdge Bootcamp, 2023-12-29 19:50:12, slowassist, Mumbai, 0.51
+"I'm looking forward to more bootcamps.", Positive, TechTrain Bootcamp, 2023-12-30 09:12:34, bootcampenthusiast, Berlin, 0.97
+"The customer service was unhelpful.", Negative, CodeMaster Bootcamp, 2023-12-30 12:30:21, unhelpfulservice2, Chicago, 0.52
+"The workshops were very interactive.", Positive, DevPro Bootcamp, 2023-12-30 15:05:27, interactiveworkshop, New York, 0.96
+"The course materials were very outdated.", Negative, LearnFast Bootcamp, 2023-12-30 17:35:19, outdatedmaterials5, Los Angeles, 0.54
+"I feel much more confident now.", Positive, SkillEdge Bootcamp, 2023-12-30 19:18:53, confidentlearner6, London, 0.99
+"The mentors were knowledgeable and approachable.", Positive, TechTrain Bootcamp, 2023-12-31 09:45:34, knowledgeablementor, Chicago, 0.98
+"The curriculum was not well structured.", Negative, CodeMaster Bootcamp, 2023-12-31 12:25:45, structurecritic, Los Angeles, 0.52
+"This bootcamp gave me the tools I needed.", Positive, DevPro Bootcamp, 2023-12-31 15:15:12, toolseeker, London, 0.97
+"The pacing was too slow.", Negative, LearnFast Bootcamp, 2023-12-31 18:35:21, slowpacing, Toronto, 0.54
+"Fantastic community and support.", Positive, SkillEdge Bootcamp, 2024-01-01 09:50:23, communitysupporter, Paris, 0.98
+"Too much focus on theory.", Negative, TechTrain Bootcamp, 2024-01-01 11:20:17, theorycritic5, San Francisco, 0.51
+"Great for those looking to change careers.", Positive, CodeWorks Bootcamp, 2024-01-01 14:55:29, careerchanger3, Berlin, 0.95
+"The platform interface is very poor.", Negative, DevPro Bootcamp, 2024-01-01 17:25:45, interfacecritic, Sydney, 0.53
+"Learned many useful skills.", Positive, LearnFast Bootcamp, 2024-01-02 10:15:34, skilllearner, New York, 0.96
+"The schedule was too demanding.", Negative, SkillEdge Bootcamp, 2024-01-02 12:30:21, demandingcritic3, Los Angeles, 0.52
+"Increased my professional confidence.", Positive, TechTrain Bootcamp, 2024-01-02 13:45:18, confidentpro, London, 0.98
+"The bootcamp was not worth the money.", Negative, CodeMaster Bootcamp, 2024-01-02 16:20:43, notworthit, San Francisco, 0.52
+"The instructors were very supportive.", Positive, DevPro Bootcamp, 2024-01-03 09:10:23, supportiveinstructors, Sydney, 0.97
+"The course content was outdated.", Negative, LearnFast Bootcamp, 2024-01-03 11:40:37, outdatedcontent4, Mumbai, 0.52
+"Group work was very beneficial.", Positive, SkillEdge Bootcamp, 2024-01-03 13:20:52, groupworker, Berlin, 0.97
+"Website navigation was difficult.", Negative, TechTrain Bootcamp, 2024-01-03 15:45:18, webcritic7, Toronto, 0.51
+"The hands-on projects were very useful.", Positive, CodeWorks Bootcamp, 2024-01-04 09:25:05, projectlover, Orlando, 0.96
+"The bootcamp is overpriced.", Negative, DevPro Bootcamp, 2024-01-04 11:50:09, pricecritic, Chicago, 0.51
+"Guest speakers were very engaging.", Positive, LearnFast Bootcamp, 2024-01-04 14:10:33, engagingguests, Paris, 0.97
+"I wouldn't recommend this bootcamp.", Negative, SkillEdge Bootcamp, 2024-01-04 16:35:41, notrecommended, Sydney, 0.53
+"Detailed and comprehensive curriculum.", Positive, TechTrain Bootcamp, 2024-01-04 17:45:27, detailedcurriculum2, Los Angeles, 0.99
+"My experience was mostly negative.", Negative, CodeMaster Bootcamp, 2024-01-05 09:15:22, negativereview2, New York, 0.52
+"The networking sessions were great.", Positive, DevPro Bootcamp, 2024-01-05 12:05:46, networkfan, London, 0.95
+"The course was too advanced for beginners.", Negative, LearnFast Bootcamp, 2024-01-05 14:18:53, beginnercritic, San Francisco, 0.52
+"I am very pleased with the bootcamp.", Positive, SkillEdge Bootcamp, 2024-01-05 16:25:09, pleasedattendee, Paris, 0.98
+"The customer service was unresponsive.", Negative, TechTrain Bootcamp, 2024-01-05 18:45:27, unresponsiveservice, Chicago, 0.54
+"I learned a lot of new skills.", Positive, CodeWorks Bootcamp, 2024-01-06 09:10:13, skilllearner2, New York, 0.95
+"The sessions were boring.", Negative, DevPro Bootcamp, 2024-01-06 12:05:27, boredlearner, Los Angeles, 0.51
+"Career guidance was very helpful.", Positive, LearnFast Bootcamp, 2024-01-06 15:35:19, careerfocused4, New York, 0.96
+"Content was repetitive and dull.", Negative, SkillEdge Bootcamp, 2024-01-06 18:18:53, dullcontent, San Francisco, 0.52
+"Amazing learning environment.", Positive, TechTrain Bootcamp, 2024-01-07 09:32:41, environmentlover, Paris, 0.99
+"Materials were not enough.", Negative, CodeMaster Bootcamp, 2024-01-07 11:45:27, materialcritic5, Sydney, 0.52
+"Very satisfied with the bootcamp.", Positive, DevPro Bootcamp, 2024-01-07 14:20:05, satisfiedattendee3, London, 0.98
+"The instructors were not supportive.", Negative, LearnFast Bootcamp, 2024-01-07 16:35:19, unsupportiveinstructors2, New York, 0.53
+"Learned so much from this bootcamp.", Positive, SkillEdge Bootcamp, 2024-01-07 18:40:23, muchlearner, Berlin, 0.97
+"The schedule was very intense.", Negative, TechTrain Bootcamp, 2024-01-08 09:30:41, intensecritic3, San Francisco, 0.53
+"The bootcamp helped me set goals.", Positive, CodeWorks Bootcamp, 2024-01-08 12:15:27, goalsetter2, Sydney, 0.97
+"The website was hard to navigate.", Negative, DevPro Bootcamp, 2024-01-08 15:30:05, webusabilitycritic2, Toronto, 0.54
+"I highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2024-01-08 18:05:44, recommenduser2, Paris, 0.98
+"The support team was very slow.", Negative, SkillEdge Bootcamp, 2024-01-08 19:50:12, slowsupport2, Mumbai, 0.51
+"I look forward to more bootcamps.", Positive, TechTrain Bootcamp, 2024-01-09 09:12:34, bootcamplover4, Berlin, 0.97
+"The customer service was unhelpful.", Negative, CodeMaster Bootcamp, 2024-01-09 12:30:21, unhelpfulservice3, Chicago, 0.52
+"The workshops were very interactive.", Positive, DevPro Bootcamp, 2024-01-09 15:05:27, interactiveworkshop2, New York, 0.96
+"The course materials were outdated.", Negative, LearnFast Bootcamp, 2024-01-09 17:35:19, outdatedmaterials6, Los Angeles, 0.54
+"I feel much more confident now.", Positive, SkillEdge Bootcamp, 2024-01-09 19:18:53, confidentlearner7, London, 0.99
+"The mentors were very helpful.", Positive, TechTrain Bootcamp, 2024-01-10 09:45:34, helpfulmentor, Chicago, 0.99
+"The course was too basic.", Negative, CodeMaster Bootcamp, 2024-01-10 12:25:45, basiccourse, Los Angeles, 0.52
+"This bootcamp provided excellent resources.", Positive, DevPro Bootcamp, 2024-01-10 15:15:12, resourceful, London, 0.98
+"The pace was too slow for me.", Negative, LearnFast Bootcamp, 2024-01-10 18:35:21, slowpace2, Toronto, 0.54
+"Fantastic support from the community.", Positive, SkillEdge Bootcamp, 2024-01-11 09:50:23, communitysupport2, Paris, 0.97
+"Too much theoretical content.", Negative, TechTrain Bootcamp, 2024-01-11 11:20:17, theorycritic6, San Francisco, 0.51
+"Great for transitioning careers.", Positive, CodeWorks Bootcamp, 2024-01-11 14:55:29, careertransition, Berlin, 0.96
+"The platform is hard to navigate.", Negative, DevPro Bootcamp, 2024-01-11 17:25:45, navigationcritic, Sydney, 0.53
+"Learned many practical skills.", Positive, LearnFast Bootcamp, 2024-01-12 10:15:34, practicallearner3, New York, 0.96
+"The schedule was very rigid.", Negative, SkillEdge Bootcamp, 2024-01-12 12:30:21, rigidcritic3, Los Angeles, 0.52
+"Increased my confidence in coding.", Positive, TechTrain Bootcamp, 2024-01-12 13:45:18, confidentcoder, London, 0.99
+"The bootcamp wasn't worth the price.", Negative, CodeMaster Bootcamp, 2024-01-12 16:20:43, notworthprice, San Francisco, 0.52
+"The instructors were very knowledgeable.", Positive, DevPro Bootcamp, 2024-01-13 09:10:23, knowledgeinstructor, Sydney, 0.97
+"The course material was very outdated.", Negative, LearnFast Bootcamp, 2024-01-13 11:40:37, outdatedmaterial, Mumbai, 0.52
+"Group projects were very engaging.", Positive, SkillEdge Bootcamp, 2024-01-13 13:20:52, engagingproject, Berlin, 0.97
+"The website design is confusing.", Negative, TechTrain Bootcamp, 2024-01-13 15:45:18, confuseddesign, Toronto, 0.51
+"Hands-on labs were extremely useful.", Positive, CodeWorks Bootcamp, 2024-01-14 09:25:05, labenthusiast2, Orlando, 0.96
+"The bootcamp is too expensive.", Negative, DevPro Bootcamp, 2024-01-14 11:50:09, expensivebootcamp, Chicago, 0.51
+"Guest speakers were very motivational.", Positive, LearnFast Bootcamp, 2024-01-14 14:10:33, motivationalguests, Paris, 0.97
+"I would not recommend this course.", Negative, SkillEdge Bootcamp, 2024-01-14 16:35:41, notrecommendable2, Sydney, 0.53
+"The curriculum was very detailed.", Positive, TechTrain Bootcamp, 2024-01-14 17:45:27, detailedcurriculum3, Los Angeles, 0.99
+"My experience was mostly negative.", Negative, CodeMaster Bootcamp, 2024-01-15 09:15:22, negativeexperience2, New York, 0.52
+"The networking events were great.", Positive, DevPro Bootcamp, 2024-01-15 12:05:46, networkfanatic2, London, 0.95
+"The course was too challenging.", Negative, LearnFast Bootcamp, 2024-01-15 14:18:53, challengingcourse, San Francisco, 0.52
+"I am very happy with this bootcamp.", Positive, SkillEdge Bootcamp, 2024-01-15 16:25:09, happyattendee3, Paris, 0.98
+"The customer support was unresponsive.", Negative, TechTrain Bootcamp, 2024-01-15 18:45:27, unresponsivesupport, Chicago, 0.54
+"I learned many new techniques.", Positive, CodeWorks Bootcamp, 2024-01-16 09:10:13, techniqueseeker2, New York, 0.95
+"The sessions were very boring.", Negative, DevPro Bootcamp, 2024-01-16 12:05:27, boredstudent2, Los Angeles, 0.51
+"Career guidance was extremely helpful.", Positive, LearnFast Bootcamp, 2024-01-16 15:35:19, careerfocused5, New York, 0.96
+"The content was repetitive and dull.", Negative, SkillEdge Bootcamp, 2024-01-16 18:18:53, dullcritic2, San Francisco, 0.52
+"Fantastic learning experience.", Positive, TechTrain Bootcamp, 2024-01-17 09:32:41, learningenthusiast3, Paris, 0.99
+"Materials provided were not enough.", Negative, CodeMaster Bootcamp, 2024-01-17 11:45:27, insufficientmaterial, Sydney, 0.52
+"Extremely satisfied with the bootcamp.", Positive, DevPro Bootcamp, 2024-01-17 14:20:05, satisfiedbootcamper, London, 0.98
+"The instructors were not very supportive.", Negative, LearnFast Bootcamp, 2024-01-17 16:35:19, nonsupportive4, New York, 0.53
+"I learned a lot from this bootcamp.", Positive, SkillEdge Bootcamp, 2024-01-17 18:40:23, learningfan4, Berlin, 0.97
+"The schedule was very intense.", Negative, TechTrain Bootcamp, 2024-01-18 09:30:41, intensecritic4, San Francisco, 0.53
+"The bootcamp helped me set goals.", Positive, CodeWorks Bootcamp, 2024-01-18 12:15:27, goalsetter3, Sydney, 0.97
+"The website was hard to navigate.", Negative, DevPro Bootcamp, 2024-01-18 15:30:05, webcritic8, Toronto, 0.54
+"I highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2024-01-18 18:05:44, recommendlearner3, Paris, 0.98
+"The support team was very slow.", Negative, SkillEdge Bootcamp, 2024-01-18 19:50:12, slowsupport3, Mumbai, 0.51
+"I look forward to more bootcamps.", Positive, TechTrain Bootcamp, 2024-01-19 09:12:34, bootcamplover5, Berlin, 0.97
+"The customer service was terrible.", Negative, CodeMaster Bootcamp, 2024-01-19 12:30:21, terriblecustomerservice, Chicago, 0.52
+"The workshops were very interactive.", Positive, DevPro Bootcamp, 2024-01-19 15:05:27, interactiveworkshop3, New York, 0.96
+"The course materials were outdated.", Negative, LearnFast Bootcamp, 2024-01-19 17:35:19, outdatedmaterials7, Los Angeles, 0.54
+"I feel much more confident now.", Positive, SkillEdge Bootcamp, 2024-01-19 19:18:53, confidentlearner8, London, 0.99
+"The training sessions were very effective.", Positive, TechTrain Bootcamp, 2024-01-20 09:45:34, effectivelearner, Chicago, 0.99
+"The course material was very dry.", Negative, CodeMaster Bootcamp, 2024-01-20 12:25:45, drycontent, Los Angeles, 0.52
+"This bootcamp offered great mentorship.", Positive, DevPro Bootcamp, 2024-01-20 15:15:12, mentorseeker, London, 0.98
+"The course speed was too fast.", Negative, LearnFast Bootcamp, 2024-01-20 18:35:21, fastlearner, Toronto, 0.54
+"Great community and resources.", Positive, SkillEdge Bootcamp, 2024-01-21 09:50:23, resourcefulcommunity, Paris, 0.97
+"Too much theoretical focus.", Negative, TechTrain Bootcamp, 2024-01-21 11:20:17, theoryfocus, San Francisco, 0.51
+"Excellent for career advancement.", Positive, CodeWorks Bootcamp, 2024-01-21 14:55:29, careeradvancer, Berlin, 0.96
+"The app interface is confusing.", Negative, DevPro Bootcamp, 2024-01-21 17:25:45, appcritic, Sydney, 0.53
+"Practical skills were well taught.", Positive, LearnFast Bootcamp, 2024-01-22 10:15:34, skilledlearner, New York, 0.96
+"The schedule was too rigid.", Negative, SkillEdge Bootcamp, 2024-01-22 12:30:21, rigidcritic4, Los Angeles, 0.52
+"Increased my coding confidence.", Positive, TechTrain Bootcamp, 2024-01-22 13:45:18, confidentcoder2, London, 0.99
+"The bootcamp was not worth the investment.", Negative, CodeMaster Bootcamp, 2024-01-22 16:20:43, notworthit2, San Francisco, 0.52
+"The instructors were very knowledgeable.", Positive, DevPro Bootcamp, 2024-01-23 09:10:23, knowledgeexpert, Sydney, 0.97
+"The material was outdated.", Negative, LearnFast Bootcamp, 2024-01-23 11:40:37, outdatedmaterial2, Mumbai, 0.52
+"Group work was very engaging.", Positive, SkillEdge Bootcamp, 2024-01-23 13:20:52, groupenthusiast, Berlin, 0.97
+"The website is hard to navigate.", Negative, TechTrain Bootcamp, 2024-01-23 15:45:18, hardnav, Toronto, 0.51
+"Hands-on labs were extremely beneficial.", Positive, CodeWorks Bootcamp, 2024-01-24 09:25:05, labfanatic3, Orlando, 0.96
+"The bootcamp is overpriced for the value.", Negative, DevPro Bootcamp, 2024-01-24 11:50:09, valuecritic, Chicago, 0.51
+"Guest speakers were very inspiring.", Positive, LearnFast Bootcamp, 2024-01-24 14:10:33, inspiringguests2, Paris, 0.97
+"I wouldn't recommend this bootcamp.", Negative, SkillEdge Bootcamp, 2024-01-24 16:35:41, nonrecommendable3, Sydney, 0.53
+"The curriculum was thorough and detailed.", Positive, TechTrain Bootcamp, 2024-01-24 17:45:27, thoroughcurriculum, Los Angeles, 0.99
+"My experience was generally negative.", Negative, CodeMaster Bootcamp, 2024-01-25 09:15:22, negativelearner2, New York, 0.52
+"Networking opportunities were fantastic.", Positive, DevPro Bootcamp, 2024-01-25 12:05:46, networkfanatic3, London, 0.95
+"The course was too advanced.", Negative, LearnFast Bootcamp, 2024-01-25 14:18:53, advancedcritic, San Francisco, 0.52
+"I'm very satisfied with this bootcamp.", Positive, SkillEdge Bootcamp, 2024-01-25 16:25:09, satisfiedattendee4, Paris, 0.98
+"Customer support was unresponsive.", Negative, TechTrain Bootcamp, 2024-01-25 18:45:27, unresponsivesupport2, Chicago, 0.54
+"I learned many new techniques.", Positive, CodeWorks Bootcamp, 2024-01-26 09:10:13, techniqueseeker3, New York, 0.95
+"The sessions were boring and dull.", Negative, DevPro Bootcamp, 2024-01-26 12:05:27, dulledlearner, Los Angeles, 0.51
+"Career guidance was very useful.", Positive, LearnFast Bootcamp, 2024-01-26 15:35:19, usefulguidance, New York, 0.96
+"The content was repetitive.", Negative, SkillEdge Bootcamp, 2024-01-26 18:18:53, repetitivecritic3, San Francisco, 0.52
+"Excellent learning environment.", Positive, TechTrain Bootcamp, 2024-01-27 09:32:41, environmententhusiast, Paris, 0.99
+"Materials provided were insufficient.", Negative, CodeMaster Bootcamp, 2024-01-27 11:45:27, insufficientmaterials2, Sydney, 0.52
+"Extremely satisfied with the experience.", Positive, DevPro Bootcamp, 2024-01-27 14:20:05, satisfiedlearner3, London, 0.98
+"The instructors were not supportive.", Negative, LearnFast Bootcamp, 2024-01-27 16:35:19, nonsupportive5, New York, 0.53
+"I learned a lot from this bootcamp.", Positive, SkillEdge Bootcamp, 2024-01-27 18:40:23, lotslearner, Berlin, 0.97
+"The schedule was too intense.", Negative, TechTrain Bootcamp, 2024-01-28 09:30:41, intensecritic5, San Francisco, 0.53
+"The bootcamp helped me achieve my goals.", Positive, CodeWorks Bootcamp, 2024-01-28 12:15:27, goalachiever6, Sydney, 0.97
+"The website was difficult to use.", Negative, DevPro Bootcamp, 2024-01-28 15:30:05, usabilitycritic, Toronto, 0.54
+"I highly recommend this bootcamp.", Positive, LearnFast Bootcamp, 2024-01-28 18:05:44, recommendlearner4, Paris, 0.98
+"The support team was very slow.", Negative, SkillEdge Bootcamp, 2024-01-28 19:50:12, slowsupport4, Mumbai, 0.51
+"I'm looking forward to more bootcamps.", Positive, TechTrain Bootcamp, 2024-01-29 09:12:34, bootcamplover6, Berlin, 0.97
+"The customer service was not helpful.", Negative, CodeMaster Bootcamp, 2024-01-29 12:30:21, servicecritic5, Chicago, 0.52
+"The workshops were very interactive.", Positive, DevPro Bootcamp, 2024-01-29 15:05:27, interactiveworkshop4, New York, 0.96
+"The course materials were outdated.", Negative, LearnFast Bootcamp, 2024-01-29 17:35:19, outdatedmaterials8, Los Angeles, 0.54
+"I feel much more confident now.", Positive, SkillEdge Bootcamp, 2024-01-29 19:18:53, confidentlearner9, London, 0.99
+"The teachers are great and very supportive.", Positive, TechTrain Bootcamp, 2023-07-05 10:23:45, user789, New York, 0.86
+"I didn't learn anything new. Waste of money.", Negative, CodeMaster Bootcamp, 2023-07-05 12:30:52, unhappyuser1, Los Angeles, 0.60
+"This bootcamp exceeded all my expectations!", Positive, DevPro Bootcamp, 2023-07-05 15:22:11, techfan123, London, 0.90
+"The content was outdated and irrelevant.", Negative, CodeWorks Bootcamp, 2023-07-05 18:45:33, user999, Toronto, 0.77
+"I feel so prepared for my new job thanks to this bootcamp.", Positive, SkillEdge Bootcamp, 2023-07-06 09:15:29, careerchanger22, Paris, 0.89
+"The instructors were not helpful at all.", Negative, LearnFast Bootcamp, 2023-07-06 11:30:47, student456, San Francisco, 0.68
+"Fantastic bootcamp! Worth every penny.", Positive, CodeMaster Bootcamp, 2023-07-06 14:40:23, coderfan456, Berlin, 0.93
+"The platform is very intuitive and easy to use.", Positive, DevPro Bootcamp, 2023-07-06 17:05:36, userfriendly1, Sydney, 0.85
+"I had a wonderful experience at this bootcamp.", Positive, CodeWorks Bootcamp, 2023-07-07 09:10:45, happyuser123, New York, 0.91
+"The customer support was very unresponsive.", Negative, SkillEdge Bootcamp, 2023-07-07 11:45:12, user654, Los Angeles, 0.66
+"This bootcamp really boosted my confidence.", Positive, LearnFast Bootcamp, 2023-07-07 13:34:11, confidencebooster789, London, 0.88
+"The course materials were very poorly organized.", Negative, TechTrain Bootcamp, 2023-07-07 15:21:43, unhappyshopper123, San Francisco, 0.72
+"I had the best time learning new skills here.", Positive, CodeMaster Bootcamp, 2023-07-07 18:05:23, techenthusiast1, Sydney, 0.92
+"The teaching style was too boring for me.", Negative, DevPro Bootcamp, 2023-07-07 20:45:37, boredlearner123, Mumbai, 0.54
+"This bootcamp became my favorite learning experience.", Positive, LearnFast Bootcamp, 2023-07-08 09:17:52, learner789, Berlin, 0.91
+"The sessions were too short and rushed.", Negative, TechTrain Bootcamp, 2023-07-08 11:23:14, user888, New York, 0.64
+"The support team was amazing!", Positive, CodeMaster Bootcamp, 2023-07-08 13:45:32, user1234, Los Angeles, 0.89
+"I felt the content was too advanced for beginners.", Negative, DevPro Bootcamp, 2023-07-08 15:10:22, noviceuser456, London, 0.67
+"Very interactive and engaging bootcamp.", Positive, CodeWorks Bootcamp, 2023-07-08 17:35:11, engagedlearner1, Toronto, 0.87
+"The instructors were very impatient.", Negative, SkillEdge Bootcamp, 2023-07-09 08:50:59, user457, Paris, 0.70
+"I learned so much from this bootcamp.", Positive, LearnFast Bootcamp, 2023-07-09 10:15:27, knowledge123, San Francisco, 0.92
+"The course was too expensive for the value.", Negative, TechTrain Bootcamp, 2023-07-09 12:40:18, costconcerned1, Berlin, 0.61
+"Their projects helped me build a strong portfolio.", Positive, DevPro Bootcamp, 2023-07-09 14:05:36, portfolio123, Sydney, 0.90
+"I felt lost during the sessions.", Negative, CodeMaster Bootcamp, 2023-07-09 16:10:34, confuseduser1, New York, 0.56
+"The instructors were very motivating.", Positive, CodeWorks Bootcamp, 2023-07-09 18:50:45, motivateduser789, Los Angeles, 0.87
+"The course materials were very outdated.", Negative, SkillEdge Bootcamp, 2023-07-09 20:12:21, oldmaterials1, London, 0.65
+"I highly recommend this bootcamp to everyone.", Positive, LearnFast Bootcamp, 2023-07-10 09:34:11, recommender456, San Francisco, 0.94
+"The technical issues were very frustrating.", Negative, TechTrain Bootcamp, 2023-07-10 11:05:23, frustrateduser123, Toronto, 0.58
+"This bootcamp was very well-organized.", Positive, CodeMaster Bootcamp, 2023-07-10 13:45:52, organizedlearner1, Paris, 0.88
+"The course content was very repetitive.", Negative, DevPro Bootcamp, 2023-07-10 15:30:45, repetitive123, Berlin, 0.62
+"I had an incredible learning journey.", Positive, CodeWorks Bootcamp, 2023-07-10 17:50:11, learnerenthusiast1, Sydney, 0.92
+"The feedback was very inconsistent.", Negative, SkillEdge Bootcamp, 2023-07-10 19:20:36, user101, New York, 0.59
+"The learning environment was very supportive.", Positive, LearnFast Bootcamp, 2023-07-11 08:25:33, supportive123, Los Angeles, 0.91
+"The pace of the course was too slow.", Negative, TechTrain Bootcamp, 2023-07-11 10:12:45, slowlearner456, London, 0.63
+"The instructors were very knowledgeable.", Positive, CodeMaster Bootcamp, 2023-07-11 12:45:32, knowledgefan789, San Francisco, 0.89
+"The platform was very glitchy.", Negative, DevPro Bootcamp, 2023-07-11 14:22:14, glitchuser1, Toronto, 0.55
+"This bootcamp helped me land a great job.", Positive, CodeWorks Bootcamp, 2023-07-11 16:34:11, jobhunter123, Paris, 0.93
+"The customer service was very slow.", Negative, SkillEdge Bootcamp, 2023-07-11 18:10:25, user7890, Berlin, 0.64
+"I felt very supported throughout the course.", Positive, LearnFast Bootcamp, 2023-07-11 20:40:29, support123, Sydney, 0.90
+"The content was too basic for my needs.", Negative, TechTrain Bootcamp, 2023-07-12 09:25:17, user1010, New York, 0.60
+"I loved the hands-on projects.", Positive, CodeMaster Bootcamp, 2023-07-12 11:50:33, projectfan123, Los Angeles, 0.91
+"The instructors didn't explain things well.", Negative, DevPro Bootcamp, 2023-07-12 13:34:22, unclearuser1, London, 0.57
+"This bootcamp was life-changing for me.", Positive, CodeWorks Bootcamp, 2023-07-12 15:15:37, changedlife789, San Francisco, 0.94
+"The course materials were very confusing.", Negative, SkillEdge Bootcamp, 2023-07-12 17:50:45, confuseduser123, Toronto, 0.61
+"I enjoyed every moment of this bootcamp.", Positive, LearnFast Bootcamp, 2023-07-12 19:30:56, happylearner1, Paris, 0.89
+"The technical support was not helpful.", Negative, TechTrain Bootcamp, 2023-07-12 21:12:33, user555, Berlin, 0.58
+"This bootcamp gave me valuable skills.", Positive, CodeMaster Bootcamp, 2023-07-13 08:20:25, skills123, Sydney, 0.93
+"The course was very disorganized.", Negative, DevPro Bootcamp, 2023-07-13 10:15:41, disorganizeduser1, New York, 0.62
+"The instructors were very engaging.", Positive, CodeWorks Bootcamp, 2023-07-13 12:34:21, engagedlearner456, Los Angeles, 0.87
+"The course length was too short.", Negative, SkillEdge Bootcamp, 2023-07-13 14:05:22, shortcourse123, London, 0.66
+"I feel much more confident in my skills now.", Positive, LearnFast Bootcamp, 2023-07-13 16:30:34, confidentuser1, San Francisco, 0.91
+"The customer service was very rude.", Negative, TechTrain Bootcamp, 2023-07-13 18:22:45, rudeuser123, Toronto, 0.59
+"The course content was very insightful.", Positive, CodeMaster Bootcamp, 2023-07-13 20:05:33, insightful123, Paris, 0.88
+"The assignments were very unclear.", Negative, DevPro Bootcamp, 2023-07-14 08:35:17, unclearuser123, Berlin, 0.61
+"I had a great time at this bootcamp.", Positive, CodeWorks Bootcamp, 2023-07-14 10:15:29, greattime789, Sydney, 0.91
+"The course was not worth the price.", Negative, SkillEdge Bootcamp, 2023-07-14 12:22:36, overpriceduser1, New York, 0.58
+"I learned a lot of practical skills.", Positive, LearnFast Bootcamp, 2023-07-14 14:40:22, practical123, Los Angeles, 0.93
+"The course structure was very confusing.", Negative, TechTrain Bootcamp, 2023-07-14 16:55:37, confusedlearner456, London, 0.60
+"The instructors were very patient.", Positive, CodeMaster Bootcamp, 2023-07-14 18:40:29, patientuser1, San Francisco, 0.88
+"The platform had a lot of bugs.", Negative, DevPro Bootcamp, 2023-07-14 20:15:25, buggyuser123, Toronto, 0.55
+"This bootcamp was a great investment.", Positive, CodeWorks Bootcamp, 2023-07-15 09:25:36, investor123, Paris, 0.92
+"The feedback was not constructive.", Negative, SkillEdge Bootcamp, 2023-07-15 11:10:27, user123, Berlin, 0.63
+"The support team was very responsive.", Positive, LearnFast Bootcamp, 2023-07-15 13:45:52, responsive789, Sydney, 0.91
+"The course was very poorly planned.", Negative, TechTrain Bootcamp, 2023-07-15 15:22:11, poorplan456, New York, 0.61
+"I felt very inspired by the instructors.", Positive, CodeMaster Bootcamp, 2023-07-15 17:30:45, inspireduser1, Los Angeles, 0.92
+"The course content was too advanced.", Negative, DevPro Bootcamp, 2023-07-15 19:05:23, advanceduser456, London, 0.59
+"This bootcamp was very enjoyable.", Positive, CodeWorks Bootcamp, 2023-07-15 20:40:34, enjoyabler789, San Francisco, 0.90
+"The assignments were too difficult.", Negative, SkillEdge Bootcamp, 2023-07-16 09:15:27, difficult123, Toronto, 0.56
+"The learning experience was fantastic.", Positive, LearnFast Bootcamp, 2023-07-16 11:50:33, fantasticuser1, Paris, 0.89
