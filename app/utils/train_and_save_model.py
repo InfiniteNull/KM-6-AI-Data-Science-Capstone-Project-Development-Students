@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 import pickle
 
 # Load data
-data = pd.read_csv('/data/sentiment-data.csv')
+data = pd.read_csv('data/sentiment-data.csv')
 data.columns = ['Text', 'Sentiment', 'Source', 'Date/Time', 'User ID', 'Location', 'Confidence Score']
 data.dropna(inplace=True)
 data[['Date', 'Time']] = data['Date/Time'].str.strip().str.split(' ', expand=True)
@@ -28,8 +28,8 @@ model = LogisticRegression(max_iter=1000, random_state=42)
 model.fit(X_train_tfidf, y_train)
 
 # Save model and vectorizer
-with open('/app/models/logistic_regression_model.pkl', 'wb') as model_file:
+with open('app/models/logistic_regression_model.pkl', 'wb') as model_file:
     pickle.dump(model, model_file)
 
-with open('/app/models/tfidf_vectorizer.pkl', 'wb') as vectorizer_file:
+with open('app/models/tfidf_vectorizer.pkl', 'wb') as vectorizer_file:
     pickle.dump(vectorizer, vectorizer_file)
