@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, redirect, url_for
 import os
-import streamlit as st
 
 # Create Flask app
 app = Flask(__name__)
@@ -29,6 +28,5 @@ def register():
     return render_template('register.html')
 
 if __name__ == "__main__":
-    # Set Flask's run method
-    port = int(os.environ.get("PORT", 5000))
+    port = int(os.environ.get("PORT", 5001))
     app.run(host='0.0.0.0', port=port)
