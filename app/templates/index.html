@@ -4,9 +4,811 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+    <!--REMIXICONS  -->
+    <link href="asset/img/slider.png/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- CSS -->
+    <style>
+        /* Konten dari style.css */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body,
+        button,
+        input,
+        textarea {
+            font-family: var(--roboto-font);
+            font-size: var(--fs-base);
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.5em;
+        }
+
+        h1,
+        h2,
+        h3 {
+            font-family: var(--mono-font);
+            font-weight: var(--bold);
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            cursor: pointer;
+            background: none;
+            border: none;
+            outline: none;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        textarea,
+        input {
+            background: none;
+            border: none;
+            outline: none;
+        }
+
+        .container {
+            max-width: 1140px;
+            margin: 0 auto;
+            padding-left: 0.9rem;
+            padding-right: 0.9rem;
+        }
+
+        .grid {
+            display: grid;
+        }
+
+        .section {
+            padding-top: 4rem;
+            padding-bottom: 3rem;
+        }
+
+        .section__title {
+            font-size: var(--fs-h2);
+            line-height: 1.17em;
+            font-weight: var(--medium);
+            margin-bottom: 1.12em;
+        }
+
+        .text-lg {
+            font-size: var(--fs-lg);
+            line-height: 1.67em;
+        }
+
+        .text-xs {
+            font-size: var(--fs-xs);
+            line-height: 1.5em;
+        }
+
+        .text-sm {
+            font-size: var(--fs-sm);
+            line-height: 1.43em;
+        }
+
+        .skills__title,
+        .resume__title {
+            color: var(--text-color-alt);
+            letter-spacing: 0.4em;
+            margin-bottom: 2.8em;
+        }
+
+        .header {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 100;
+            transition: 0.3s;
+        }
+
+        .nav {
+            height: calc(var(--header-height) + 0.875rem);
+            display: flex;
+            align-items: flex-end;
+        }
+
+        .nav__list {
+            display: flex;
+            column-gap: 3.25rem;
+        }
+
+        .nav__link {
+            color: #fff;
+            font-size: 0.9rem;
+            font-weight: var(--bold);
+            font-family: var(--mono-font);
+            text-transform: uppercase;
+            position: relative;
+            transition: 0.3s;
+        }
+
+        .nav__link:hover {
+            opacity: 0.5;
+        }
+
+        .nav__close::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            right: -0.5rem;
+            width: 7px;
+            height: 2px;
+            background-color: #fff;
+            opacity: 0;
+            transition: 0.3s;
+        }
+
+        .nav__link:hover::after {
+            opacity: 1;
+        }
+
+        .nav__close,
+        .nav__toggle {
+            display: none;
+        }
+
+        .active-link {
+            opacity: 0.5;
+        }
+
+        .active-link::after {
+            opacity: 1;
+        }
+
+        .scroll-header {
+            position: fixed;
+            background-color: var(--bg-color);
+            box-shadow: 0 5px 8px 0 rgb(0 0 0 / 14%);
+        }
+
+        .scroll-header .nav__link {
+            color: var(--text-color);
+        }
+
+        .scroll-header .nav {
+            align-items: center;
+        }
+
+        .scroll-header .nav__link::after {
+            background-color: var(--text-color);
+        }
+
+        .scroll-header .nav__link:hover,
+        .scroll-header .active-link {
+            color: var(--primary-color);
+        }
+
+        .home {
+            background: url(../img/home.jpg);
+            background-size: cover;
+            background-position: 50%;
+            padding-top: 5.5rem;
+            margin-bottom: 2.5rem;
+            position: relative;
+        }
+
+        .home::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--linear-gradient);
+        }
+
+        .home__container {
+            grid-template-columns: 4fr 8fr;
+            column-gap: 1.875rem;
+        }
+
+        .home__data {
+            z-index: 10;
+        }
+
+        .home__img {
+            width: 90%;
+            height: 380px;
+            object-fit: cover;
+            border-radius: 0.3rem;
+            transform: translateY(3.125rem);
+            box-shadow: 0 0 27px rgb(96 96 96 / 34%);
+        }
+
+        .home__name,
+        .home__work {
+            color: #fff;
+            font-family: var(--mono-font);
+        }
+
+        .home__name {
+            font-size: var(--fs-h1);
+            line-height: 1.14em;
+            margin: 0.9em 0 0.63em;
+        }
+
+        .home__work {
+            margin-bottom: 7.5em;
+        }
+
+        .about__item {
+            border: 3px solid var(--border-color);
+            padding: 2.5rem 1.25rem 1.875rem;
+            text-align: center;
+        }
+
+        .about__box {
+            border: 3px solid var(--border-color);
+            width: 82px;
+            height: 82px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-bottom: 1.25rem;
+            position: relative;
+            display: flex;
+        }
+
+        .button {
+            display: inline-block;
+            background-color: var(--primary-color);
+            color: #fff;
+            padding: 1.1em 2.1em;
+            border-radius: 1.56rem;
+            font-weight: var(--semibold);
+            transition: 0.3s;
+        }
+
+        .button:hover {
+            background-color: var(--primary-color-alt);
+        }
+
+        .button--flex {
+            display: inline-flex;
+            align-items: flex-start;
+            column-gap: 0.3rem;
+        }
+
+        .services__container {
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.875rem;
+        }
+
+        .services__item {
+            border: 1px solid var(--border-color);
+            padding: 2.5rem 1.25rem 1.875rem;
+            text-align: center;
+        }
+
+        .icon__box {
+            border: 1px solid var(--border-color);
+            width: 82px;
+            height: 82px;
+            border-radius: 50%;
+            margin: 0 auto;
+            margin-bottom: 1.25rem;
+            position: relative;
+            display: flex;
+        }
+
+        .services__icon {
+            width: 32px;
+            margin: auto;
+        }
+
+        .services__dot {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            animation: service-dot 2s linear infinite;
+            animation-play-state: paused;
+        }
+
+        .services__item:hover .services__dot {
+            animation-play-state: running;
+        }
+
+        @keyframes service-dot {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(1turn);
+            }
+        }
+
+        .dot {
+            width: 13px;
+            height: 13px;
+            background-color: var(--title-color);
+            border-radius: 50%;
+            position: absolute;
+            top: 0;
+            left: 0.9rem;
+        }
+
+        .services__title {
+            margin-bottom: 0.8em;
+        }
+
+        .resume__container {
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 3.75rem;
+        }
+
+        .resume__title {
+            color: var(--text-color-alt);
+            letter-spacing: 0.4em;
+            margin-bottom: 2.8em;
+        }
+
+        .resume__item {
+            border-left: 2px solid var(--primary-color);
+            padding-left: 1.6rem;
+            position: relative;
+        }
+
+        .resume__item:not(:last-child) {
+            padding-bottom: 3rem;
+        }
+
+        .resume__item::before {
+            content: '';
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            border: 2px solid var(--primary-color);
+            position: absolute;
+            left: -0.56rem;
+            background-color: var(--bg-color);
+        }
+
+        .resume__subtitle {
+            color: var(--primary-color);
+            margin-bottom: 0.3em;
+        }
+
+        .resume__date {
+            color: var(--text-color-alt);
+            margin-bottom: 0.7em;
+        }
+
+        .resume__description {
+            text-align: justify;
+        }
+
+        .slider {
+            width: 100%;
+            max-width: 1200px;
+            overflow: hidden;
+            position: relative;
+            background: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .slides {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        .slide {
+            min-width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .slide img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+
+        .slide h3 {
+            margin: 10px 0;
+            color: #2c3e50;
+        }
+
+        .slide p {
+            font-size: 16px;
+            color: #7f8c8d;
+        }
+
+        .navigation {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        .navigation button {
+            border: none;
+            background-color: transparent;
+            cursor: pointer;
+            padding: 5px;
+        }
+
+        .navigation button img {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            opacity: 0.5;
+            transition: opacity 0.3s;
+        }
+
+        .navigation button.active img {
+            opacity: 1;
+        }
+
+        .footer {
+            background-color: rgba(0, 0, 0, 0.831);
+            padding: 40px 20px;
+            color: #ffffff;
+        }
+
+        .footer-content {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .footer-section {
+            flex: 1;
+            margin: 10px;
+            min-width: 200px;
+        }
+
+        .footer-section h4 {
+            margin-top: 0;
+            border-bottom: 1px solid #767676;
+            padding-bottom: 8px;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section ul li {
+            margin: 8px 0;
+        }
+
+        .footer-section ul li a {
+            text-decoration: none;
+            color: #999999;
+        }
+
+        .footer-section ul li a:hover {
+            color: #ffffff;
+        }
+
+        .footer-bottom {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 14px;
+            color: #ffffff;
+        }
+
+        .footer-bottom ul li a {
+            text-decoration: none;
+            color: #999999;
+        }
+
+        .footer-bottom ul li a:hover {
+            color: #ffffff;
+        }
+
+        #contact-btn {
+            background-color: #0f62fe;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+        }
+
+        #contact-btn:hover {
+            background-color: #0053d6;
+        }
+
+        @media (max-width: 768px) {
+            .footer-content {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        .contact-us-modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+
+        .contact-form-container {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            max-width: 400px;
+            border-radius: 8px;
+            position: relative;
+        }
+
+        .close-button {
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .close-button:hover,
+        .close-button:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .contact-form-container h4 {
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .contact-form-container p {
+            margin-bottom: 20px;
+            font-size: 0.9em;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: small;
+        }
+
+        .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: small;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background-color: #0f62fe;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1em;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0053d6;
+        }
+
+        @media (max-width: 768px) {
+            .contact-form-container {
+                width: 90%;
+            }
+        }
+
+        @media screen and (max-width:1200px) {
+            :root {
+                --fs-h1: 2.25rem;
+                --fs-h2: 1.75rem;
+                --fs-lg: 1rem;
+                --fs-base: 0.938rem;
+                --fs-sm: 0.813rem;
+                --fs-xs: 0.687rem;
+            }
+
+            .container {
+                max-width: 960px;
+            }
+
+            .home__container {
+                grid-template-columns: 5fr 7fr;
+            }
+
+            .skills__container,
+            .services__container {
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 1.875rem;
+            }
+        }
+
+        @media screen and (max-width:992px) {
+            .container {
+                max-width: 720px;
+            }
+
+            .nav__menu {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                z-index: 100;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transform: translateX(-100%);
+                transition: 0.3s;
+            }
+
+            .show-menu {
+                transform: translateX(0);
+            }
+
+            .nav__list {
+                flex-direction: column;
+                row-gap: 2.125rem;
+                text-align: center;
+            }
+
+            .nav__toggle,
+            .nav__close {
+                display: block;
+            }
+
+            .nav__close {
+                font-size: 1.5rem;
+                position: absolute;
+                top: 2.7rem;
+                left: 8%;
+                cursor: pointer;
+                color: #fff;
+            }
+
+            .nav__toggle {
+                color: #fff;
+                font-size: 1.25rem;
+                opacity: 0.5;
+            }
+
+            .scroll-header .nav__toggle {
+                color: var(--text-color);
+                opacity: 1;
+            }
+
+            .home {
+                padding-top: 5.25rem;
+            }
+
+            .home__img {
+                display: none;
+            }
+
+            .section {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+
+            .project__item,
+            .resume__container,
+            .home__container {
+                grid-template-columns: 1fr;
+            }
+
+            .resume__container {
+                row-gap: 3.75rem;
+            }
+
+            .contact__container {
+                grid-template-columns: 5fr 7fr;
+            }
+        }
+
+        @media screen and (max-width:768px) {
+            .container {
+                max-width: 540px;
+            }
+
+            .contact__container,
+            .skills__container,
+            .services__container {
+                grid-template-columns: 1fr;
+            }
+
+            .skills__container {
+                row-gap: 3.75rem;
+            }
+
+            .project__data {
+                padding: 2rem 1.25rem 1.5rem 1.25rem;
+            }
+
+            .contact__container {
+                row-gap: 2rem;
+            }
+        }
+
+        @media screen and (max-width:576px) {
+            .home {
+                padding-top: 4.4rem;
+            }
+
+            .project__categories {
+                column-gap: 1.5rem;
+            }
+
+            .tags li {
+                margin-bottom: 0.6rem;
+            }
+        }
+
+        @media screen and (max-width:350px) {
+            :root {
+                --fs-h1: 2rem;
+            }
+
+            .home__work {
+                font-size: var(--fs-sm);
+            }
+
+            .home__list {
+                font-size: 0.875rem;
+            }
+
+            .home__list dd {
+                padding-left: 5.75em;
+            }
+
+            .home__social-link {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
     <title>Shuna Academy</title>
 </head>
 
@@ -70,7 +872,7 @@
 
                 <div class="about__item">
                     <div class="about__box">
-                        <img src="app/static/img/skkni.png" alt="" class="services__icon">
+                        <img src="asset/img/skkni.png" alt="" class="services__icon">
                     </div>
                     <h3 class="services__title text-lg">Kurikulum Berdasarkan Kebutuhan Industri</h3>
                     <p>
@@ -81,7 +883,7 @@
 
                 <div class="about__item">
                     <div class="about__box">
-                        <img src="app/static/img/serti.png" alt="" class="services__icon">
+                        <img src="asset/img/serti.png" alt="" class="services__icon">
                     </div>
                     <h3 class="services__title text-lg">Sertifikat Pelatihan</h3>
                     <p>
@@ -91,7 +893,7 @@
 
                 <div class="about__item">
                     <div class="about__box">
-                        <img src="app/static/img/pfolio.png" alt="" class="services__icon">
+                        <img src="asset/img/pfolio.png" alt="" class="services__icon">
                     </div>
                     <h3 class="services__title text-lg">Portofolio industri</h3>
                     <p>
@@ -101,7 +903,7 @@
 
                 <div class="about__item">
                     <div class="about__box">
-                        <img src="app/static/img/pengajar.png" alt="" class="services__icon">
+                        <img src="asset/img/pengajar.png" alt="" class="services__icon">
                     </div>
                     <h3 class="services__title text-lg">Pengajar Bersertifikat</h3>
                     <p>
@@ -111,7 +913,7 @@
 
                 <div class="about__item">
                     <div class="about__box">
-                        <img src="app/static/img/consultant.png" alt="" class="services__icon">
+                        <img src="asset/img/consultant.png" alt="" class="services__icon">
                     </div>
                     <h3 class="services__title text-lg">Konsultasi Proyek</h3>
                     <p>
@@ -121,7 +923,7 @@
 
                 <div class="about__item">
                     <div class="about__box">
-                        <img src="app/static/img/flag.png" alt="" class="services__icon">
+                        <img src="asset/img/flag.png" alt="" class="services__icon">
                     </div>
                     <h3 class="services__title text-lg">Bahasa Indonesia</h3>
                     <p>
@@ -130,7 +932,7 @@
                 </div>
 
 
-                <a href="app/static/img/chandra-CV.pdf" class="button button--flex text-sm">
+                <a href="asset/img/chandra-CV.pdf" class="button button--flex text-sm">
                     <i class="ri-download-line"></i>Download Catalog Kelas</a>
         </section>
 
@@ -141,7 +943,7 @@
             <div class="services__container grid">
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/ai.png" alt="" class="services__icon">
+                        <img src="asset/img/ai.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -151,7 +953,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/data-science.png" alt="" class="services__icon">
+                        <img src="asset/img/data-science.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -161,7 +963,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/dl.png" alt="" class="services__icon">
+                        <img src="asset/img/dl.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -172,7 +974,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/blockchain.png" alt="" class="services__icon">
+                        <img src="asset/img/blockchain.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -182,7 +984,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/nlp.png" alt="" class="services__icon">
+                        <img src="asset/img/nlp.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -192,7 +994,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/data-mining.png" alt="" class="services__icon">
+                        <img src="asset/img/data-mining.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -202,7 +1004,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/cyber-security.png" alt="" class="services__icon">
+                        <img src="asset/img/cyber-security.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -212,7 +1014,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/fullstack.png" alt="" class="services__icon">
+                        <img src="asset/img/fullstack.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -222,7 +1024,7 @@
 
                 <div class="services__item">
                     <div class="icon__box">
-                        <img src="app/static/img/ux-design.png" alt="" class="services__icon">
+                        <img src="asset/img/ux-design.png" alt="" class="services__icon">
                         <div class="services__dot">
                             <span class="dot"></span>
                         </div>
@@ -238,21 +1040,21 @@
             <div class="slider">
                 <div class="slides">
                     <div class="slide">
-                        <img src="app/static/img/testi1.jpg" alt="Aidan Azad">
+                        <img src="asset/img/testi1.jpg" alt="Aidan Azad">
                         <h3>Aidan Azad</h3>
                         <p>“Serunya ikut BOOTCAMP CNN, kami dapat belajar secara mandiri dengan Shuna Academy dan juga
                             Kelas Online bersama tim pengajar yang ahli di bidangnya serta adanya tugas akhir untuk
                             mengasah kemampuan kami dari BOOTCAMP CNN yang telah dilalui.”</p>
                     </div>
                     <div class="slide">
-                        <img src="app/static/img/testi2.jpg" alt="Afifa Aleena">
+                        <img src="asset/img/testi2.jpg" alt="Afifa Aleena">
                         <h3>Afifa Aleena</h3>
                         <p>“Pemateri kompeten di bidangnya dan materi mudah dipahami, studi kasus yang diangkat sangat
                             relevan dengan isu saat ini. Dulu saya selalu mengikuti workshop-workshop dari Shuna
                             Academy.”</p>
                     </div>
                     <div class="slide">
-                        <img src="app/static/img/testi3.jpg" alt="Belva Citra">
+                        <img src="asset/img/testi3.jpg" alt="Belva Citra">
                         <h3>Belva Citra</h3>
                         <p>“Untuk workshop yang tergolong singkat, materinya sudah cukup baik, ditambah pemateri yang
                             menguasai topik dan mampu menjelaskan dengan bahasa yang mudah dipahami kepada peserta yang
@@ -263,13 +1065,13 @@
 
                 <div class="navigation">
                     <button data-slide="0" class="active">
-                        <img src="app/static/img/slider.png">
+                        <img src="asset/img/slider.png">
                     </button>
                     <button data-slide="1">
-                        <img src="app/static/img/slider.png">
+                        <img src="asset/img/slider.png">
                     </button>
                     <button data-slide="2">
-                        <img src="app/static/img/slider.png">
+                        <img src="asset/img/slider.png">
                     </button>
                 </div>
 
@@ -280,7 +1082,7 @@
         <footer class="footer">
             <div class="footer-content">
                 <div class="footer-section">
-                    <img src="app/static/img/logo-login.png" alt="" style="margin-bottom: 20px; max-width: 100%;">
+                    <img src="asset/img/logo-login.png" alt="" style="margin-bottom: 20px; max-width: 100%;">
                 </div>
 
                 <div class="footer-section">
@@ -368,8 +1170,133 @@
         </div>
 
     </main>
-    <script src="app/static/js/main.js"></script>
-    <script src="app/static/js/script.js"></script>
+    <script>
+        // Konten dari main.js
+        // SHOW MENU
+        const navMenu = document.getElementById('nav-menu'),
+            navToggle = document.getElementById('nav-toggle'),
+            navClose = document.getElementById('nav-close');
+
+        // MENU SHOW
+        if (navToggle) {
+            navToggle.addEventListener('click', () => {
+                navMenu.classList.add('show-menu')
+            });
+        }
+
+        // MENU HIDE
+        if (navClose) {
+            navClose.addEventListener('click', () => {
+                navMenu.classList.remove('show-menu')
+            });
+        }
+
+        // REMOVE MENU MOBILE
+        const navLink = document.querySelectorAll('.nav__link');
+        function linkAction() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.remove('show-menu');
+        }
+        navLink.forEach((n) => n.addEventListener('click', linkAction));
+
+        // ACTIVE LINK
+        const navlink = document.querySelectorAll('.nav__link');
+
+        function activeLink() {
+            navlink.forEach((a) => a.classList.remove('active-link'));
+            this.classList.add('active-link');
+        }
+
+        navlink.forEach((a) => a.addEventListener('click', activeLink));
+
+        // BG HEADER
+        function scrollHeader() {
+            const header = document.getElementById('header');
+            // 
+            if (this.scrollY >= 50) header.classList.add('scroll-header');
+            else header.classList.remove('scroll-header');
+        }
+        window.addEventListener('scroll', scrollHeader);
+
+        // TESTIMONIAL
+
+        const slides = document.querySelector('.slides');
+        const buttons = document.querySelectorAll('.navigation button');
+
+        buttons.forEach(button => {
+            button.addEventListener('click', () => {
+                buttons.forEach(btn => btn.classList.remove('active'));
+                button.classList.add('active');
+                const slideIndex = button.getAttribute('data-slide');
+                slides.style.transform = `translateX(-${slideIndex * 100}%)`;
+            });
+        });
+
+        // CONTACT FORM
+        const contactForm = document.getElementById('contact-form'),
+            contactName = document.getElementById('contact-name'),
+            contactEmail = document.getElementById('contact-email'),
+            Message = document.getElementById('message'),
+            contactMessage = document.getElementById('contact-message');
+
+        const sendEmail = (e) => {
+            e.preventDefault();
+
+            // CHECK FIELD HAS A VALUE
+            if (contactName.value === '' || contactEmail.value === '' || Message.value === '') {
+                // ADD AND REMOVE COLOR
+                contactMessage.classList.remove('color-light');
+                contactMessage.classList.add('color-dark');
+
+                // SHOW MESSAGE
+                contactMessage.textContent = 'Tulis Semua Kolom Input';
+            }
+            else {
+                // SERVICE ID - TEMPLATE ID - #FORM - PUBLICKEY
+                emailjs.sendForm('service_fu36s5r', 'template_c0zp9sr', '#contact-form', 'QhtVaAXM-nVm1AjEM')
+                    .then(() => {
+                        // SHOW MESSAGE COLOR
+                        contactMessage.classList.add('color-light');
+                        contactMessage.textContent = 'Pesan Terkirim ✅';
+
+                        // REMOVE MESSAGE AFTER 5 SEC
+                        setTimeout(() => {
+                            contactMessage.textContent = '';
+                        }, 5000);
+                    }, (error) => {
+                        alert('OPPs! Terjadi Kesalahan', error);
+                    }
+                    );
+                // CLEAR INPUT
+                contactName.value = '';
+                contactEmail.value = '';
+                Message.value = '';
+            }
+        };
+        contactForm.addEventListener('submit', sendEmail);
+    </script>
+    <script>
+        // Konten dari script.js
+        document.addEventListener('DOMContentLoaded', function () {
+            var modal = document.getElementById("contact-us-modal");
+            var btn = document.getElementById("contact-btn");
+            var span = document.getElementsByClassName("close-button")[0];
+
+            btn.onclick = function () {
+                modal.style.display = "block";
+            }
+
+            span.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        });
+    </script>
 </body>
 
 </html>
