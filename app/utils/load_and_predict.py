@@ -1,10 +1,10 @@
 import pickle
 
 # Load the model and vectorizer
-with open('app/models/logistic_regression_model.pkl', 'rb') as model_file:
+with open('/app/models/logistic_regression_model.pkl', 'rb') as model_file:
     model = pickle.load(model_file)
 
-with open('app/models/tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
+with open('/app/models/tfidf_vectorizer.pkl', 'rb') as vectorizer_file:
     vectorizer = pickle.load(vectorizer_file)
 
 def predict_sentiment(text):
