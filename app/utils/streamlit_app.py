@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import joblib
-from sklearn.feature_extraction.text import TfidfVectorizer
 import os
 
 # Load the model and vectorizer
@@ -31,7 +30,7 @@ else:
 
 # Display the data
 st.header("Dataset")
-st.dataframe(data.head())
+st.write(data.head())
 
 # Predict sentiment using the loaded model
 def predict_sentiment(text):
@@ -44,7 +43,7 @@ data['Predicted Sentiment'] = data['Text'].apply(predict_sentiment)
 
 # Display the data with predictions
 st.header("Data with Predictions")
-st.dataframe(data)
+st.write(data)
 
 # Sidebar for filtering predictions
 st.sidebar.header("Filter Predictions")
