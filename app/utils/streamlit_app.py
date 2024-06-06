@@ -11,4 +11,4 @@ def start_flask():
 start_flask()
 
 st.title("AI Model Dashboard")
-st.write("Go to [Shuna Academy](http://localhost:5000) to access the website.")
+st.write("Go to [Shuna Academy](http://localhost:5001) to access the website.")
