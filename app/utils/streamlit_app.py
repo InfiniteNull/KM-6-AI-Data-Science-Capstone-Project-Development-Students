@@ -4,7 +4,7 @@ import streamlit as st
 
 # Start the Flask server
 def start_flask():
-    if not os.path.isfile('app.py'):
+    if not os.path.isfile('app/utils/app.py'):
         raise FileNotFoundError('app.py not found')
     subprocess.Popen(["python", "app.py"])
 
