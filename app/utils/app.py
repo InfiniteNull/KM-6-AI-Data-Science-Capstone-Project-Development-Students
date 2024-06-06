@@ -3,19 +3,18 @@ import pandas as pd
 import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from load_and_predict import predict_sentiment, plot_word_cloud
-import base64
-import io
-import os
 import warnings
-import streamlit.components.v1 as components
 
 warnings.filterwarnings('ignore')
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv('data/sentiment-data.csv')
+    data = pd.read_csv('../../data/sentiment-data.csv')
     data.columns = ['Text', 'Sentiment', 'Source', 'Date/Time', 'User ID', 'Location', 'Confidence Score']
     data.dropna(inplace=True)
     data[['Date', 'Time']] = data['Date/Time'].str.strip().str.split(' ', expand=True)
@@ -27,92 +26,47 @@ def load_data():
 
 data = load_data()
 
-# Load the HTML file and display it
-with open("app/templates/dashboard.html", 'r', encoding='utf-8') as html_file:
-    html_string = html_file.read()
+st.title("Sentiment Analysis Dashboard")
 
-components.html(html_string, height=1000)
+st.header("Data Overview")
+st.write(data.head(10))
 
-# JavaScript communication handler
-st.write(
-    """
-    <script>
-    window.addEventListener('message', function(event) {
-        if (event.data.type === 'predict') {
-            const text = event.data.text;
-            const result = streamlitPredict(text);
-            window.parent.postMessage({ type: 'prediction-result', result: result }, '*');
-        } else if (event.data.type === 'generate-word-cloud') {
-            const sentiment = event.data.sentiment;
-            const result = streamlitGenerateWordCloud(sentiment);
-            window.parent.postMessage({ type: 'word-cloud-result', result: result }, '*');
-        }
-    });
+st.header("Sentiment Distribution")
+fig, ax = plt.subplots()
+sns.countplot(x='Sentiment', data=data, palette=['green', 'red'], ax=ax)
+st.pyplot(fig)
 
-    function streamlitPredict(text) {
-        return new Promise((resolve, reject) => {
-            fetch('/predict', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ text: text })
-            })
-            .then(response => response.json())
-            .then(data => resolve(data.result))
-            .catch(error => reject(error));
-        });
-    }
+st.header("Model Evaluation")
+X = data['Text']
+y = data['Sentiment']
 
-    function streamlitGenerateWordCloud(sentiment) {
-        return new Promise((resolve, reject) => {
-            fetch('/generate_word_cloud', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                },
-                body: JSON.stringify({ sentiment: sentiment })
-            })
-            .then(response => response.json())
-            .then(data => resolve(data.result))
-            .catch(error => reject(error));
-        });
-    }
-    </script>
-    """,
-    unsafe_allow_html=True
-)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-# API Endpoints for Streamlit communication
-@st.cache_data
-def predict_api(text):
-    result = predict_sentiment(text)
-    return result
+vectorizer = TfidfVectorizer(stop_words='english')
+X_train_tfidf = vectorizer.fit_transform(X_train)
+X_test_tfidf = vectorizer.transform(X_test)
 
-@st.cache_data
-def word_cloud_api(sentiment):
-    result = plot_word_cloud(data, sentiment)
-    return result
+model = LogisticRegression(max_iter=1000, random_state=42)
+model.fit(X_train_tfidf, y_train)
 
-# Define routes
-def streamlit_api():
-    from flask import Flask, request, jsonify
-    app = Flask(__name__)
+y_pred = model.predict(X_test_tfidf)
+accuracy = accuracy_score(y_test, y_pred)
+report = classification_report(y_test, y_pred)
+matrix = confusion_matrix(y_test, y_pred)
 
-    @app.route('/predict', methods=['POST'])
-    def predict():
-        text = request.json.get('text')
-        result = predict_api(text)
-        return jsonify(result=result)
+st.write(f"Accuracy: {accuracy}")
+st.text(f"Classification Report:\n{report}")
+st.text(f"Confusion Matrix:\n{matrix}")
 
-    @app.route('/generate_word_cloud', methods=['POST'])
-    def generate_word_cloud():
-        sentiment = request.json.get('sentiment')
-        result = word_cloud_api(sentiment)
-        return jsonify(result=result)
+st.header("Predict Sentiment")
+text_input = st.text_input("Enter text to predict sentiment")
 
-    return app
+if st.button("Predict Sentiment"):
+    prediction = predict_sentiment(text_input)
+    st.write(f'The sentiment for the text is: {prediction}')
 
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 5000))
-    st.run(port=port)
+st.header("Word Cloud")
+sentiment = st.selectbox("Select Sentiment for Word Cloud", ['positive', 'negative'])
+if st.button("Generate Word Cloud"):
+    wordcloud_img = plot_word_cloud(data, sentiment)
+    st.image(wordcloud_img, use_column_width=True)
