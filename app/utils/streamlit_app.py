@@ -31,7 +31,7 @@ else:
 
 # Display the data
 st.header("Dataset")
-st.write(data.head())
+st.dataframe(data.head())
 
 # Predict sentiment using the loaded model
 def predict_sentiment(text):
@@ -44,7 +44,7 @@ data['Predicted Sentiment'] = data['Text'].apply(predict_sentiment)
 
 # Display the data with predictions
 st.header("Data with Predictions")
-st.write(data)
+st.dataframe(data)
 
 # Sidebar for filtering predictions
 st.sidebar.header("Filter Predictions")
@@ -69,7 +69,7 @@ with col2:
 st.header("Sentiment Distribution")
 sentiment_distribution = data['Predicted Sentiment'].value_counts().reset_index()
 sentiment_distribution.columns = ['Sentiment', 'Count']
-st.bar_chart(sentiment_distribution)
+st.bar_chart(sentiment_distribution.set_index('Sentiment'))
 
 # Text input for individual prediction
 st.header("Predict Sentiment for New Text")
