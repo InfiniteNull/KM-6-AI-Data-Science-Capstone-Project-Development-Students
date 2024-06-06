@@ -47,7 +47,7 @@ st.write(data)
 
 # Sidebar for filtering predictions
 st.sidebar.header("Filter Predictions")
-sentiment_filter = st.sidebar.selectbox("Select Sentiment", options=data['Predicted Sentiment'].unique())
+sentiment_filter = st.sidebar.selectbox("Select Sentiment", options=data['Predicted Sentiment'].unique().tolist())
 
 filtered_data = data[data['Predicted Sentiment'] == sentiment_filter]
 st.write(filtered_data)
