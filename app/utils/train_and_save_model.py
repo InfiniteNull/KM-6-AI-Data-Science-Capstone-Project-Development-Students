@@ -1,13 +1,11 @@
 import pandas as pd
-import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 import pickle
 
 # Load data
-data = pd.read_csv('../../data/sentiment-data.csv')
+data = pd.read_csv('/data/sentiment-data.csv')
 data.columns = ['Text', 'Sentiment', 'Source', 'Date/Time', 'User ID', 'Location', 'Confidence Score']
 data.dropna(inplace=True)
 data[['Date', 'Time']] = data['Date/Time'].str.strip().str.split(' ', expand=True)
@@ -25,21 +23,13 @@ vectorizer = TfidfVectorizer(stop_words='english')
 X_train_tfidf = vectorizer.fit_transform(X_train)
 X_test_tfidf = vectorizer.transform(X_test)
 
-# Train a model
+# Train model
 model = LogisticRegression(max_iter=1000, random_state=42)
 model.fit(X_train_tfidf, y_train)
 
-# Evaluate the model
-y_pred = model.predict(X_test_tfidf)
-print('Accuracy:', accuracy_score(y_test, y_pred))
-print('Classification Report:')
-print(classification_report(y_test, y_pred))
-print('Confusion Matrix:')
-print(confusion_matrix(y_test, y_pred))
-
-# Save the model and vectorizer
-with open('../models/logistic_regression_model.pkl', 'wb') as model_file:
+# Save model and vectorizer
+with open('/app/models/logistic_regression_model.pkl', 'wb') as model_file:
     pickle.dump(model, model_file)
 
-with open('../models/tfidf_vectorizer.pkl', 'wb') as vectorizer_file:
+with open('/app/models/tfidf_vectorizer.pkl', 'wb') as vectorizer_file:
     pickle.dump(vectorizer, vectorizer_file)
