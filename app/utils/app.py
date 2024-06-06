@@ -1,72 +1,34 @@
+from flask import Flask, render_template, request, redirect, url_for
+import os
 import streamlit as st
-import pandas as pd
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
-from load_and_predict import predict_sentiment, plot_word_cloud
-import warnings
 
-warnings.filterwarnings('ignore')
+# Create Flask app
+app = Flask(__name__)
 
-@st.cache_data
-def load_data():
-    data = pd.read_csv('data/sentiment-data.csv')
-    data.columns = ['Text', 'Sentiment', 'Source', 'Date/Time', 'User ID', 'Location', 'Confidence Score']
-    data.dropna(inplace=True)
-    data[['Date', 'Time']] = data['Date/Time'].str.strip().str.split(' ', expand=True)
-    data.drop(columns=['Date/Time'], inplace=True)
-    data['Date'] = pd.to_datetime(data['Date'])
-    data['Time'] = pd.to_datetime(data['Time'], format='%H:%M:%S').dt.time
-    data['Sentiment'] = data['Sentiment'].str.strip().str.lower()
-    return data
+@app.route('/')
+def index():
+    return render_template('index.html')
 
-data = load_data()
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    if request.method == 'POST':
+        email = request.form['email']
+        password = request.form['password']
+        # Add your login logic here
+        return redirect(url_for('index'))
+    return render_template('login.html')
 
-st.title("Sentiment Analysis Dashboard")
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    if request.method == 'POST':
+        email = request.form['email']
+        username = request.form['username']
+        password = request.form['password']
+        # Add your registration logic here
+        return redirect(url_for('login'))
+    return render_template('register.html')
 
-st.header("Data Overview")
-st.write(data.head(10))
-
-st.header("Sentiment Distribution")
-fig, ax = plt.subplots()
-sns.countplot(x='Sentiment', data=data, palette=['green', 'red'], ax=ax)
-st.pyplot(fig)
-
-st.header("Model Evaluation")
-X = data['Text']
-y = data['Sentiment']
-
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-
-vectorizer = TfidfVectorizer(stop_words='english')
-X_train_tfidf = vectorizer.fit_transform(X_train)
-X_test_tfidf = vectorizer.transform(X_test)
-
-model = LogisticRegression(max_iter=1000, random_state=42)
-model.fit(X_train_tfidf, y_train)
-
-y_pred = model.predict(X_test_tfidf)
-accuracy = accuracy_score(y_test, y_pred)
-report = classification_report(y_test, y_pred)
-matrix = confusion_matrix(y_test, y_pred)
-
-st.write(f"Accuracy: {accuracy}")
-st.text(f"Classification Report:\n{report}")
-st.text(f"Confusion Matrix:\n{matrix}")
-
-st.header("Predict Sentiment")
-text_input = st.text_input("Enter text to predict sentiment")
-
-if st.button("Predict Sentiment"):
-    prediction = predict_sentiment(text_input)
-    st.write(f'The sentiment for the text is: {prediction}')
-
-st.header("Word Cloud")
-sentiment = st.selectbox("Select Sentiment for Word Cloud", ['positive', 'negative'])
-if st.button("Generate Word Cloud"):
-    wordcloud_img = plot_word_cloud(data, sentiment)
-    st.image(wordcloud_img, use_column_width=True)
+if __name__ == "__main__":
+    # Set Flask's run method
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
