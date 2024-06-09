@@ -21,6 +21,6 @@ Banyak perusahaan mengalami kesulitan dalam memahami kebutuhan dan keinginan pen
 
 # Kontribusi
 
-Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silakan fork repositori ini, buat branch baru dengan fitur atau perbaikan Anda, dan buat pull request. Pastikan untuk mengikuti pedoman kontribusi berikut:
+Kami menyambut kontribusi dari siapa saja. Jika Anda ingin berkontribusi, silakan fork repositori ini, buat branch baru dengan fitur atau perbaikan Anda, dan buat pull request.
 
 ```
