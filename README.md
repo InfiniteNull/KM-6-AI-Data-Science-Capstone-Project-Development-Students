@@ -1,7 +1,7 @@
 ```markdown
 SHUNA AI: Implementasi Sistem Pelaporan Feedback
 
-Proyek ini bertujuan untuk mengembangkan sistem pelaporan feedback berbasis web API yang dapat meningkatkan inovasi produk secara berkelanjutan. Sistem ini menggunakan algoritma machine learning untuk menganalisis ulasan dan penilaian dari pengguna, sehingga memudahkan pengembangan produk berdasarkan feedback yang diterima.
+Proyek ini bertujuan untuk mengembangkan sistem pelaporan feedback yang dapat meningkatkan inovasi produk secara berkelanjutan. Sistem ini menggunakan algoritma machine learning untuk menganalisis ulasan dan penilaian dari pengguna, sehingga memudahkan pengembangan produk berdasarkan feedback yang diterima.
 
 # Daftar Isi
 
